@@ -1,10 +1,10 @@
 {
   "name": "quantlib",
   "description": "QuantLib Asyn Bindings for Node.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "QuantLib",
-    "native"
+    "Node.js"
   ],
   "main": "lib/quantlib.js",
   "repository": {
@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "fs-extra": "~0.26.2",
-    "node-pre-gyp": "~0.6.15",
+    "node-pre-gyp": "0.6.15",
     "promisify-node": "~0.3.0"
   },
   "devDependencies": {
@@ -36,10 +36,6 @@
     "host": "https://github.com",
     "package_name": "{platform}-{arch}.tar.gz",
     "remote_path": "./quantlibnode/quantlibnode/releases/download/v{version}/"
-  },
-  "scripts": {
-    "generateJson": "node generate/scripts/json",
-    "generateNativeCode": "node generate/scripts/native"
   },
   "bugs": {
         "url": "http://github.com/quantlibnode/quantlibnode/issues"

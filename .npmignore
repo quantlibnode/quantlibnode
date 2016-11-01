@@ -10,11 +10,8 @@ ssl
 .idea
 nbproject
 .git
-build
 cmake
 .gitignore
-.travis.yml
-appveyor.yml
 CMakeLists.txt
 bower.json
 *.o

@@ -1,7 +1,7 @@
 {
   "name": "quantlib",
   "description": "QuantLib Asyn Bindings for Node.js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "keywords": [
     "quantlib",
     "native",

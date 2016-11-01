@@ -1,6 +1,5 @@
 *#
 node_modules
-ssl
 .DS_STORE
 *.swo
 *.swp

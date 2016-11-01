@@ -31,7 +31,6 @@
     "node-gyp": "~3.0.3"
   },
   "scripts": {
-    "test": "mocha -b",
     "prepublish": "npm prune",
     "postinstall": "node-pre-gyp install"
   },

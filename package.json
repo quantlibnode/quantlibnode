@@ -1,0 +1,49 @@
+{
+  "name": "quantlib",
+  "description": "QuantLib Asyn Bindings for Node.js",
+  "version": "0.1.0",
+  "keywords": [
+    "QuantLib",
+    "native"
+  ],
+  "main": "lib/quantlib.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quantlibnode/quantlibnode.git"
+  },
+  "directories": {
+    "build": "./build",
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "dependencies": {
+    "fs-extra": "~0.26.2",
+    "node-pre-gyp": "~0.6.15",
+    "promisify-node": "~0.3.0"
+  },
+  "devDependencies": {
+    "nan": "^2.2.0",
+    "node-gyp": "~3.0.3"
+  },
+  "binary": {
+    "module_name": "quantlib",
+    "module_path": "./build/Release/quantlib.node",
+    "host": "https://github.com",
+    "package_name": "{platform}-{arch}.tar.gz",
+    "remote_path": "./quantlibnode/quantlibnode/releases/download/v{version}/"
+  },
+  "scripts": {
+    "generateJson": "node generate/scripts/json",
+    "generateNativeCode": "node generate/scripts/native"
+  },
+  "bugs": {
+        "url": "http://github.com/quantlibnode/quantlibnode/issues"
+  },
+  "author": "Jerry Jin",
+  "license": "MIT"
+}

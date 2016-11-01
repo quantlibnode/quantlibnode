@@ -1,7 +1,7 @@
 quantlib [![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib)
 ========
 
-QuantLib ASYNC Bindings for Node.js
+QuantLib Async Bindings for Node.js
 
 Getting started
 ---------------

@@ -1,10 +1,15 @@
-QuantLibNode [![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib)
-============
+## QuantLibNode [![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib)
 
 QuantLib Async Bindings for Node.js
 
-Getting started
----------------
+This project brings [QuantLib](http://quantlib.org/) to the Node.js community, it's similar to [QuantLibXL](http://quantlib.org/quantlibxl/) project which is for Microsoft Excel.
+
+Most functions in QuantLibXL can be used in the similar way in Node on the server side.
+
+All functions in this project are Async, they are exported to Promise sytle functions, please see [Example](#Example) below.
+
+
+## Getting started
 
 ```sh
 npm install quantlib
@@ -18,15 +23,20 @@ npm install quantlib
 
 Quantlib and QuantLibAddin must be built first, then build QuantLibNode linking to them
 
-Version Matrix
---------------
+
+## QuantLib Documents
+
+* [Function Categories](http://quantlib.org/quantlibxl/categories.html)
+
+* [Function List](http://quantlib.org/quantlibxl/allfunctions.html)
+
+## Version Matrix
 
 | QuantLib | QuantLibAddin | Node.js | QuantLibNode |
 | -------- | ------------- | ------- | ------------ |
 |    1.7.1 |         1.7.0 |   6.9.1 |        0.1.x |
 
-Example
--------
+## Example
 
 ```js
 var ql = require('quantlib');

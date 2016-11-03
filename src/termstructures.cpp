@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -93,7 +95,7 @@ NAN_METHOD(QuantLibNode::RelinkableHandleYieldTermStructure) {
 //
 //}
 
-//RelinkableHandleYieldTermStructureWorker::Destroy(){
+//void RelinkableHandleYieldTermStructureWorker::Destroy(){
 //
 //}
 
@@ -213,7 +215,7 @@ NAN_METHOD(QuantLibNode::DiscountCurve) {
 //
 //}
 
-//DiscountCurveWorker::Destroy(){
+//void DiscountCurveWorker::Destroy(){
 //
 //}
 
@@ -333,7 +335,7 @@ NAN_METHOD(QuantLibNode::ZeroCurve) {
 //
 //}
 
-//ZeroCurveWorker::Destroy(){
+//void ZeroCurveWorker::Destroy(){
 //
 //}
 
@@ -453,7 +455,7 @@ NAN_METHOD(QuantLibNode::ForwardCurve) {
 //
 //}
 
-//ForwardCurveWorker::Destroy(){
+//void ForwardCurveWorker::Destroy(){
 //
 //}
 
@@ -609,7 +611,7 @@ NAN_METHOD(QuantLibNode::FlatForward) {
 //
 //}
 
-//FlatForwardWorker::Destroy(){
+//void FlatForwardWorker::Destroy(){
 //
 //}
 
@@ -707,7 +709,7 @@ NAN_METHOD(QuantLibNode::ForwardSpreadedTermStructure) {
 //
 //}
 
-//ForwardSpreadedTermStructureWorker::Destroy(){
+//void ForwardSpreadedTermStructureWorker::Destroy(){
 //
 //}
 
@@ -805,7 +807,7 @@ NAN_METHOD(QuantLibNode::ImpliedTermStructure) {
 //
 //}
 
-//ImpliedTermStructureWorker::Destroy(){
+//void ImpliedTermStructureWorker::Destroy(){
 //
 //}
 
@@ -1007,7 +1009,7 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurve) {
 //
 //}
 
-//InterpolatedYieldCurveWorker::Destroy(){
+//void InterpolatedYieldCurveWorker::Destroy(){
 //
 //}
 
@@ -1078,7 +1080,7 @@ NAN_METHOD(QuantLibNode::TermStructureDayCounter) {
 //
 //}
 
-//TermStructureDayCounterWorker::Destroy(){
+//void TermStructureDayCounterWorker::Destroy(){
 //
 //}
 
@@ -1147,7 +1149,7 @@ NAN_METHOD(QuantLibNode::TermStructureMaxDate) {
 //
 //}
 
-//TermStructureMaxDateWorker::Destroy(){
+//void TermStructureMaxDateWorker::Destroy(){
 //
 //}
 
@@ -1216,7 +1218,7 @@ NAN_METHOD(QuantLibNode::TermStructureReferenceDate) {
 //
 //}
 
-//TermStructureReferenceDateWorker::Destroy(){
+//void TermStructureReferenceDateWorker::Destroy(){
 //
 //}
 
@@ -1318,7 +1320,7 @@ NAN_METHOD(QuantLibNode::TermStructureTimeFromReference) {
 //
 //}
 
-//TermStructureTimeFromReferenceWorker::Destroy(){
+//void TermStructureTimeFromReferenceWorker::Destroy(){
 //
 //}
 
@@ -1389,7 +1391,7 @@ NAN_METHOD(QuantLibNode::TermStructureCalendar) {
 //
 //}
 
-//TermStructureCalendarWorker::Destroy(){
+//void TermStructureCalendarWorker::Destroy(){
 //
 //}
 
@@ -1458,7 +1460,7 @@ NAN_METHOD(QuantLibNode::TermStructureSettlementDays) {
 //
 //}
 
-//TermStructureSettlementDaysWorker::Destroy(){
+//void TermStructureSettlementDaysWorker::Destroy(){
 //
 //}
 
@@ -1568,7 +1570,7 @@ NAN_METHOD(QuantLibNode::YieldTSDiscount) {
 //
 //}
 
-//YieldTSDiscountWorker::Destroy(){
+//void YieldTSDiscountWorker::Destroy(){
 //
 //}
 
@@ -1733,7 +1735,7 @@ NAN_METHOD(QuantLibNode::YieldTSForwardRate) {
 //
 //}
 
-//YieldTSForwardRateWorker::Destroy(){
+//void YieldTSForwardRateWorker::Destroy(){
 //
 //}
 
@@ -1901,7 +1903,7 @@ NAN_METHOD(QuantLibNode::YieldTSForwardRate2) {
 //
 //}
 
-//YieldTSForwardRate2Worker::Destroy(){
+//void YieldTSForwardRate2Worker::Destroy(){
 //
 //}
 
@@ -2055,7 +2057,7 @@ NAN_METHOD(QuantLibNode::YieldTSZeroRate) {
 //
 //}
 
-//YieldTSZeroRateWorker::Destroy(){
+//void YieldTSZeroRateWorker::Destroy(){
 //
 //}
 
@@ -2120,7 +2122,7 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurveTimes) {
 //
 //}
 
-//InterpolatedYieldCurveTimesWorker::Destroy(){
+//void InterpolatedYieldCurveTimesWorker::Destroy(){
 //
 //}
 
@@ -2188,7 +2190,7 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurveDates) {
 //
 //}
 
-//InterpolatedYieldCurveDatesWorker::Destroy(){
+//void InterpolatedYieldCurveDatesWorker::Destroy(){
 //
 //}
 
@@ -2256,7 +2258,7 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurveData) {
 //
 //}
 
-//InterpolatedYieldCurveDataWorker::Destroy(){
+//void InterpolatedYieldCurveDataWorker::Destroy(){
 //
 //}
 
@@ -2321,7 +2323,7 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurveJumpTimes) {
 //
 //}
 
-//InterpolatedYieldCurveJumpTimesWorker::Destroy(){
+//void InterpolatedYieldCurveJumpTimesWorker::Destroy(){
 //
 //}
 
@@ -2389,7 +2391,7 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurveJumpDates) {
 //
 //}
 
-//InterpolatedYieldCurveJumpDatesWorker::Destroy(){
+//void InterpolatedYieldCurveJumpDatesWorker::Destroy(){
 //
 //}
  

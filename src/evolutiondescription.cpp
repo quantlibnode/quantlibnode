@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -111,7 +113,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescription) {
 //
 //}
 
-//EvolutionDescriptionWorker::Destroy(){
+//void EvolutionDescriptionWorker::Destroy(){
 //
 //}
 
@@ -196,7 +198,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionFromProduct) {
 //
 //}
 
-//EvolutionDescriptionFromProductWorker::Destroy(){
+//void EvolutionDescriptionFromProductWorker::Destroy(){
 //
 //}
 
@@ -262,7 +264,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionRateTimes) {
 //
 //}
 
-//EvolutionDescriptionRateTimesWorker::Destroy(){
+//void EvolutionDescriptionRateTimesWorker::Destroy(){
 //
 //}
 
@@ -328,7 +330,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionRateTaus) {
 //
 //}
 
-//EvolutionDescriptionRateTausWorker::Destroy(){
+//void EvolutionDescriptionRateTausWorker::Destroy(){
 //
 //}
 
@@ -394,7 +396,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionEvolutionTimes) {
 //
 //}
 
-//EvolutionDescriptionEvolutionTimesWorker::Destroy(){
+//void EvolutionDescriptionEvolutionTimesWorker::Destroy(){
 //
 //}
 
@@ -463,7 +465,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionFirstAliveRate) {
 //
 //}
 
-//EvolutionDescriptionFirstAliveRateWorker::Destroy(){
+//void EvolutionDescriptionFirstAliveRateWorker::Destroy(){
 //
 //}
 
@@ -525,7 +527,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionNumberOfRates) {
 //
 //}
 
-//EvolutionDescriptionNumberOfRatesWorker::Destroy(){
+//void EvolutionDescriptionNumberOfRatesWorker::Destroy(){
 //
 //}
 
@@ -587,7 +589,7 @@ NAN_METHOD(QuantLibNode::EvolutionDescriptionNumberOfSteps) {
 //
 //}
 
-//EvolutionDescriptionNumberOfStepsWorker::Destroy(){
+//void EvolutionDescriptionNumberOfStepsWorker::Destroy(){
 //
 //}
 
@@ -656,7 +658,7 @@ NAN_METHOD(QuantLibNode::TerminalMeasure) {
 //
 //}
 
-//TerminalMeasureWorker::Destroy(){
+//void TerminalMeasureWorker::Destroy(){
 //
 //}
 
@@ -725,7 +727,7 @@ NAN_METHOD(QuantLibNode::MoneyMarketMeasure) {
 //
 //}
 
-//MoneyMarketMeasureWorker::Destroy(){
+//void MoneyMarketMeasureWorker::Destroy(){
 //
 //}
 
@@ -808,7 +810,7 @@ NAN_METHOD(QuantLibNode::MoneyMarketPlusMeasure) {
 //
 //}
 
-//MoneyMarketPlusMeasureWorker::Destroy(){
+//void MoneyMarketPlusMeasureWorker::Destroy(){
 //
 //}
 
@@ -889,7 +891,7 @@ NAN_METHOD(QuantLibNode::IsInTerminalMeasure) {
 //
 //}
 
-//IsInTerminalMeasureWorker::Destroy(){
+//void IsInTerminalMeasureWorker::Destroy(){
 //
 //}
 
@@ -970,7 +972,7 @@ NAN_METHOD(QuantLibNode::IsInMoneyMarketMeasure) {
 //
 //}
 
-//IsInMoneyMarketMeasureWorker::Destroy(){
+//void IsInMoneyMarketMeasureWorker::Destroy(){
 //
 //}
 
@@ -1060,7 +1062,7 @@ NAN_METHOD(QuantLibNode::IsInMoneyMarketPlusMeasure) {
 //
 //}
 
-//IsInMoneyMarketPlusMeasureWorker::Destroy(){
+//void IsInMoneyMarketPlusMeasureWorker::Destroy(){
 //
 //}
  

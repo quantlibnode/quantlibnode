@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -163,7 +165,7 @@ NAN_METHOD(QuantLibNode::LMMDriftCalculator) {
 //
 //}
 
-//LMMDriftCalculatorWorker::Destroy(){
+//void LMMDriftCalculatorWorker::Destroy(){
 //
 //}
 
@@ -298,7 +300,7 @@ NAN_METHOD(QuantLibNode::LMMNormalDriftCalculator) {
 //
 //}
 
-//LMMNormalDriftCalculatorWorker::Destroy(){
+//void LMMNormalDriftCalculatorWorker::Destroy(){
 //
 //}
 
@@ -461,7 +463,7 @@ NAN_METHOD(QuantLibNode::CMSMMDriftCalculator) {
 //
 //}
 
-//CMSMMDriftCalculatorWorker::Destroy(){
+//void CMSMMDriftCalculatorWorker::Destroy(){
 //
 //}
 
@@ -610,7 +612,7 @@ NAN_METHOD(QuantLibNode::SMMDriftCalculator) {
 //
 //}
 
-//SMMDriftCalculatorWorker::Destroy(){
+//void SMMDriftCalculatorWorker::Destroy(){
 //
 //}
 
@@ -688,7 +690,7 @@ NAN_METHOD(QuantLibNode::LMMDriftCalculatorComputePlain) {
 //
 //}
 
-//LMMDriftCalculatorComputePlainWorker::Destroy(){
+//void LMMDriftCalculatorComputePlainWorker::Destroy(){
 //
 //}
 
@@ -766,7 +768,7 @@ NAN_METHOD(QuantLibNode::LMMDriftCalculatorComputeReduced) {
 //
 //}
 
-//LMMDriftCalculatorComputeReducedWorker::Destroy(){
+//void LMMDriftCalculatorComputeReducedWorker::Destroy(){
 //
 //}
 
@@ -844,7 +846,7 @@ NAN_METHOD(QuantLibNode::LMMDriftCalculatorCompute) {
 //
 //}
 
-//LMMDriftCalculatorComputeWorker::Destroy(){
+//void LMMDriftCalculatorComputeWorker::Destroy(){
 //
 //}
 
@@ -922,7 +924,7 @@ NAN_METHOD(QuantLibNode::LMMNormalDriftCalculatorComputePlain) {
 //
 //}
 
-//LMMNormalDriftCalculatorComputePlainWorker::Destroy(){
+//void LMMNormalDriftCalculatorComputePlainWorker::Destroy(){
 //
 //}
 
@@ -1000,7 +1002,7 @@ NAN_METHOD(QuantLibNode::LMMNormalDriftCalculatorComputeReduced) {
 //
 //}
 
-//LMMNormalDriftCalculatorComputeReducedWorker::Destroy(){
+//void LMMNormalDriftCalculatorComputeReducedWorker::Destroy(){
 //
 //}
 
@@ -1078,7 +1080,7 @@ NAN_METHOD(QuantLibNode::LMMNormalDriftCalculatorCompute) {
 //
 //}
 
-//LMMNormalDriftCalculatorComputeWorker::Destroy(){
+//void LMMNormalDriftCalculatorComputeWorker::Destroy(){
 //
 //}
 
@@ -1156,7 +1158,7 @@ NAN_METHOD(QuantLibNode::CMSMMDriftCalculatorCompute) {
 //
 //}
 
-//CMSMMDriftCalculatorComputeWorker::Destroy(){
+//void CMSMMDriftCalculatorComputeWorker::Destroy(){
 //
 //}
 
@@ -1234,7 +1236,7 @@ NAN_METHOD(QuantLibNode::SMMDriftCalculatorCompute) {
 //
 //}
 
-//SMMDriftCalculatorComputeWorker::Destroy(){
+//void SMMDriftCalculatorComputeWorker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -124,7 +126,7 @@ NAN_METHOD(QuantLibNode::MarketModelLmLinearExponentialCorrelationModel) {
 //
 //}
 
-//MarketModelLmLinearExponentialCorrelationModelWorker::Destroy(){
+//void MarketModelLmLinearExponentialCorrelationModelWorker::Destroy(){
 //
 //}
 
@@ -379,7 +381,7 @@ NAN_METHOD(QuantLibNode::HistoricalForwardRatesAnalysis) {
 //
 //}
 
-//HistoricalForwardRatesAnalysisWorker::Destroy(){
+//void HistoricalForwardRatesAnalysisWorker::Destroy(){
 //
 //}
 
@@ -523,7 +525,7 @@ NAN_METHOD(QuantLibNode::HistoricalRatesAnalysis) {
 //
 //}
 
-//HistoricalRatesAnalysisWorker::Destroy(){
+//void HistoricalRatesAnalysisWorker::Destroy(){
 //
 //}
 
@@ -630,7 +632,7 @@ NAN_METHOD(QuantLibNode::TimeHomogeneousForwardCorrelation) {
 //
 //}
 
-//TimeHomogeneousForwardCorrelationWorker::Destroy(){
+//void TimeHomogeneousForwardCorrelationWorker::Destroy(){
 //
 //}
 
@@ -761,7 +763,7 @@ NAN_METHOD(QuantLibNode::ExponentialForwardCorrelation) {
 //
 //}
 
-//ExponentialForwardCorrelationWorker::Destroy(){
+//void ExponentialForwardCorrelationWorker::Destroy(){
 //
 //}
 
@@ -870,7 +872,7 @@ NAN_METHOD(QuantLibNode::CotSwapFromFwdCorrelation) {
 //
 //}
 
-//CotSwapFromFwdCorrelationWorker::Destroy(){
+//void CotSwapFromFwdCorrelationWorker::Destroy(){
 //
 //}
 
@@ -938,7 +940,7 @@ NAN_METHOD(QuantLibNode::HistoricalForwardRatesAnalysisSkippedDates) {
 //
 //}
 
-//HistoricalForwardRatesAnalysisSkippedDatesWorker::Destroy(){
+//void HistoricalForwardRatesAnalysisSkippedDatesWorker::Destroy(){
 //
 //}
 
@@ -1003,7 +1005,7 @@ NAN_METHOD(QuantLibNode::HistoricalForwardRatesAnalysisSkippedDatesErrorMessage)
 //
 //}
 
-//HistoricalForwardRatesAnalysisSkippedDatesErrorMessageWorker::Destroy(){
+//void HistoricalForwardRatesAnalysisSkippedDatesErrorMessageWorker::Destroy(){
 //
 //}
 
@@ -1071,7 +1073,7 @@ NAN_METHOD(QuantLibNode::HistoricalForwardRatesAnalysisFailedDates) {
 //
 //}
 
-//HistoricalForwardRatesAnalysisFailedDatesWorker::Destroy(){
+//void HistoricalForwardRatesAnalysisFailedDatesWorker::Destroy(){
 //
 //}
 
@@ -1136,7 +1138,7 @@ NAN_METHOD(QuantLibNode::HistoricalForwardRatesAnalysisFailedDatesErrorMessage) 
 //
 //}
 
-//HistoricalForwardRatesAnalysisFailedDatesErrorMessageWorker::Destroy(){
+//void HistoricalForwardRatesAnalysisFailedDatesErrorMessageWorker::Destroy(){
 //
 //}
 
@@ -1204,7 +1206,7 @@ NAN_METHOD(QuantLibNode::HistoricalForwardRatesAnalysisFixingPeriods) {
 //
 //}
 
-//HistoricalForwardRatesAnalysisFixingPeriodsWorker::Destroy(){
+//void HistoricalForwardRatesAnalysisFixingPeriodsWorker::Destroy(){
 //
 //}
 
@@ -1272,7 +1274,7 @@ NAN_METHOD(QuantLibNode::HistoricalRatesAnalysisSkippedDates) {
 //
 //}
 
-//HistoricalRatesAnalysisSkippedDatesWorker::Destroy(){
+//void HistoricalRatesAnalysisSkippedDatesWorker::Destroy(){
 //
 //}
 
@@ -1337,7 +1339,7 @@ NAN_METHOD(QuantLibNode::HistoricalRatesAnalysisSkippedDatesErrorMessage) {
 //
 //}
 
-//HistoricalRatesAnalysisSkippedDatesErrorMessageWorker::Destroy(){
+//void HistoricalRatesAnalysisSkippedDatesErrorMessageWorker::Destroy(){
 //
 //}
 
@@ -1425,7 +1427,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantCorrelationCorrelation) {
 //
 //}
 
-//PiecewiseConstantCorrelationCorrelationWorker::Destroy(){
+//void PiecewiseConstantCorrelationCorrelationWorker::Destroy(){
 //
 //}
 
@@ -1491,7 +1493,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantCorrelationTimes) {
 //
 //}
 
-//PiecewiseConstantCorrelationTimesWorker::Destroy(){
+//void PiecewiseConstantCorrelationTimesWorker::Destroy(){
 //
 //}
 
@@ -1556,7 +1558,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantCorrelationNumberOfRates) {
 //
 //}
 
-//PiecewiseConstantCorrelationNumberOfRatesWorker::Destroy(){
+//void PiecewiseConstantCorrelationNumberOfRatesWorker::Destroy(){
 //
 //}
 
@@ -1673,7 +1675,7 @@ NAN_METHOD(QuantLibNode::ExponentialCorrelations) {
 //
 //}
 
-//ExponentialCorrelationsWorker::Destroy(){
+//void ExponentialCorrelationsWorker::Destroy(){
 //
 //}
  

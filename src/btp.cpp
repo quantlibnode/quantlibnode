@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -154,7 +156,7 @@ NAN_METHOD(QuantLibNode::CCTEU) {
 //
 //}
 
-//CCTEUWorker::Destroy(){
+//void CCTEUWorker::Destroy(){
 //
 //}
 
@@ -279,7 +281,7 @@ NAN_METHOD(QuantLibNode::BTP) {
 //
 //}
 
-//BTPWorker::Destroy(){
+//void BTPWorker::Destroy(){
 //
 //}
 
@@ -415,7 +417,7 @@ NAN_METHOD(QuantLibNode::BTP2) {
 //
 //}
 
-//BTP2Worker::Destroy(){
+//void BTP2Worker::Destroy(){
 //
 //}
 
@@ -545,7 +547,7 @@ NAN_METHOD(QuantLibNode::RendistatoBasket) {
 //
 //}
 
-//RendistatoBasketWorker::Destroy(){
+//void RendistatoBasketWorker::Destroy(){
 //
 //}
 
@@ -661,7 +663,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculator) {
 //
 //}
 
-//RendistatoCalculatorWorker::Destroy(){
+//void RendistatoCalculatorWorker::Destroy(){
 //
 //}
 
@@ -746,7 +748,7 @@ NAN_METHOD(QuantLibNode::RendistatoEquivalentSwapLengthQuote) {
 //
 //}
 
-//RendistatoEquivalentSwapLengthQuoteWorker::Destroy(){
+//void RendistatoEquivalentSwapLengthQuoteWorker::Destroy(){
 //
 //}
 
@@ -831,7 +833,7 @@ NAN_METHOD(QuantLibNode::RendistatoEquivalentSwapSpreadQuote) {
 //
 //}
 
-//RendistatoEquivalentSwapSpreadQuoteWorker::Destroy(){
+//void RendistatoEquivalentSwapSpreadQuoteWorker::Destroy(){
 //
 //}
 
@@ -895,7 +897,7 @@ NAN_METHOD(QuantLibNode::RendistatoBasketSize) {
 //
 //}
 
-//RendistatoBasketSizeWorker::Destroy(){
+//void RendistatoBasketSizeWorker::Destroy(){
 //
 //}
 
@@ -959,7 +961,7 @@ NAN_METHOD(QuantLibNode::RendistatoBasketOutstanding) {
 //
 //}
 
-//RendistatoBasketOutstandingWorker::Destroy(){
+//void RendistatoBasketOutstandingWorker::Destroy(){
 //
 //}
 
@@ -1027,7 +1029,7 @@ NAN_METHOD(QuantLibNode::RendistatoBasketOutstandings) {
 //
 //}
 
-//RendistatoBasketOutstandingsWorker::Destroy(){
+//void RendistatoBasketOutstandingsWorker::Destroy(){
 //
 //}
 
@@ -1095,7 +1097,7 @@ NAN_METHOD(QuantLibNode::RendistatoBasketWeights) {
 //
 //}
 
-//RendistatoBasketWeightsWorker::Destroy(){
+//void RendistatoBasketWeightsWorker::Destroy(){
 //
 //}
 
@@ -1156,7 +1158,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorYield) {
 //
 //}
 
-//RendistatoCalculatorYieldWorker::Destroy(){
+//void RendistatoCalculatorYieldWorker::Destroy(){
 //
 //}
 
@@ -1217,7 +1219,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorDuration) {
 //
 //}
 
-//RendistatoCalculatorDurationWorker::Destroy(){
+//void RendistatoCalculatorDurationWorker::Destroy(){
 //
 //}
 
@@ -1282,7 +1284,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorYields) {
 //
 //}
 
-//RendistatoCalculatorYieldsWorker::Destroy(){
+//void RendistatoCalculatorYieldsWorker::Destroy(){
 //
 //}
 
@@ -1347,7 +1349,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorDurations) {
 //
 //}
 
-//RendistatoCalculatorDurationsWorker::Destroy(){
+//void RendistatoCalculatorDurationsWorker::Destroy(){
 //
 //}
 
@@ -1412,7 +1414,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorSwapLengths) {
 //
 //}
 
-//RendistatoCalculatorSwapLengthsWorker::Destroy(){
+//void RendistatoCalculatorSwapLengthsWorker::Destroy(){
 //
 //}
 
@@ -1477,7 +1479,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorSwapRates) {
 //
 //}
 
-//RendistatoCalculatorSwapRatesWorker::Destroy(){
+//void RendistatoCalculatorSwapRatesWorker::Destroy(){
 //
 //}
 
@@ -1542,7 +1544,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorSwapYields) {
 //
 //}
 
-//RendistatoCalculatorSwapYieldsWorker::Destroy(){
+//void RendistatoCalculatorSwapYieldsWorker::Destroy(){
 //
 //}
 
@@ -1607,7 +1609,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorSwapDurations) {
 //
 //}
 
-//RendistatoCalculatorSwapDurationsWorker::Destroy(){
+//void RendistatoCalculatorSwapDurationsWorker::Destroy(){
 //
 //}
 
@@ -1668,7 +1670,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorEquivalentSwapRate) {
 //
 //}
 
-//RendistatoCalculatorEquivalentSwapRateWorker::Destroy(){
+//void RendistatoCalculatorEquivalentSwapRateWorker::Destroy(){
 //
 //}
 
@@ -1729,7 +1731,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorEquivalentSwapYield) {
 //
 //}
 
-//RendistatoCalculatorEquivalentSwapYieldWorker::Destroy(){
+//void RendistatoCalculatorEquivalentSwapYieldWorker::Destroy(){
 //
 //}
 
@@ -1790,7 +1792,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorEquivalentSwapDuration) {
 //
 //}
 
-//RendistatoCalculatorEquivalentSwapDurationWorker::Destroy(){
+//void RendistatoCalculatorEquivalentSwapDurationWorker::Destroy(){
 //
 //}
 
@@ -1851,7 +1853,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorEquivalentSwapSpread) {
 //
 //}
 
-//RendistatoCalculatorEquivalentSwapSpreadWorker::Destroy(){
+//void RendistatoCalculatorEquivalentSwapSpreadWorker::Destroy(){
 //
 //}
 
@@ -1912,7 +1914,7 @@ NAN_METHOD(QuantLibNode::RendistatoCalculatorEquivalentSwapLength) {
 //
 //}
 
-//RendistatoCalculatorEquivalentSwapLengthWorker::Destroy(){
+//void RendistatoCalculatorEquivalentSwapLengthWorker::Destroy(){
 //
 //}
  

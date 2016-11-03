@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -120,7 +122,7 @@ NAN_METHOD(QuantLibNode::Statistics) {
 //
 //}
 
-//StatisticsWorker::Destroy(){
+//void StatisticsWorker::Destroy(){
 //
 //}
 
@@ -228,7 +230,7 @@ NAN_METHOD(QuantLibNode::IncrementalStatistics) {
 //
 //}
 
-//IncrementalStatisticsWorker::Destroy(){
+//void IncrementalStatisticsWorker::Destroy(){
 //
 //}
 
@@ -292,7 +294,7 @@ NAN_METHOD(QuantLibNode::StatisticsSamples) {
 //
 //}
 
-//StatisticsSamplesWorker::Destroy(){
+//void StatisticsSamplesWorker::Destroy(){
 //
 //}
 
@@ -356,7 +358,7 @@ NAN_METHOD(QuantLibNode::StatisticsWeightSum) {
 //
 //}
 
-//StatisticsWeightSumWorker::Destroy(){
+//void StatisticsWeightSumWorker::Destroy(){
 //
 //}
 
@@ -420,7 +422,7 @@ NAN_METHOD(QuantLibNode::StatisticsMean) {
 //
 //}
 
-//StatisticsMeanWorker::Destroy(){
+//void StatisticsMeanWorker::Destroy(){
 //
 //}
 
@@ -484,7 +486,7 @@ NAN_METHOD(QuantLibNode::StatisticsVariance) {
 //
 //}
 
-//StatisticsVarianceWorker::Destroy(){
+//void StatisticsVarianceWorker::Destroy(){
 //
 //}
 
@@ -548,7 +550,7 @@ NAN_METHOD(QuantLibNode::StatisticsStandardDeviation) {
 //
 //}
 
-//StatisticsStandardDeviationWorker::Destroy(){
+//void StatisticsStandardDeviationWorker::Destroy(){
 //
 //}
 
@@ -612,7 +614,7 @@ NAN_METHOD(QuantLibNode::StatisticsErrorEstimate) {
 //
 //}
 
-//StatisticsErrorEstimateWorker::Destroy(){
+//void StatisticsErrorEstimateWorker::Destroy(){
 //
 //}
 
@@ -676,7 +678,7 @@ NAN_METHOD(QuantLibNode::StatisticsSkewness) {
 //
 //}
 
-//StatisticsSkewnessWorker::Destroy(){
+//void StatisticsSkewnessWorker::Destroy(){
 //
 //}
 
@@ -740,7 +742,7 @@ NAN_METHOD(QuantLibNode::StatisticsKurtosis) {
 //
 //}
 
-//StatisticsKurtosisWorker::Destroy(){
+//void StatisticsKurtosisWorker::Destroy(){
 //
 //}
 
@@ -804,7 +806,7 @@ NAN_METHOD(QuantLibNode::StatisticsMin) {
 //
 //}
 
-//StatisticsMinWorker::Destroy(){
+//void StatisticsMinWorker::Destroy(){
 //
 //}
 
@@ -868,7 +870,7 @@ NAN_METHOD(QuantLibNode::StatisticsMax) {
 //
 //}
 
-//StatisticsMaxWorker::Destroy(){
+//void StatisticsMaxWorker::Destroy(){
 //
 //}
 
@@ -942,7 +944,7 @@ NAN_METHOD(QuantLibNode::StatisticsPercentile) {
 //
 //}
 
-//StatisticsPercentileWorker::Destroy(){
+//void StatisticsPercentileWorker::Destroy(){
 //
 //}
 
@@ -1016,7 +1018,7 @@ NAN_METHOD(QuantLibNode::StatisticsTopPercentile) {
 //
 //}
 
-//StatisticsTopPercentileWorker::Destroy(){
+//void StatisticsTopPercentileWorker::Destroy(){
 //
 //}
 
@@ -1080,7 +1082,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianDownsideVariance) {
 //
 //}
 
-//StatisticsGaussianDownsideVarianceWorker::Destroy(){
+//void StatisticsGaussianDownsideVarianceWorker::Destroy(){
 //
 //}
 
@@ -1144,7 +1146,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianDownsideDeviation) {
 //
 //}
 
-//StatisticsGaussianDownsideDeviationWorker::Destroy(){
+//void StatisticsGaussianDownsideDeviationWorker::Destroy(){
 //
 //}
 
@@ -1218,7 +1220,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianRegret) {
 //
 //}
 
-//StatisticsGaussianRegretWorker::Destroy(){
+//void StatisticsGaussianRegretWorker::Destroy(){
 //
 //}
 
@@ -1292,7 +1294,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianPercentile) {
 //
 //}
 
-//StatisticsGaussianPercentileWorker::Destroy(){
+//void StatisticsGaussianPercentileWorker::Destroy(){
 //
 //}
 
@@ -1366,7 +1368,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianTopPercentile) {
 //
 //}
 
-//StatisticsGaussianTopPercentileWorker::Destroy(){
+//void StatisticsGaussianTopPercentileWorker::Destroy(){
 //
 //}
 
@@ -1440,7 +1442,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianPotentialUpside) {
 //
 //}
 
-//StatisticsGaussianPotentialUpsideWorker::Destroy(){
+//void StatisticsGaussianPotentialUpsideWorker::Destroy(){
 //
 //}
 
@@ -1514,7 +1516,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianValueAtRisk) {
 //
 //}
 
-//StatisticsGaussianValueAtRiskWorker::Destroy(){
+//void StatisticsGaussianValueAtRiskWorker::Destroy(){
 //
 //}
 
@@ -1588,7 +1590,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianExpectedShortfall) {
 //
 //}
 
-//StatisticsGaussianExpectedShortfallWorker::Destroy(){
+//void StatisticsGaussianExpectedShortfallWorker::Destroy(){
 //
 //}
 
@@ -1662,7 +1664,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianShortfall) {
 //
 //}
 
-//StatisticsGaussianShortfallWorker::Destroy(){
+//void StatisticsGaussianShortfallWorker::Destroy(){
 //
 //}
 
@@ -1736,7 +1738,7 @@ NAN_METHOD(QuantLibNode::StatisticsGaussianAverageShortfall) {
 //
 //}
 
-//StatisticsGaussianAverageShortfallWorker::Destroy(){
+//void StatisticsGaussianAverageShortfallWorker::Destroy(){
 //
 //}
 
@@ -1800,7 +1802,7 @@ NAN_METHOD(QuantLibNode::StatisticsSemiVariance) {
 //
 //}
 
-//StatisticsSemiVarianceWorker::Destroy(){
+//void StatisticsSemiVarianceWorker::Destroy(){
 //
 //}
 
@@ -1864,7 +1866,7 @@ NAN_METHOD(QuantLibNode::StatisticsSemiDeviation) {
 //
 //}
 
-//StatisticsSemiDeviationWorker::Destroy(){
+//void StatisticsSemiDeviationWorker::Destroy(){
 //
 //}
 
@@ -1928,7 +1930,7 @@ NAN_METHOD(QuantLibNode::StatisticsDownsideVariance) {
 //
 //}
 
-//StatisticsDownsideVarianceWorker::Destroy(){
+//void StatisticsDownsideVarianceWorker::Destroy(){
 //
 //}
 
@@ -1992,7 +1994,7 @@ NAN_METHOD(QuantLibNode::StatisticsDownsideDeviation) {
 //
 //}
 
-//StatisticsDownsideDeviationWorker::Destroy(){
+//void StatisticsDownsideDeviationWorker::Destroy(){
 //
 //}
 
@@ -2066,7 +2068,7 @@ NAN_METHOD(QuantLibNode::StatisticsRegret) {
 //
 //}
 
-//StatisticsRegretWorker::Destroy(){
+//void StatisticsRegretWorker::Destroy(){
 //
 //}
 
@@ -2140,7 +2142,7 @@ NAN_METHOD(QuantLibNode::StatisticsPotentialUpside) {
 //
 //}
 
-//StatisticsPotentialUpsideWorker::Destroy(){
+//void StatisticsPotentialUpsideWorker::Destroy(){
 //
 //}
 
@@ -2214,7 +2216,7 @@ NAN_METHOD(QuantLibNode::StatisticsValueAtRisk) {
 //
 //}
 
-//StatisticsValueAtRiskWorker::Destroy(){
+//void StatisticsValueAtRiskWorker::Destroy(){
 //
 //}
 
@@ -2288,7 +2290,7 @@ NAN_METHOD(QuantLibNode::StatisticsExpectedShortfall) {
 //
 //}
 
-//StatisticsExpectedShortfallWorker::Destroy(){
+//void StatisticsExpectedShortfallWorker::Destroy(){
 //
 //}
 
@@ -2362,7 +2364,7 @@ NAN_METHOD(QuantLibNode::StatisticsShortfall) {
 //
 //}
 
-//StatisticsShortfallWorker::Destroy(){
+//void StatisticsShortfallWorker::Destroy(){
 //
 //}
 
@@ -2436,7 +2438,7 @@ NAN_METHOD(QuantLibNode::StatisticsAverageShortfall) {
 //
 //}
 
-//StatisticsAverageShortfallWorker::Destroy(){
+//void StatisticsAverageShortfallWorker::Destroy(){
 //
 //}
 
@@ -2507,7 +2509,7 @@ NAN_METHOD(QuantLibNode::GaussianDownsideVariance) {
 //
 //}
 
-//GaussianDownsideVarianceWorker::Destroy(){
+//void GaussianDownsideVarianceWorker::Destroy(){
 //
 //}
 
@@ -2578,7 +2580,7 @@ NAN_METHOD(QuantLibNode::GaussianDownsideDeviation) {
 //
 //}
 
-//GaussianDownsideDeviationWorker::Destroy(){
+//void GaussianDownsideDeviationWorker::Destroy(){
 //
 //}
 
@@ -2660,7 +2662,7 @@ NAN_METHOD(QuantLibNode::GaussianRegret) {
 //
 //}
 
-//GaussianRegretWorker::Destroy(){
+//void GaussianRegretWorker::Destroy(){
 //
 //}
 
@@ -2742,7 +2744,7 @@ NAN_METHOD(QuantLibNode::GaussianPercentile) {
 //
 //}
 
-//GaussianPercentileWorker::Destroy(){
+//void GaussianPercentileWorker::Destroy(){
 //
 //}
 
@@ -2824,7 +2826,7 @@ NAN_METHOD(QuantLibNode::GaussianTopPercentile) {
 //
 //}
 
-//GaussianTopPercentileWorker::Destroy(){
+//void GaussianTopPercentileWorker::Destroy(){
 //
 //}
 
@@ -2906,7 +2908,7 @@ NAN_METHOD(QuantLibNode::GaussianPotentialUpside) {
 //
 //}
 
-//GaussianPotentialUpsideWorker::Destroy(){
+//void GaussianPotentialUpsideWorker::Destroy(){
 //
 //}
 
@@ -2988,7 +2990,7 @@ NAN_METHOD(QuantLibNode::GaussianValueAtRisk) {
 //
 //}
 
-//GaussianValueAtRiskWorker::Destroy(){
+//void GaussianValueAtRiskWorker::Destroy(){
 //
 //}
 
@@ -3070,7 +3072,7 @@ NAN_METHOD(QuantLibNode::GaussianExpectedShortfall) {
 //
 //}
 
-//GaussianExpectedShortfallWorker::Destroy(){
+//void GaussianExpectedShortfallWorker::Destroy(){
 //
 //}
 
@@ -3152,7 +3154,7 @@ NAN_METHOD(QuantLibNode::GaussianShortfall) {
 //
 //}
 
-//GaussianShortfallWorker::Destroy(){
+//void GaussianShortfallWorker::Destroy(){
 //
 //}
 
@@ -3234,7 +3236,7 @@ NAN_METHOD(QuantLibNode::GaussianAverageShortfall) {
 //
 //}
 
-//GaussianAverageShortfallWorker::Destroy(){
+//void GaussianAverageShortfallWorker::Destroy(){
 //
 //}
  

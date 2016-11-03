@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -219,7 +221,7 @@ NAN_METHOD(QuantLibNode::PiecewiseYieldCurve) {
 //
 //}
 
-//PiecewiseYieldCurveWorker::Destroy(){
+//void PiecewiseYieldCurveWorker::Destroy(){
 //
 //}
 
@@ -284,7 +286,7 @@ NAN_METHOD(QuantLibNode::PiecewiseYieldCurveTimes) {
 //
 //}
 
-//PiecewiseYieldCurveTimesWorker::Destroy(){
+//void PiecewiseYieldCurveTimesWorker::Destroy(){
 //
 //}
 
@@ -352,7 +354,7 @@ NAN_METHOD(QuantLibNode::PiecewiseYieldCurveDates) {
 //
 //}
 
-//PiecewiseYieldCurveDatesWorker::Destroy(){
+//void PiecewiseYieldCurveDatesWorker::Destroy(){
 //
 //}
 
@@ -420,7 +422,7 @@ NAN_METHOD(QuantLibNode::PiecewiseYieldCurveData) {
 //
 //}
 
-//PiecewiseYieldCurveDataWorker::Destroy(){
+//void PiecewiseYieldCurveDataWorker::Destroy(){
 //
 //}
 
@@ -485,7 +487,7 @@ NAN_METHOD(QuantLibNode::PiecewiseYieldCurveJumpTimes) {
 //
 //}
 
-//PiecewiseYieldCurveJumpTimesWorker::Destroy(){
+//void PiecewiseYieldCurveJumpTimesWorker::Destroy(){
 //
 //}
 
@@ -553,7 +555,7 @@ NAN_METHOD(QuantLibNode::PiecewiseYieldCurveJumpDates) {
 //
 //}
 
-//PiecewiseYieldCurveJumpDatesWorker::Destroy(){
+//void PiecewiseYieldCurveJumpDatesWorker::Destroy(){
 //
 //}
  

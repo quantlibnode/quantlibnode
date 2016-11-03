@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -238,7 +240,7 @@ NAN_METHOD(QuantLibNode::FixedRateBond) {
 //
 //}
 
-//FixedRateBondWorker::Destroy(){
+//void FixedRateBondWorker::Destroy(){
 //
 //}
 
@@ -446,7 +448,7 @@ NAN_METHOD(QuantLibNode::FixedRateBond2) {
 //
 //}
 
-//FixedRateBond2Worker::Destroy(){
+//void FixedRateBond2Worker::Destroy(){
 //
 //}
 
@@ -726,7 +728,7 @@ NAN_METHOD(QuantLibNode::FloatingRateBond) {
 //
 //}
 
-//FloatingRateBondWorker::Destroy(){
+//void FloatingRateBondWorker::Destroy(){
 //
 //}
 
@@ -1006,7 +1008,7 @@ NAN_METHOD(QuantLibNode::CmsRateBond) {
 //
 //}
 
-//CmsRateBondWorker::Destroy(){
+//void CmsRateBondWorker::Destroy(){
 //
 //}
 
@@ -1191,7 +1193,7 @@ NAN_METHOD(QuantLibNode::ZeroCouponBond) {
 //
 //}
 
-//ZeroCouponBondWorker::Destroy(){
+//void ZeroCouponBondWorker::Destroy(){
 //
 //}
 
@@ -1365,7 +1367,7 @@ NAN_METHOD(QuantLibNode::Bond) {
 //
 //}
 
-//BondWorker::Destroy(){
+//void BondWorker::Destroy(){
 //
 //}
 
@@ -1429,7 +1431,7 @@ NAN_METHOD(QuantLibNode::BondSettlementDays) {
 //
 //}
 
-//BondSettlementDaysWorker::Destroy(){
+//void BondSettlementDaysWorker::Destroy(){
 //
 //}
 
@@ -1495,7 +1497,7 @@ NAN_METHOD(QuantLibNode::BondCalendar) {
 //
 //}
 
-//BondCalendarWorker::Destroy(){
+//void BondCalendarWorker::Destroy(){
 //
 //}
 
@@ -1563,7 +1565,7 @@ NAN_METHOD(QuantLibNode::BondNotionals) {
 //
 //}
 
-//BondNotionalsWorker::Destroy(){
+//void BondNotionalsWorker::Destroy(){
 //
 //}
 
@@ -1638,7 +1640,7 @@ NAN_METHOD(QuantLibNode::BondNotional) {
 //
 //}
 
-//BondNotionalWorker::Destroy(){
+//void BondNotionalWorker::Destroy(){
 //
 //}
 
@@ -1702,7 +1704,7 @@ NAN_METHOD(QuantLibNode::BondMaturityDate) {
 //
 //}
 
-//BondMaturityDateWorker::Destroy(){
+//void BondMaturityDateWorker::Destroy(){
 //
 //}
 
@@ -1766,7 +1768,7 @@ NAN_METHOD(QuantLibNode::BondIssueDate) {
 //
 //}
 
-//BondIssueDateWorker::Destroy(){
+//void BondIssueDateWorker::Destroy(){
 //
 //}
 
@@ -1838,7 +1840,7 @@ NAN_METHOD(QuantLibNode::BondIsTradable) {
 //
 //}
 
-//BondIsTradableWorker::Destroy(){
+//void BondIsTradableWorker::Destroy(){
 //
 //}
 
@@ -1913,7 +1915,7 @@ NAN_METHOD(QuantLibNode::BondSettlementDate) {
 //
 //}
 
-//BondSettlementDateWorker::Destroy(){
+//void BondSettlementDateWorker::Destroy(){
 //
 //}
 
@@ -1974,7 +1976,7 @@ NAN_METHOD(QuantLibNode::BondCleanPrice) {
 //
 //}
 
-//BondCleanPriceWorker::Destroy(){
+//void BondCleanPriceWorker::Destroy(){
 //
 //}
 
@@ -2034,7 +2036,7 @@ NAN_METHOD(QuantLibNode::BondDescription) {
 //
 //}
 
-//BondDescriptionWorker::Destroy(){
+//void BondDescriptionWorker::Destroy(){
 //
 //}
 
@@ -2094,7 +2096,7 @@ NAN_METHOD(QuantLibNode::BondCurrency) {
 //
 //}
 
-//BondCurrencyWorker::Destroy(){
+//void BondCurrencyWorker::Destroy(){
 //
 //}
 
@@ -2157,7 +2159,7 @@ NAN_METHOD(QuantLibNode::BondRedemptionAmount) {
 //
 //}
 
-//BondRedemptionAmountWorker::Destroy(){
+//void BondRedemptionAmountWorker::Destroy(){
 //
 //}
 
@@ -2220,7 +2222,7 @@ NAN_METHOD(QuantLibNode::BondRedemptionDate) {
 //
 //}
 
-//BondRedemptionDateWorker::Destroy(){
+//void BondRedemptionDateWorker::Destroy(){
 //
 //}
 
@@ -2304,7 +2306,7 @@ NAN_METHOD(QuantLibNode::BondFlowAnalysis) {
 //
 //}
 
-//BondFlowAnalysisWorker::Destroy(){
+//void BondFlowAnalysisWorker::Destroy(){
 //
 //}
 
@@ -2378,7 +2380,7 @@ NAN_METHOD(QuantLibNode::BondSetCouponPricer) {
 //
 //}
 
-//BondSetCouponPricerWorker::Destroy(){
+//void BondSetCouponPricerWorker::Destroy(){
 //
 //}
 
@@ -2457,7 +2459,7 @@ NAN_METHOD(QuantLibNode::BondSetCouponPricers) {
 //
 //}
 
-//BondSetCouponPricersWorker::Destroy(){
+//void BondSetCouponPricersWorker::Destroy(){
 //
 //}
 
@@ -2521,7 +2523,7 @@ NAN_METHOD(QuantLibNode::BondStartDate) {
 //
 //}
 
-//BondStartDateWorker::Destroy(){
+//void BondStartDateWorker::Destroy(){
 //
 //}
 
@@ -2597,7 +2599,7 @@ NAN_METHOD(QuantLibNode::BondPreviousCashFlowDate) {
 //
 //}
 
-//BondPreviousCashFlowDateWorker::Destroy(){
+//void BondPreviousCashFlowDateWorker::Destroy(){
 //
 //}
 
@@ -2673,7 +2675,7 @@ NAN_METHOD(QuantLibNode::BondNextCashFlowDate) {
 //
 //}
 
-//BondNextCashFlowDateWorker::Destroy(){
+//void BondNextCashFlowDateWorker::Destroy(){
 //
 //}
 
@@ -2749,7 +2751,7 @@ NAN_METHOD(QuantLibNode::BondPreviousCashFlowAmount) {
 //
 //}
 
-//BondPreviousCashFlowAmountWorker::Destroy(){
+//void BondPreviousCashFlowAmountWorker::Destroy(){
 //
 //}
 
@@ -2825,7 +2827,7 @@ NAN_METHOD(QuantLibNode::BondNextCashFlowAmount) {
 //
 //}
 
-//BondNextCashFlowAmountWorker::Destroy(){
+//void BondNextCashFlowAmountWorker::Destroy(){
 //
 //}
 
@@ -2898,7 +2900,7 @@ NAN_METHOD(QuantLibNode::BondPreviousCouponRate) {
 //
 //}
 
-//BondPreviousCouponRateWorker::Destroy(){
+//void BondPreviousCouponRateWorker::Destroy(){
 //
 //}
 
@@ -2971,7 +2973,7 @@ NAN_METHOD(QuantLibNode::BondNextCouponRate) {
 //
 //}
 
-//BondNextCouponRateWorker::Destroy(){
+//void BondNextCouponRateWorker::Destroy(){
 //
 //}
 
@@ -3047,7 +3049,7 @@ NAN_METHOD(QuantLibNode::BondAccrualStartDate) {
 //
 //}
 
-//BondAccrualStartDateWorker::Destroy(){
+//void BondAccrualStartDateWorker::Destroy(){
 //
 //}
 
@@ -3123,7 +3125,7 @@ NAN_METHOD(QuantLibNode::BondAccrualEndDate) {
 //
 //}
 
-//BondAccrualEndDateWorker::Destroy(){
+//void BondAccrualEndDateWorker::Destroy(){
 //
 //}
 
@@ -3199,7 +3201,7 @@ NAN_METHOD(QuantLibNode::BondReferencePeriodStart) {
 //
 //}
 
-//BondReferencePeriodStartWorker::Destroy(){
+//void BondReferencePeriodStartWorker::Destroy(){
 //
 //}
 
@@ -3275,7 +3277,7 @@ NAN_METHOD(QuantLibNode::BondReferencePeriodEnd) {
 //
 //}
 
-//BondReferencePeriodEndWorker::Destroy(){
+//void BondReferencePeriodEndWorker::Destroy(){
 //
 //}
 
@@ -3348,7 +3350,7 @@ NAN_METHOD(QuantLibNode::BondAccrualPeriod) {
 //
 //}
 
-//BondAccrualPeriodWorker::Destroy(){
+//void BondAccrualPeriodWorker::Destroy(){
 //
 //}
 
@@ -3421,7 +3423,7 @@ NAN_METHOD(QuantLibNode::BondAccrualDays) {
 //
 //}
 
-//BondAccrualDaysWorker::Destroy(){
+//void BondAccrualDaysWorker::Destroy(){
 //
 //}
 
@@ -3494,7 +3496,7 @@ NAN_METHOD(QuantLibNode::BondAccruedPeriod) {
 //
 //}
 
-//BondAccruedPeriodWorker::Destroy(){
+//void BondAccruedPeriodWorker::Destroy(){
 //
 //}
 
@@ -3567,7 +3569,7 @@ NAN_METHOD(QuantLibNode::BondAccruedDays) {
 //
 //}
 
-//BondAccruedDaysWorker::Destroy(){
+//void BondAccruedDaysWorker::Destroy(){
 //
 //}
 
@@ -3640,7 +3642,7 @@ NAN_METHOD(QuantLibNode::BondAccruedAmount) {
 //
 //}
 
-//BondAccruedAmountWorker::Destroy(){
+//void BondAccruedAmountWorker::Destroy(){
 //
 //}
 
@@ -3731,7 +3733,7 @@ NAN_METHOD(QuantLibNode::BondCleanPriceFromYieldTermStructure) {
 //
 //}
 
-//BondCleanPriceFromYieldTermStructureWorker::Destroy(){
+//void BondCleanPriceFromYieldTermStructureWorker::Destroy(){
 //
 //}
 
@@ -3822,7 +3824,7 @@ NAN_METHOD(QuantLibNode::BondBpsFromYieldTermStructure) {
 //
 //}
 
-//BondBpsFromYieldTermStructureWorker::Destroy(){
+//void BondBpsFromYieldTermStructureWorker::Destroy(){
 //
 //}
 
@@ -3924,7 +3926,7 @@ NAN_METHOD(QuantLibNode::BondAtmRateFromYieldTermStructure) {
 //
 //}
 
-//BondAtmRateFromYieldTermStructureWorker::Destroy(){
+//void BondAtmRateFromYieldTermStructureWorker::Destroy(){
 //
 //}
 
@@ -4054,7 +4056,7 @@ NAN_METHOD(QuantLibNode::BondCleanPriceFromYield) {
 //
 //}
 
-//BondCleanPriceFromYieldWorker::Destroy(){
+//void BondCleanPriceFromYieldWorker::Destroy(){
 //
 //}
 
@@ -4184,7 +4186,7 @@ NAN_METHOD(QuantLibNode::BondDirtyPriceFromYield) {
 //
 //}
 
-//BondDirtyPriceFromYieldWorker::Destroy(){
+//void BondDirtyPriceFromYieldWorker::Destroy(){
 //
 //}
 
@@ -4314,7 +4316,7 @@ NAN_METHOD(QuantLibNode::BondBpsFromYield) {
 //
 //}
 
-//BondBpsFromYieldWorker::Destroy(){
+//void BondBpsFromYieldWorker::Destroy(){
 //
 //}
 
@@ -4477,7 +4479,7 @@ NAN_METHOD(QuantLibNode::BondYieldFromCleanPrice) {
 //
 //}
 
-//BondYieldFromCleanPriceWorker::Destroy(){
+//void BondYieldFromCleanPriceWorker::Destroy(){
 //
 //}
 
@@ -4622,7 +4624,7 @@ NAN_METHOD(QuantLibNode::BondDurationFromYield) {
 //
 //}
 
-//BondDurationFromYieldWorker::Destroy(){
+//void BondDurationFromYieldWorker::Destroy(){
 //
 //}
 
@@ -4752,7 +4754,7 @@ NAN_METHOD(QuantLibNode::BondConvexityFromYield) {
 //
 //}
 
-//BondConvexityFromYieldWorker::Destroy(){
+//void BondConvexityFromYieldWorker::Destroy(){
 //
 //}
 
@@ -4897,7 +4899,7 @@ NAN_METHOD(QuantLibNode::BondCleanPriceFromZSpread) {
 //
 //}
 
-//BondCleanPriceFromZSpreadWorker::Destroy(){
+//void BondCleanPriceFromZSpreadWorker::Destroy(){
 //
 //}
 
@@ -5075,7 +5077,7 @@ NAN_METHOD(QuantLibNode::BondZSpreadFromCleanPrice) {
 //
 //}
 
-//BondZSpreadFromCleanPriceWorker::Destroy(){
+//void BondZSpreadFromCleanPriceWorker::Destroy(){
 //
 //}
 
@@ -5158,7 +5160,7 @@ NAN_METHOD(QuantLibNode::BondAlive) {
 //
 //}
 
-//BondAliveWorker::Destroy(){
+//void BondAliveWorker::Destroy(){
 //
 //}
 
@@ -5236,7 +5238,7 @@ NAN_METHOD(QuantLibNode::BondMaturityLookup) {
 //
 //}
 
-//BondMaturityLookupWorker::Destroy(){
+//void BondMaturityLookupWorker::Destroy(){
 //
 //}
 
@@ -5307,7 +5309,7 @@ NAN_METHOD(QuantLibNode::BondMaturitySort) {
 //
 //}
 
-//BondMaturitySortWorker::Destroy(){
+//void BondMaturitySortWorker::Destroy(){
 //
 //}
  

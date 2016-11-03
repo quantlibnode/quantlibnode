@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -171,7 +173,7 @@ NAN_METHOD(QuantLibNode::FRA) {
 //
 //}
 
-//FRAWorker::Destroy(){
+//void FRAWorker::Destroy(){
 //
 //}
 
@@ -232,7 +234,7 @@ NAN_METHOD(QuantLibNode::FRAforwardRate) {
 //
 //}
 
-//FRAforwardRateWorker::Destroy(){
+//void FRAforwardRateWorker::Destroy(){
 //
 //}
 
@@ -293,7 +295,7 @@ NAN_METHOD(QuantLibNode::FRAforwardValue) {
 //
 //}
 
-//FRAforwardValueWorker::Destroy(){
+//void FRAforwardValueWorker::Destroy(){
 //
 //}
 
@@ -354,7 +356,7 @@ NAN_METHOD(QuantLibNode::FRAspotValue) {
 //
 //}
 
-//FRAspotValueWorker::Destroy(){
+//void FRAspotValueWorker::Destroy(){
 //
 //}
  

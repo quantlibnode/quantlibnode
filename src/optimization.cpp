@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -127,7 +129,7 @@ NAN_METHOD(QuantLibNode::EndCriteria) {
 //
 //}
 
-//EndCriteriaWorker::Destroy(){
+//void EndCriteriaWorker::Destroy(){
 //
 //}
 
@@ -197,7 +199,7 @@ NAN_METHOD(QuantLibNode::NoConstraint) {
 //
 //}
 
-//NoConstraintWorker::Destroy(){
+//void NoConstraintWorker::Destroy(){
 //
 //}
 
@@ -276,7 +278,7 @@ NAN_METHOD(QuantLibNode::Simplex) {
 //
 //}
 
-//SimplexWorker::Destroy(){
+//void SimplexWorker::Destroy(){
 //
 //}
 
@@ -373,7 +375,7 @@ NAN_METHOD(QuantLibNode::LevenbergMarquardt) {
 //
 //}
 
-//LevenbergMarquardtWorker::Destroy(){
+//void LevenbergMarquardtWorker::Destroy(){
 //
 //}
 
@@ -458,7 +460,7 @@ NAN_METHOD(QuantLibNode::ConjugateGradient) {
 //
 //}
 
-//ConjugateGradientWorker::Destroy(){
+//void ConjugateGradientWorker::Destroy(){
 //
 //}
 
@@ -543,7 +545,7 @@ NAN_METHOD(QuantLibNode::SteepestDescent) {
 //
 //}
 
-//SteepestDescentWorker::Destroy(){
+//void SteepestDescentWorker::Destroy(){
 //
 //}
 
@@ -640,7 +642,7 @@ NAN_METHOD(QuantLibNode::ArmijoLineSearch) {
 //
 //}
 
-//ArmijoLineSearchWorker::Destroy(){
+//void ArmijoLineSearchWorker::Destroy(){
 //
 //}
 
@@ -704,7 +706,7 @@ NAN_METHOD(QuantLibNode::EndCriteriaMaxIterations) {
 //
 //}
 
-//EndCriteriaMaxIterationsWorker::Destroy(){
+//void EndCriteriaMaxIterationsWorker::Destroy(){
 //
 //}
 
@@ -768,7 +770,7 @@ NAN_METHOD(QuantLibNode::EndCriteriaMaxStationaryStateIterations) {
 //
 //}
 
-//EndCriteriaMaxStationaryStateIterationsWorker::Destroy(){
+//void EndCriteriaMaxStationaryStateIterationsWorker::Destroy(){
 //
 //}
 
@@ -832,7 +834,7 @@ NAN_METHOD(QuantLibNode::EndCriteriaFunctionEpsilon) {
 //
 //}
 
-//EndCriteriaFunctionEpsilonWorker::Destroy(){
+//void EndCriteriaFunctionEpsilonWorker::Destroy(){
 //
 //}
 
@@ -896,7 +898,7 @@ NAN_METHOD(QuantLibNode::EndCriteriaGradientNormEpsilon) {
 //
 //}
 
-//EndCriteriaGradientNormEpsilonWorker::Destroy(){
+//void EndCriteriaGradientNormEpsilonWorker::Destroy(){
 //
 //}
 
@@ -1039,7 +1041,7 @@ NAN_METHOD(QuantLibNode::SphereCylinderOptimizerClosest) {
 //
 //}
 
-//SphereCylinderOptimizerClosestWorker::Destroy(){
+//void SphereCylinderOptimizerClosestWorker::Destroy(){
 //
 //}
 
@@ -1094,7 +1096,7 @@ NAN_METHOD(QuantLibNode::SecondsToString) {
 //
 //}
 
-//SecondsToStringWorker::Destroy(){
+//void SecondsToStringWorker::Destroy(){
 //
 //}
  

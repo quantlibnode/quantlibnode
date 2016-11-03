@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -73,7 +75,7 @@ NAN_METHOD(QuantLibNode::ObjectPropertyNames) {
 //
 //}
 
-//ObjectPropertyNamesWorker::Destroy(){
+//void ObjectPropertyNamesWorker::Destroy(){
 //
 //}
 
@@ -129,7 +131,7 @@ NAN_METHOD(QuantLibNode::DeleteObject) {
 //
 //}
 
-//DeleteObjectWorker::Destroy(){
+//void DeleteObjectWorker::Destroy(){
 //
 //}
 
@@ -190,7 +192,7 @@ NAN_METHOD(QuantLibNode::DeleteObjects) {
 //
 //}
 
-//DeleteObjectsWorker::Destroy(){
+//void DeleteObjectsWorker::Destroy(){
 //
 //}
 
@@ -245,7 +247,7 @@ NAN_METHOD(QuantLibNode::DeleteAllObjects) {
 //
 //}
 
-//DeleteAllObjectsWorker::Destroy(){
+//void DeleteAllObjectsWorker::Destroy(){
 //
 //}
 
@@ -306,7 +308,7 @@ NAN_METHOD(QuantLibNode::ListObjectIDs) {
 //
 //}
 
-//ListObjectIDsWorker::Destroy(){
+//void ListObjectIDsWorker::Destroy(){
 //
 //}
  

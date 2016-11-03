@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -211,7 +213,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletOriginalCalibration) {
 //
 //}
 
-//CTSMMCapletOriginalCalibrationWorker::Destroy(){
+//void CTSMMCapletOriginalCalibrationWorker::Destroy(){
 //
 //}
 
@@ -450,7 +452,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletAlphaFormCalibration) {
 //
 //}
 
-//CTSMMCapletAlphaFormCalibrationWorker::Destroy(){
+//void CTSMMCapletAlphaFormCalibrationWorker::Destroy(){
 //
 //}
 
@@ -619,7 +621,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletMaxHomogeneityCalibration) {
 //
 //}
 
-//CTSMMCapletMaxHomogeneityCalibrationWorker::Destroy(){
+//void CTSMMCapletMaxHomogeneityCalibrationWorker::Destroy(){
 //
 //}
 
@@ -738,7 +740,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationCalibrate) {
 //
 //}
 
-//CTSMMCapletCalibrationCalibrateWorker::Destroy(){
+//void CTSMMCapletCalibrationCalibrateWorker::Destroy(){
 //
 //}
 
@@ -803,7 +805,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationFailures) {
 //
 //}
 
-//CTSMMCapletCalibrationFailuresWorker::Destroy(){
+//void CTSMMCapletCalibrationFailuresWorker::Destroy(){
 //
 //}
 
@@ -868,7 +870,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationDeformationSize) {
 //
 //}
 
-//CTSMMCapletCalibrationDeformationSizeWorker::Destroy(){
+//void CTSMMCapletCalibrationDeformationSizeWorker::Destroy(){
 //
 //}
 
@@ -937,7 +939,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationMarketCapletVols) {
 //
 //}
 
-//CTSMMCapletCalibrationMarketCapletVolsWorker::Destroy(){
+//void CTSMMCapletCalibrationMarketCapletVolsWorker::Destroy(){
 //
 //}
 
@@ -1006,7 +1008,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationModelCapletVols) {
 //
 //}
 
-//CTSMMCapletCalibrationModelCapletVolsWorker::Destroy(){
+//void CTSMMCapletCalibrationModelCapletVolsWorker::Destroy(){
 //
 //}
 
@@ -1071,7 +1073,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationCapletRmsError) {
 //
 //}
 
-//CTSMMCapletCalibrationCapletRmsErrorWorker::Destroy(){
+//void CTSMMCapletCalibrationCapletRmsErrorWorker::Destroy(){
 //
 //}
 
@@ -1136,7 +1138,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationCapletMaxError) {
 //
 //}
 
-//CTSMMCapletCalibrationCapletMaxErrorWorker::Destroy(){
+//void CTSMMCapletCalibrationCapletMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -1205,7 +1207,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationMarketSwaptionVols) {
 //
 //}
 
-//CTSMMCapletCalibrationMarketSwaptionVolsWorker::Destroy(){
+//void CTSMMCapletCalibrationMarketSwaptionVolsWorker::Destroy(){
 //
 //}
 
@@ -1274,7 +1276,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationModelSwaptionVols) {
 //
 //}
 
-//CTSMMCapletCalibrationModelSwaptionVolsWorker::Destroy(){
+//void CTSMMCapletCalibrationModelSwaptionVolsWorker::Destroy(){
 //
 //}
 
@@ -1339,7 +1341,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationSwaptionRmsError) {
 //
 //}
 
-//CTSMMCapletCalibrationSwaptionRmsErrorWorker::Destroy(){
+//void CTSMMCapletCalibrationSwaptionRmsErrorWorker::Destroy(){
 //
 //}
 
@@ -1404,7 +1406,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationSwaptionMaxError) {
 //
 //}
 
-//CTSMMCapletCalibrationSwaptionMaxErrorWorker::Destroy(){
+//void CTSMMCapletCalibrationSwaptionMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -1492,7 +1494,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationSwapPseudoRoot) {
 //
 //}
 
-//CTSMMCapletCalibrationSwapPseudoRootWorker::Destroy(){
+//void CTSMMCapletCalibrationSwapPseudoRootWorker::Destroy(){
 //
 //}
 
@@ -1571,7 +1573,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationTimeDependentCalibratedSwaptionVo
 //
 //}
 
-//CTSMMCapletCalibrationTimeDependentCalibratedSwaptionVolsWorker::Destroy(){
+//void CTSMMCapletCalibrationTimeDependentCalibratedSwaptionVolsWorker::Destroy(){
 //
 //}
 
@@ -1650,7 +1652,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletCalibrationTimeDependentUnCalibratedSwaption
 //
 //}
 
-//CTSMMCapletCalibrationTimeDependentUnCalibratedSwaptionVolsWorker::Destroy(){
+//void CTSMMCapletCalibrationTimeDependentUnCalibratedSwaptionVolsWorker::Destroy(){
 //
 //}
 
@@ -1719,7 +1721,7 @@ NAN_METHOD(QuantLibNode::CTSMMCapletAlphaFormCalibrationAlpha) {
 //
 //}
 
-//CTSMMCapletAlphaFormCalibrationAlphaWorker::Destroy(){
+//void CTSMMCapletAlphaFormCalibrationAlphaWorker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -122,7 +124,7 @@ NAN_METHOD(QuantLibNode::Swap) {
 //
 //}
 
-//SwapWorker::Destroy(){
+//void SwapWorker::Destroy(){
 //
 //}
 
@@ -276,7 +278,7 @@ NAN_METHOD(QuantLibNode::MakeCms) {
 //
 //}
 
-//MakeCmsWorker::Destroy(){
+//void MakeCmsWorker::Destroy(){
 //
 //}
 
@@ -345,7 +347,7 @@ NAN_METHOD(QuantLibNode::SwapLegBPS) {
 //
 //}
 
-//SwapLegBPSWorker::Destroy(){
+//void SwapLegBPSWorker::Destroy(){
 //
 //}
 
@@ -414,7 +416,7 @@ NAN_METHOD(QuantLibNode::SwapLegNPV) {
 //
 //}
 
-//SwapLegNPVWorker::Destroy(){
+//void SwapLegNPVWorker::Destroy(){
 //
 //}
 
@@ -478,7 +480,7 @@ NAN_METHOD(QuantLibNode::SwapStartDate) {
 //
 //}
 
-//SwapStartDateWorker::Destroy(){
+//void SwapStartDateWorker::Destroy(){
 //
 //}
 
@@ -542,7 +544,7 @@ NAN_METHOD(QuantLibNode::SwapMaturityDate) {
 //
 //}
 
-//SwapMaturityDateWorker::Destroy(){
+//void SwapMaturityDateWorker::Destroy(){
 //
 //}
 
@@ -635,7 +637,7 @@ NAN_METHOD(QuantLibNode::SwapLegAnalysis) {
 //
 //}
 
-//SwapLegAnalysisWorker::Destroy(){
+//void SwapLegAnalysisWorker::Destroy(){
 //
 //}
  

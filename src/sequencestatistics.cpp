@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -95,7 +97,7 @@ NAN_METHOD(QuantLibNode::SequenceStatistics) {
 //
 //}
 
-//SequenceStatisticsWorker::Destroy(){
+//void SequenceStatisticsWorker::Destroy(){
 //
 //}
 
@@ -221,7 +223,7 @@ NAN_METHOD(QuantLibNode::SequenceStatistics2) {
 //
 //}
 
-//SequenceStatistics2Worker::Destroy(){
+//void SequenceStatistics2Worker::Destroy(){
 //
 //}
 
@@ -305,7 +307,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsInc) {
 //
 //}
 
-//SequenceStatisticsIncWorker::Destroy(){
+//void SequenceStatisticsIncWorker::Destroy(){
 //
 //}
 
@@ -431,7 +433,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsInc2) {
 //
 //}
 
-//SequenceStatisticsInc2Worker::Destroy(){
+//void SequenceStatisticsInc2Worker::Destroy(){
 //
 //}
 
@@ -496,7 +498,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsSamples) {
 //
 //}
 
-//SequenceStatisticsSamplesWorker::Destroy(){
+//void SequenceStatisticsSamplesWorker::Destroy(){
 //
 //}
 
@@ -561,7 +563,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsWeightSum) {
 //
 //}
 
-//SequenceStatisticsWeightSumWorker::Destroy(){
+//void SequenceStatisticsWeightSumWorker::Destroy(){
 //
 //}
 
@@ -630,7 +632,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsMean) {
 //
 //}
 
-//SequenceStatisticsMeanWorker::Destroy(){
+//void SequenceStatisticsMeanWorker::Destroy(){
 //
 //}
 
@@ -699,7 +701,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsVariance) {
 //
 //}
 
-//SequenceStatisticsVarianceWorker::Destroy(){
+//void SequenceStatisticsVarianceWorker::Destroy(){
 //
 //}
 
@@ -768,7 +770,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsStandardDeviation) {
 //
 //}
 
-//SequenceStatisticsStandardDeviationWorker::Destroy(){
+//void SequenceStatisticsStandardDeviationWorker::Destroy(){
 //
 //}
 
@@ -837,7 +839,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsDownsideVariance) {
 //
 //}
 
-//SequenceStatisticsDownsideVarianceWorker::Destroy(){
+//void SequenceStatisticsDownsideVarianceWorker::Destroy(){
 //
 //}
 
@@ -906,7 +908,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsDownsideDeviation) {
 //
 //}
 
-//SequenceStatisticsDownsideDeviationWorker::Destroy(){
+//void SequenceStatisticsDownsideDeviationWorker::Destroy(){
 //
 //}
 
@@ -975,7 +977,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsSemiVariance) {
 //
 //}
 
-//SequenceStatisticsSemiVarianceWorker::Destroy(){
+//void SequenceStatisticsSemiVarianceWorker::Destroy(){
 //
 //}
 
@@ -1044,7 +1046,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsSemiDeviation) {
 //
 //}
 
-//SequenceStatisticsSemiDeviationWorker::Destroy(){
+//void SequenceStatisticsSemiDeviationWorker::Destroy(){
 //
 //}
 
@@ -1113,7 +1115,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsErrorEstimate) {
 //
 //}
 
-//SequenceStatisticsErrorEstimateWorker::Destroy(){
+//void SequenceStatisticsErrorEstimateWorker::Destroy(){
 //
 //}
 
@@ -1182,7 +1184,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsSkewness) {
 //
 //}
 
-//SequenceStatisticsSkewnessWorker::Destroy(){
+//void SequenceStatisticsSkewnessWorker::Destroy(){
 //
 //}
 
@@ -1251,7 +1253,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsKurtosis) {
 //
 //}
 
-//SequenceStatisticsKurtosisWorker::Destroy(){
+//void SequenceStatisticsKurtosisWorker::Destroy(){
 //
 //}
 
@@ -1320,7 +1322,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsMin) {
 //
 //}
 
-//SequenceStatisticsMinWorker::Destroy(){
+//void SequenceStatisticsMinWorker::Destroy(){
 //
 //}
 
@@ -1389,7 +1391,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsMax) {
 //
 //}
 
-//SequenceStatisticsMaxWorker::Destroy(){
+//void SequenceStatisticsMaxWorker::Destroy(){
 //
 //}
 
@@ -1468,7 +1470,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsGaussianPercentile) {
 //
 //}
 
-//SequenceStatisticsGaussianPercentileWorker::Destroy(){
+//void SequenceStatisticsGaussianPercentileWorker::Destroy(){
 //
 //}
 
@@ -1547,7 +1549,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsPercentile) {
 //
 //}
 
-//SequenceStatisticsPercentileWorker::Destroy(){
+//void SequenceStatisticsPercentileWorker::Destroy(){
 //
 //}
 
@@ -1626,7 +1628,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsGaussianPotentialUpside) {
 //
 //}
 
-//SequenceStatisticsGaussianPotentialUpsideWorker::Destroy(){
+//void SequenceStatisticsGaussianPotentialUpsideWorker::Destroy(){
 //
 //}
 
@@ -1705,7 +1707,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsPotentialUpside) {
 //
 //}
 
-//SequenceStatisticsPotentialUpsideWorker::Destroy(){
+//void SequenceStatisticsPotentialUpsideWorker::Destroy(){
 //
 //}
 
@@ -1784,7 +1786,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsGaussianValueAtRisk) {
 //
 //}
 
-//SequenceStatisticsGaussianValueAtRiskWorker::Destroy(){
+//void SequenceStatisticsGaussianValueAtRiskWorker::Destroy(){
 //
 //}
 
@@ -1863,7 +1865,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsValueAtRisk) {
 //
 //}
 
-//SequenceStatisticsValueAtRiskWorker::Destroy(){
+//void SequenceStatisticsValueAtRiskWorker::Destroy(){
 //
 //}
 
@@ -1942,7 +1944,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsRegret) {
 //
 //}
 
-//SequenceStatisticsRegretWorker::Destroy(){
+//void SequenceStatisticsRegretWorker::Destroy(){
 //
 //}
 
@@ -2021,7 +2023,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsGaussianShortfall) {
 //
 //}
 
-//SequenceStatisticsGaussianShortfallWorker::Destroy(){
+//void SequenceStatisticsGaussianShortfallWorker::Destroy(){
 //
 //}
 
@@ -2100,7 +2102,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsShortfall) {
 //
 //}
 
-//SequenceStatisticsShortfallWorker::Destroy(){
+//void SequenceStatisticsShortfallWorker::Destroy(){
 //
 //}
 
@@ -2179,7 +2181,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsGaussianAverageShortfall) {
 //
 //}
 
-//SequenceStatisticsGaussianAverageShortfallWorker::Destroy(){
+//void SequenceStatisticsGaussianAverageShortfallWorker::Destroy(){
 //
 //}
 
@@ -2258,7 +2260,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsAverageShortfall) {
 //
 //}
 
-//SequenceStatisticsAverageShortfallWorker::Destroy(){
+//void SequenceStatisticsAverageShortfallWorker::Destroy(){
 //
 //}
 
@@ -2323,7 +2325,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsSize) {
 //
 //}
 
-//SequenceStatisticsSizeWorker::Destroy(){
+//void SequenceStatisticsSizeWorker::Destroy(){
 //
 //}
 
@@ -2398,7 +2400,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsCovariance) {
 //
 //}
 
-//SequenceStatisticsCovarianceWorker::Destroy(){
+//void SequenceStatisticsCovarianceWorker::Destroy(){
 //
 //}
 
@@ -2473,7 +2475,7 @@ NAN_METHOD(QuantLibNode::SequenceStatisticsCorrelation) {
 //
 //}
 
-//SequenceStatisticsCorrelationWorker::Destroy(){
+//void SequenceStatisticsCorrelationWorker::Destroy(){
 //
 //}
  

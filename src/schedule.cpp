@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -213,7 +215,7 @@ NAN_METHOD(QuantLibNode::Schedule) {
 //
 //}
 
-//ScheduleWorker::Destroy(){
+//void ScheduleWorker::Destroy(){
 //
 //}
 
@@ -304,7 +306,7 @@ NAN_METHOD(QuantLibNode::ScheduleFromDateVector) {
 //
 //}
 
-//ScheduleFromDateVectorWorker::Destroy(){
+//void ScheduleFromDateVectorWorker::Destroy(){
 //
 //}
 
@@ -401,7 +403,7 @@ NAN_METHOD(QuantLibNode::ScheduleTruncated) {
 //
 //}
 
-//ScheduleTruncatedWorker::Destroy(){
+//void ScheduleTruncatedWorker::Destroy(){
 //
 //}
 
@@ -466,7 +468,7 @@ NAN_METHOD(QuantLibNode::ScheduleSize) {
 //
 //}
 
-//ScheduleSizeWorker::Destroy(){
+//void ScheduleSizeWorker::Destroy(){
 //
 //}
 
@@ -542,7 +544,7 @@ NAN_METHOD(QuantLibNode::SchedulePreviousDate) {
 //
 //}
 
-//SchedulePreviousDateWorker::Destroy(){
+//void SchedulePreviousDateWorker::Destroy(){
 //
 //}
 
@@ -618,7 +620,7 @@ NAN_METHOD(QuantLibNode::ScheduleNextDate) {
 //
 //}
 
-//ScheduleNextDateWorker::Destroy(){
+//void ScheduleNextDateWorker::Destroy(){
 //
 //}
 
@@ -687,7 +689,7 @@ NAN_METHOD(QuantLibNode::ScheduleDates) {
 //
 //}
 
-//ScheduleDatesWorker::Destroy(){
+//void ScheduleDatesWorker::Destroy(){
 //
 //}
 
@@ -762,7 +764,7 @@ NAN_METHOD(QuantLibNode::ScheduleIsRegular) {
 //
 //}
 
-//ScheduleIsRegularWorker::Destroy(){
+//void ScheduleIsRegularWorker::Destroy(){
 //
 //}
 
@@ -824,7 +826,7 @@ NAN_METHOD(QuantLibNode::ScheduleEmpty) {
 //
 //}
 
-//ScheduleEmptyWorker::Destroy(){
+//void ScheduleEmptyWorker::Destroy(){
 //
 //}
 
@@ -891,7 +893,7 @@ NAN_METHOD(QuantLibNode::ScheduleCalendar) {
 //
 //}
 
-//ScheduleCalendarWorker::Destroy(){
+//void ScheduleCalendarWorker::Destroy(){
 //
 //}
 
@@ -956,7 +958,7 @@ NAN_METHOD(QuantLibNode::ScheduleStartDate) {
 //
 //}
 
-//ScheduleStartDateWorker::Destroy(){
+//void ScheduleStartDateWorker::Destroy(){
 //
 //}
 
@@ -1021,7 +1023,7 @@ NAN_METHOD(QuantLibNode::ScheduleEndDate) {
 //
 //}
 
-//ScheduleEndDateWorker::Destroy(){
+//void ScheduleEndDateWorker::Destroy(){
 //
 //}
 
@@ -1086,7 +1088,7 @@ NAN_METHOD(QuantLibNode::ScheduleTenor) {
 //
 //}
 
-//ScheduleTenorWorker::Destroy(){
+//void ScheduleTenorWorker::Destroy(){
 //
 //}
 
@@ -1153,7 +1155,7 @@ NAN_METHOD(QuantLibNode::ScheduleBDC) {
 //
 //}
 
-//ScheduleBDCWorker::Destroy(){
+//void ScheduleBDCWorker::Destroy(){
 //
 //}
 
@@ -1220,7 +1222,7 @@ NAN_METHOD(QuantLibNode::ScheduleTerminationDateBDC) {
 //
 //}
 
-//ScheduleTerminationDateBDCWorker::Destroy(){
+//void ScheduleTerminationDateBDCWorker::Destroy(){
 //
 //}
 
@@ -1287,7 +1289,7 @@ NAN_METHOD(QuantLibNode::ScheduleRule) {
 //
 //}
 
-//ScheduleRuleWorker::Destroy(){
+//void ScheduleRuleWorker::Destroy(){
 //
 //}
 
@@ -1349,7 +1351,7 @@ NAN_METHOD(QuantLibNode::ScheduleEndOfMonth) {
 //
 //}
 
-//ScheduleEndOfMonthWorker::Destroy(){
+//void ScheduleEndOfMonthWorker::Destroy(){
 //
 //}
  

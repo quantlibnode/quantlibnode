@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -171,7 +173,7 @@ NAN_METHOD(QuantLibNode::CreditBasket) {
 //
 //}
 
-//CreditBasketWorker::Destroy(){
+//void CreditBasketWorker::Destroy(){
 //
 //}
 
@@ -246,7 +248,7 @@ NAN_METHOD(QuantLibNode::CreditBasketSetLossModel) {
 //
 //}
 
-//CreditBasketSetLossModelWorker::Destroy(){
+//void CreditBasketSetLossModelWorker::Destroy(){
 //
 //}
 
@@ -310,7 +312,7 @@ NAN_METHOD(QuantLibNode::CreditBasketSize) {
 //
 //}
 
-//CreditBasketSizeWorker::Destroy(){
+//void CreditBasketSizeWorker::Destroy(){
 //
 //}
 
@@ -374,7 +376,7 @@ NAN_METHOD(QuantLibNode::CreditBasketLiveNotional) {
 //
 //}
 
-//CreditBasketLiveNotionalWorker::Destroy(){
+//void CreditBasketLiveNotionalWorker::Destroy(){
 //
 //}
 
@@ -438,7 +440,7 @@ NAN_METHOD(QuantLibNode::CreditBasketLoss) {
 //
 //}
 
-//CreditBasketLossWorker::Destroy(){
+//void CreditBasketLossWorker::Destroy(){
 //
 //}
 
@@ -502,7 +504,7 @@ NAN_METHOD(QuantLibNode::CrediBasketAttachLive) {
 //
 //}
 
-//CrediBasketAttachLiveWorker::Destroy(){
+//void CrediBasketAttachLiveWorker::Destroy(){
 //
 //}
 
@@ -566,7 +568,7 @@ NAN_METHOD(QuantLibNode::CrediBasketDetachLive) {
 //
 //}
 
-//CrediBasketDetachLiveWorker::Destroy(){
+//void CrediBasketDetachLiveWorker::Destroy(){
 //
 //}
 
@@ -641,7 +643,7 @@ NAN_METHOD(QuantLibNode::ExpectedTrancheLoss) {
 //
 //}
 
-//ExpectedTrancheLossWorker::Destroy(){
+//void ExpectedTrancheLossWorker::Destroy(){
 //
 //}
 
@@ -727,7 +729,7 @@ NAN_METHOD(QuantLibNode::CreditBasketPercentile) {
 //
 //}
 
-//CreditBasketPercentileWorker::Destroy(){
+//void CreditBasketPercentileWorker::Destroy(){
 //
 //}
 
@@ -813,7 +815,7 @@ NAN_METHOD(QuantLibNode::CreditBasketESF) {
 //
 //}
 
-//CreditBasketESFWorker::Destroy(){
+//void CreditBasketESFWorker::Destroy(){
 //
 //}
 
@@ -906,7 +908,7 @@ NAN_METHOD(QuantLibNode::CreditBasketNthEventP) {
 //
 //}
 
-//CreditBasketNthEventPWorker::Destroy(){
+//void CreditBasketNthEventPWorker::Destroy(){
 //
 //}
 
@@ -992,7 +994,7 @@ NAN_METHOD(QuantLibNode::CreditBasketProbLoss) {
 //
 //}
 
-//CreditBasketProbLossWorker::Destroy(){
+//void CreditBasketProbLossWorker::Destroy(){
 //
 //}
 
@@ -1082,7 +1084,7 @@ NAN_METHOD(QuantLibNode::CreditBasketSplitLoss) {
 //
 //}
 
-//CreditBasketSplitLossWorker::Destroy(){
+//void CreditBasketSplitLossWorker::Destroy(){
 //
 //}
 
@@ -1185,7 +1187,7 @@ NAN_METHOD(QuantLibNode::CreditBasketDefaulCorrel) {
 //
 //}
 
-//CreditBasketDefaulCorrelWorker::Destroy(){
+//void CreditBasketDefaulCorrelWorker::Destroy(){
 //
 //}
  

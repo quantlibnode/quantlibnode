@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -73,7 +75,7 @@ NAN_METHOD(QuantLibNode::InstrumentNPV) {
 //
 //}
 
-//InstrumentNPVWorker::Destroy(){
+//void InstrumentNPVWorker::Destroy(){
 //
 //}
 
@@ -134,7 +136,7 @@ NAN_METHOD(QuantLibNode::InstrumentErrorEstimate) {
 //
 //}
 
-//InstrumentErrorEstimateWorker::Destroy(){
+//void InstrumentErrorEstimateWorker::Destroy(){
 //
 //}
 
@@ -198,7 +200,7 @@ NAN_METHOD(QuantLibNode::InstrumentValuationDate) {
 //
 //}
 
-//InstrumentValuationDateWorker::Destroy(){
+//void InstrumentValuationDateWorker::Destroy(){
 //
 //}
 
@@ -268,7 +270,7 @@ NAN_METHOD(QuantLibNode::InstrumentResults) {
 //
 //}
 
-//InstrumentResultsWorker::Destroy(){
+//void InstrumentResultsWorker::Destroy(){
 //
 //}
 
@@ -329,7 +331,7 @@ NAN_METHOD(QuantLibNode::InstrumentIsExpired) {
 //
 //}
 
-//InstrumentIsExpiredWorker::Destroy(){
+//void InstrumentIsExpiredWorker::Destroy(){
 //
 //}
 
@@ -402,7 +404,7 @@ NAN_METHOD(QuantLibNode::InstrumentSetPricingEngine) {
 //
 //}
 
-//InstrumentSetPricingEngineWorker::Destroy(){
+//void InstrumentSetPricingEngineWorker::Destroy(){
 //
 //}
  

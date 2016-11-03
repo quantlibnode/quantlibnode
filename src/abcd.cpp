@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -120,7 +122,7 @@ NAN_METHOD(QuantLibNode::AbcdFunction) {
 //
 //}
 
-//AbcdFunctionWorker::Destroy(){
+//void AbcdFunctionWorker::Destroy(){
 //
 //}
 
@@ -329,7 +331,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibration) {
 //
 //}
 
-//AbcdCalibrationWorker::Destroy(){
+//void AbcdCalibrationWorker::Destroy(){
 //
 //}
 
@@ -419,7 +421,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionInstantaneousValue) {
 //
 //}
 
-//AbcdFunctionInstantaneousValueWorker::Destroy(){
+//void AbcdFunctionInstantaneousValueWorker::Destroy(){
 //
 //}
 
@@ -525,7 +527,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionInstantaneousCovariance) {
 //
 //}
 
-//AbcdFunctionInstantaneousCovarianceWorker::Destroy(){
+//void AbcdFunctionInstantaneousCovarianceWorker::Destroy(){
 //
 //}
 
@@ -623,7 +625,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionInstantaneousVariance) {
 //
 //}
 
-//AbcdFunctionInstantaneousVarianceWorker::Destroy(){
+//void AbcdFunctionInstantaneousVarianceWorker::Destroy(){
 //
 //}
 
@@ -721,7 +723,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionInstantaneousVolatility) {
 //
 //}
 
-//AbcdFunctionInstantaneousVolatilityWorker::Destroy(){
+//void AbcdFunctionInstantaneousVolatilityWorker::Destroy(){
 //
 //}
 
@@ -835,7 +837,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionCovariance) {
 //
 //}
 
-//AbcdFunctionCovarianceWorker::Destroy(){
+//void AbcdFunctionCovarianceWorker::Destroy(){
 //
 //}
 
@@ -941,7 +943,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionVariance) {
 //
 //}
 
-//AbcdFunctionVarianceWorker::Destroy(){
+//void AbcdFunctionVarianceWorker::Destroy(){
 //
 //}
 
@@ -1047,7 +1049,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionVolatility) {
 //
 //}
 
-//AbcdFunctionVolatilityWorker::Destroy(){
+//void AbcdFunctionVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1108,7 +1110,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionShortTermVolatility) {
 //
 //}
 
-//AbcdFunctionShortTermVolatilityWorker::Destroy(){
+//void AbcdFunctionShortTermVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1169,7 +1171,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionLongTermVolatility) {
 //
 //}
 
-//AbcdFunctionLongTermVolatilityWorker::Destroy(){
+//void AbcdFunctionLongTermVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1230,7 +1232,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionMaximumLocation) {
 //
 //}
 
-//AbcdFunctionMaximumLocationWorker::Destroy(){
+//void AbcdFunctionMaximumLocationWorker::Destroy(){
 //
 //}
 
@@ -1291,7 +1293,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionMaximumVolatility) {
 //
 //}
 
-//AbcdFunctionMaximumVolatilityWorker::Destroy(){
+//void AbcdFunctionMaximumVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1352,7 +1354,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionA) {
 //
 //}
 
-//AbcdFunctionAWorker::Destroy(){
+//void AbcdFunctionAWorker::Destroy(){
 //
 //}
 
@@ -1413,7 +1415,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionB) {
 //
 //}
 
-//AbcdFunctionBWorker::Destroy(){
+//void AbcdFunctionBWorker::Destroy(){
 //
 //}
 
@@ -1474,7 +1476,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionC) {
 //
 //}
 
-//AbcdFunctionCWorker::Destroy(){
+//void AbcdFunctionCWorker::Destroy(){
 //
 //}
 
@@ -1535,7 +1537,7 @@ NAN_METHOD(QuantLibNode::AbcdFunctionD) {
 //
 //}
 
-//AbcdFunctionDWorker::Destroy(){
+//void AbcdFunctionDWorker::Destroy(){
 //
 //}
 
@@ -1596,7 +1598,7 @@ NAN_METHOD(QuantLibNode::AbcdDFunction) {
 //
 //}
 
-//AbcdDFunctionWorker::Destroy(){
+//void AbcdDFunctionWorker::Destroy(){
 //
 //}
 
@@ -1657,7 +1659,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationCompute) {
 //
 //}
 
-//AbcdCalibrationComputeWorker::Destroy(){
+//void AbcdCalibrationComputeWorker::Destroy(){
 //
 //}
 
@@ -1749,7 +1751,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationK) {
 //
 //}
 
-//AbcdCalibrationKWorker::Destroy(){
+//void AbcdCalibrationKWorker::Destroy(){
 //
 //}
 
@@ -1810,7 +1812,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationError) {
 //
 //}
 
-//AbcdCalibrationErrorWorker::Destroy(){
+//void AbcdCalibrationErrorWorker::Destroy(){
 //
 //}
 
@@ -1871,7 +1873,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationMaxError) {
 //
 //}
 
-//AbcdCalibrationMaxErrorWorker::Destroy(){
+//void AbcdCalibrationMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -1937,7 +1939,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationEndCriteria) {
 //
 //}
 
-//AbcdCalibrationEndCriteriaWorker::Destroy(){
+//void AbcdCalibrationEndCriteriaWorker::Destroy(){
 //
 //}
 
@@ -1998,7 +2000,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationA) {
 //
 //}
 
-//AbcdCalibrationAWorker::Destroy(){
+//void AbcdCalibrationAWorker::Destroy(){
 //
 //}
 
@@ -2059,7 +2061,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationB) {
 //
 //}
 
-//AbcdCalibrationBWorker::Destroy(){
+//void AbcdCalibrationBWorker::Destroy(){
 //
 //}
 
@@ -2120,7 +2122,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationC) {
 //
 //}
 
-//AbcdCalibrationCWorker::Destroy(){
+//void AbcdCalibrationCWorker::Destroy(){
 //
 //}
 
@@ -2181,7 +2183,7 @@ NAN_METHOD(QuantLibNode::AbcdCalibrationD) {
 //
 //}
 
-//AbcdCalibrationDWorker::Destroy(){
+//void AbcdCalibrationDWorker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -108,7 +110,7 @@ NAN_METHOD(QuantLibNode::SymmetricSchurDecomposition) {
 //
 //}
 
-//SymmetricSchurDecompositionWorker::Destroy(){
+//void SymmetricSchurDecompositionWorker::Destroy(){
 //
 //}
 
@@ -210,7 +212,7 @@ NAN_METHOD(QuantLibNode::CovarianceDecomposition) {
 //
 //}
 
-//CovarianceDecompositionWorker::Destroy(){
+//void CovarianceDecompositionWorker::Destroy(){
 //
 //}
 
@@ -280,7 +282,7 @@ NAN_METHOD(QuantLibNode::SymmetricSchurDecompositionEigenvalues) {
 //
 //}
 
-//SymmetricSchurDecompositionEigenvaluesWorker::Destroy(){
+//void SymmetricSchurDecompositionEigenvaluesWorker::Destroy(){
 //
 //}
 
@@ -354,7 +356,7 @@ NAN_METHOD(QuantLibNode::SymmetricSchurDecompositionEigenvectors) {
 //
 //}
 
-//SymmetricSchurDecompositionEigenvectorsWorker::Destroy(){
+//void SymmetricSchurDecompositionEigenvectorsWorker::Destroy(){
 //
 //}
 
@@ -424,7 +426,7 @@ NAN_METHOD(QuantLibNode::CovarianceDecompositionVariances) {
 //
 //}
 
-//CovarianceDecompositionVariancesWorker::Destroy(){
+//void CovarianceDecompositionVariancesWorker::Destroy(){
 //
 //}
 
@@ -494,7 +496,7 @@ NAN_METHOD(QuantLibNode::CovarianceDecompositionStandardDeviations) {
 //
 //}
 
-//CovarianceDecompositionStandardDeviationsWorker::Destroy(){
+//void CovarianceDecompositionStandardDeviationsWorker::Destroy(){
 //
 //}
 
@@ -568,7 +570,7 @@ NAN_METHOD(QuantLibNode::CovarianceDecompositionCorrelationMatrix) {
 //
 //}
 
-//CovarianceDecompositionCorrelationMatrixWorker::Destroy(){
+//void CovarianceDecompositionCorrelationMatrixWorker::Destroy(){
 //
 //}
 
@@ -623,7 +625,7 @@ NAN_METHOD(QuantLibNode::PrimeNumber) {
 //
 //}
 
-//PrimeNumberWorker::Destroy(){
+//void PrimeNumberWorker::Destroy(){
 //
 //}
 
@@ -705,7 +707,7 @@ NAN_METHOD(QuantLibNode::NormDist) {
 //
 //}
 
-//NormDistWorker::Destroy(){
+//void NormDistWorker::Destroy(){
 //
 //}
 
@@ -760,7 +762,7 @@ NAN_METHOD(QuantLibNode::NormSDist) {
 //
 //}
 
-//NormSDistWorker::Destroy(){
+//void NormSDistWorker::Destroy(){
 //
 //}
 
@@ -833,7 +835,7 @@ NAN_METHOD(QuantLibNode::NormInv) {
 //
 //}
 
-//NormInvWorker::Destroy(){
+//void NormInvWorker::Destroy(){
 //
 //}
 
@@ -888,7 +890,7 @@ NAN_METHOD(QuantLibNode::NormSInv) {
 //
 //}
 
-//NormSInvWorker::Destroy(){
+//void NormSInvWorker::Destroy(){
 //
 //}
 
@@ -981,7 +983,7 @@ NAN_METHOD(QuantLibNode::CholeskyDecomposition) {
 //
 //}
 
-//CholeskyDecompositionWorker::Destroy(){
+//void CholeskyDecompositionWorker::Destroy(){
 //
 //}
 
@@ -1080,7 +1082,7 @@ NAN_METHOD(QuantLibNode::PseudoSqrt) {
 //
 //}
 
-//PseudoSqrtWorker::Destroy(){
+//void PseudoSqrtWorker::Destroy(){
 //
 //}
 
@@ -1197,7 +1199,7 @@ NAN_METHOD(QuantLibNode::RankReducedSqrt) {
 //
 //}
 
-//RankReducedSqrtWorker::Destroy(){
+//void RankReducedSqrtWorker::Destroy(){
 //
 //}
 
@@ -1305,7 +1307,7 @@ NAN_METHOD(QuantLibNode::GetCovariance) {
 //
 //}
 
-//GetCovarianceWorker::Destroy(){
+//void GetCovarianceWorker::Destroy(){
 //
 //}
  

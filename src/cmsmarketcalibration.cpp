@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -153,7 +155,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibration) {
 //
 //}
 
-//CmsMarketCalibrationWorker::Destroy(){
+//void CmsMarketCalibrationWorker::Destroy(){
 //
 //}
 
@@ -278,7 +280,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibrationCompute) {
 //
 //}
 
-//CmsMarketCalibrationComputeWorker::Destroy(){
+//void CmsMarketCalibrationComputeWorker::Destroy(){
 //
 //}
 
@@ -339,7 +341,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibrationError) {
 //
 //}
 
-//CmsMarketCalibrationErrorWorker::Destroy(){
+//void CmsMarketCalibrationErrorWorker::Destroy(){
 //
 //}
 
@@ -405,7 +407,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibrationEndCriteria) {
 //
 //}
 
-//CmsMarketCalibrationEndCriteriaWorker::Destroy(){
+//void CmsMarketCalibrationEndCriteriaWorker::Destroy(){
 //
 //}
 
@@ -465,7 +467,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibrationElapsed) {
 //
 //}
 
-//CmsMarketCalibrationElapsedWorker::Destroy(){
+//void CmsMarketCalibrationElapsedWorker::Destroy(){
 //
 //}
 
@@ -538,7 +540,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibrationSparseSabrParameters) {
 //
 //}
 
-//CmsMarketCalibrationSparseSabrParametersWorker::Destroy(){
+//void CmsMarketCalibrationSparseSabrParametersWorker::Destroy(){
 //
 //}
 
@@ -611,7 +613,7 @@ NAN_METHOD(QuantLibNode::CmsMarketCalibrationDenseSabrParameters) {
 //
 //}
 
-//CmsMarketCalibrationDenseSabrParametersWorker::Destroy(){
+//void CmsMarketCalibrationDenseSabrParametersWorker::Destroy(){
 //
 //}
 
@@ -684,7 +686,7 @@ NAN_METHOD(QuantLibNode::SimultaneousCalibrationBrowseCmsMarket) {
 //
 //}
 
-//SimultaneousCalibrationBrowseCmsMarketWorker::Destroy(){
+//void SimultaneousCalibrationBrowseCmsMarketWorker::Destroy(){
 //
 //}
  

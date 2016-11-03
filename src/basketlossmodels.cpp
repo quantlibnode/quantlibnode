@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -110,7 +112,7 @@ NAN_METHOD(QuantLibNode::GaussianLHPLossmodel) {
 //
 //}
 
-//GaussianLHPLossmodelWorker::Destroy(){
+//void GaussianLHPLossmodelWorker::Destroy(){
 //
 //}
 
@@ -219,7 +221,7 @@ NAN_METHOD(QuantLibNode::IHGaussPoolLossModel) {
 //
 //}
 
-//IHGaussPoolLossModelWorker::Destroy(){
+//void IHGaussPoolLossModelWorker::Destroy(){
 //
 //}
 
@@ -342,7 +344,7 @@ NAN_METHOD(QuantLibNode::IHStudentPoolLossModel) {
 //
 //}
 
-//IHStudentPoolLossModelWorker::Destroy(){
+//void IHStudentPoolLossModelWorker::Destroy(){
 //
 //}
 
@@ -445,7 +447,7 @@ NAN_METHOD(QuantLibNode::GBinomialLossmodel) {
 //
 //}
 
-//GBinomialLossmodelWorker::Destroy(){
+//void GBinomialLossmodelWorker::Destroy(){
 //
 //}
 
@@ -562,7 +564,7 @@ NAN_METHOD(QuantLibNode::TBinomialLossmodel) {
 //
 //}
 
-//TBinomialLossmodelWorker::Destroy(){
+//void TBinomialLossmodelWorker::Destroy(){
 //
 //}
 
@@ -695,7 +697,7 @@ NAN_METHOD(QuantLibNode::BaseCorrelationLossModel) {
 //
 //}
 
-//BaseCorrelationLossModelWorker::Destroy(){
+//void BaseCorrelationLossModelWorker::Destroy(){
 //
 //}
 
@@ -812,7 +814,7 @@ NAN_METHOD(QuantLibNode::GMCLossModel) {
 //
 //}
 
-//GMCLossModelWorker::Destroy(){
+//void GMCLossModelWorker::Destroy(){
 //
 //}
 
@@ -940,7 +942,7 @@ NAN_METHOD(QuantLibNode::GRandomRRMCLossModel) {
 //
 //}
 
-//GRandomRRMCLossModelWorker::Destroy(){
+//void GRandomRRMCLossModelWorker::Destroy(){
 //
 //}
 
@@ -1071,7 +1073,7 @@ NAN_METHOD(QuantLibNode::TMCLossModel) {
 //
 //}
 
-//TMCLossModelWorker::Destroy(){
+//void TMCLossModelWorker::Destroy(){
 //
 //}
 
@@ -1213,7 +1215,7 @@ NAN_METHOD(QuantLibNode::TRandomRRMCLossModel) {
 //
 //}
 
-//TRandomRRMCLossModelWorker::Destroy(){
+//void TRandomRRMCLossModelWorker::Destroy(){
 //
 //}
 
@@ -1316,7 +1318,7 @@ NAN_METHOD(QuantLibNode::GSaddlePointLossmodel) {
 //
 //}
 
-//GSaddlePointLossmodelWorker::Destroy(){
+//void GSaddlePointLossmodelWorker::Destroy(){
 //
 //}
 
@@ -1433,7 +1435,7 @@ NAN_METHOD(QuantLibNode::TSaddlePointLossmodel) {
 //
 //}
 
-//TSaddlePointLossmodelWorker::Destroy(){
+//void TSaddlePointLossmodelWorker::Destroy(){
 //
 //}
 
@@ -1536,7 +1538,7 @@ NAN_METHOD(QuantLibNode::GRecursiveLossmodel) {
 //
 //}
 
-//GRecursiveLossmodelWorker::Destroy(){
+//void GRecursiveLossmodelWorker::Destroy(){
 //
 //}
  

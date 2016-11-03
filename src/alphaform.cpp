@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -107,7 +109,7 @@ NAN_METHOD(QuantLibNode::AlphaFormInverseLinear) {
 //
 //}
 
-//AlphaFormInverseLinearWorker::Destroy(){
+//void AlphaFormInverseLinearWorker::Destroy(){
 //
 //}
 
@@ -202,7 +204,7 @@ NAN_METHOD(QuantLibNode::AlphaFormLinearHyperbolic) {
 //
 //}
 
-//AlphaFormLinearHyperbolicWorker::Destroy(){
+//void AlphaFormLinearHyperbolicWorker::Destroy(){
 //
 //}
 
@@ -280,7 +282,7 @@ NAN_METHOD(QuantLibNode::AlphaFormOperator) {
 //
 //}
 
-//AlphaFormOperatorWorker::Destroy(){
+//void AlphaFormOperatorWorker::Destroy(){
 //
 //}
 
@@ -352,7 +354,7 @@ NAN_METHOD(QuantLibNode::AlphaFormSetAlpha) {
 //
 //}
 
-//AlphaFormSetAlphaWorker::Destroy(){
+//void AlphaFormSetAlphaWorker::Destroy(){
 //
 //}
  

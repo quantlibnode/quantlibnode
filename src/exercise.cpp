@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -114,7 +116,7 @@ NAN_METHOD(QuantLibNode::AmericanExercise) {
 //
 //}
 
-//AmericanExerciseWorker::Destroy(){
+//void AmericanExerciseWorker::Destroy(){
 //
 //}
 
@@ -196,7 +198,7 @@ NAN_METHOD(QuantLibNode::EuropeanExercise) {
 //
 //}
 
-//EuropeanExerciseWorker::Destroy(){
+//void EuropeanExerciseWorker::Destroy(){
 //
 //}
 
@@ -296,7 +298,7 @@ NAN_METHOD(QuantLibNode::BermudanExercise) {
 //
 //}
 
-//BermudanExerciseWorker::Destroy(){
+//void BermudanExerciseWorker::Destroy(){
 //
 //}
 
@@ -364,7 +366,7 @@ NAN_METHOD(QuantLibNode::ExerciseDates) {
 //
 //}
 
-//ExerciseDatesWorker::Destroy(){
+//void ExerciseDatesWorker::Destroy(){
 //
 //}
 
@@ -428,7 +430,7 @@ NAN_METHOD(QuantLibNode::ExerciseLastDate) {
 //
 //}
 
-//ExerciseLastDateWorker::Destroy(){
+//void ExerciseLastDateWorker::Destroy(){
 //
 //}
  

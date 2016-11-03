@@ -1,0 +1,4 @@
+*.cpp eol=lf
+*.hpp eol=lf
+*.js eol=lf
+*.cmake eol=lf

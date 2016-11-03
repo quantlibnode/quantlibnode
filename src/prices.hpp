@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_header.h
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #ifndef prices_h
 #define prices_h

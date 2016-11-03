@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -118,7 +120,7 @@ NAN_METHOD(QuantLibNode::HullWhite) {
 //
 //}
 
-//HullWhiteWorker::Destroy(){
+//void HullWhiteWorker::Destroy(){
 //
 //}
 
@@ -233,7 +235,7 @@ NAN_METHOD(QuantLibNode::Vasicek) {
 //
 //}
 
-//VasicekWorker::Destroy(){
+//void VasicekWorker::Destroy(){
 //
 //}
 
@@ -364,7 +366,7 @@ NAN_METHOD(QuantLibNode::ModelG2) {
 //
 //}
 
-//ModelG2Worker::Destroy(){
+//void ModelG2Worker::Destroy(){
 //
 //}
 
@@ -428,7 +430,7 @@ NAN_METHOD(QuantLibNode::VasicekA) {
 //
 //}
 
-//VasicekAWorker::Destroy(){
+//void VasicekAWorker::Destroy(){
 //
 //}
 
@@ -492,7 +494,7 @@ NAN_METHOD(QuantLibNode::VasicekB) {
 //
 //}
 
-//VasicekBWorker::Destroy(){
+//void VasicekBWorker::Destroy(){
 //
 //}
 
@@ -556,7 +558,7 @@ NAN_METHOD(QuantLibNode::VasicekLambda) {
 //
 //}
 
-//VasicekLambdaWorker::Destroy(){
+//void VasicekLambdaWorker::Destroy(){
 //
 //}
 
@@ -620,7 +622,7 @@ NAN_METHOD(QuantLibNode::VasicekSigma) {
 //
 //}
 
-//VasicekSigmaWorker::Destroy(){
+//void VasicekSigmaWorker::Destroy(){
 //
 //}
 
@@ -684,7 +686,7 @@ NAN_METHOD(QuantLibNode::ModelG2A) {
 //
 //}
 
-//ModelG2AWorker::Destroy(){
+//void ModelG2AWorker::Destroy(){
 //
 //}
 
@@ -748,7 +750,7 @@ NAN_METHOD(QuantLibNode::ModelG2sigma) {
 //
 //}
 
-//ModelG2sigmaWorker::Destroy(){
+//void ModelG2sigmaWorker::Destroy(){
 //
 //}
 
@@ -812,7 +814,7 @@ NAN_METHOD(QuantLibNode::ModelG2B) {
 //
 //}
 
-//ModelG2BWorker::Destroy(){
+//void ModelG2BWorker::Destroy(){
 //
 //}
 
@@ -876,7 +878,7 @@ NAN_METHOD(QuantLibNode::ModelG2eta) {
 //
 //}
 
-//ModelG2etaWorker::Destroy(){
+//void ModelG2etaWorker::Destroy(){
 //
 //}
 
@@ -940,7 +942,7 @@ NAN_METHOD(QuantLibNode::ModelG2rho) {
 //
 //}
 
-//ModelG2rhoWorker::Destroy(){
+//void ModelG2rhoWorker::Destroy(){
 //
 //}
 
@@ -1031,7 +1033,7 @@ NAN_METHOD(QuantLibNode::FuturesConvexityBias) {
 //
 //}
 
-//FuturesConvexityBiasWorker::Destroy(){
+//void FuturesConvexityBiasWorker::Destroy(){
 //
 //}
  

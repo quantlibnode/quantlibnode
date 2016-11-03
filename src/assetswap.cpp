@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -182,7 +184,7 @@ NAN_METHOD(QuantLibNode::AssetSwap) {
 //
 //}
 
-//AssetSwapWorker::Destroy(){
+//void AssetSwapWorker::Destroy(){
 //
 //}
 
@@ -363,7 +365,7 @@ NAN_METHOD(QuantLibNode::AssetSwap2) {
 //
 //}
 
-//AssetSwap2Worker::Destroy(){
+//void AssetSwap2Worker::Destroy(){
 //
 //}
 
@@ -447,7 +449,7 @@ NAN_METHOD(QuantLibNode::AssetSwapBondLegAnalysis) {
 //
 //}
 
-//AssetSwapBondLegAnalysisWorker::Destroy(){
+//void AssetSwapBondLegAnalysisWorker::Destroy(){
 //
 //}
 
@@ -531,7 +533,7 @@ NAN_METHOD(QuantLibNode::AssetSwapFloatingLegAnalysis) {
 //
 //}
 
-//AssetSwapFloatingLegAnalysisWorker::Destroy(){
+//void AssetSwapFloatingLegAnalysisWorker::Destroy(){
 //
 //}
 
@@ -592,7 +594,7 @@ NAN_METHOD(QuantLibNode::AssetSwapFairSpread) {
 //
 //}
 
-//AssetSwapFairSpreadWorker::Destroy(){
+//void AssetSwapFairSpreadWorker::Destroy(){
 //
 //}
 
@@ -653,7 +655,7 @@ NAN_METHOD(QuantLibNode::AssetSwapFloatingLegBPS) {
 //
 //}
 
-//AssetSwapFloatingLegBPSWorker::Destroy(){
+//void AssetSwapFloatingLegBPSWorker::Destroy(){
 //
 //}
 
@@ -717,7 +719,7 @@ NAN_METHOD(QuantLibNode::AssetSwapFairCleanPrice) {
 //
 //}
 
-//AssetSwapFairCleanPriceWorker::Destroy(){
+//void AssetSwapFairCleanPriceWorker::Destroy(){
 //
 //}
 
@@ -781,7 +783,7 @@ NAN_METHOD(QuantLibNode::AssetSwapFairNonParRepayment) {
 //
 //}
 
-//AssetSwapFairNonParRepaymentWorker::Destroy(){
+//void AssetSwapFairNonParRepaymentWorker::Destroy(){
 //
 //}
 
@@ -842,7 +844,7 @@ NAN_METHOD(QuantLibNode::AssetSwapParSwap) {
 //
 //}
 
-//AssetSwapParSwapWorker::Destroy(){
+//void AssetSwapParSwapWorker::Destroy(){
 //
 //}
 
@@ -903,7 +905,7 @@ NAN_METHOD(QuantLibNode::AssetSwapPayBondCoupon) {
 //
 //}
 
-//AssetSwapPayBondCouponWorker::Destroy(){
+//void AssetSwapPayBondCouponWorker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -133,7 +135,7 @@ NAN_METHOD(QuantLibNode::ForwardRatePc) {
 //
 //}
 
-//ForwardRatePcWorker::Destroy(){
+//void ForwardRatePcWorker::Destroy(){
 //
 //}
 
@@ -253,7 +255,7 @@ NAN_METHOD(QuantLibNode::ForwardRateIpc) {
 //
 //}
 
-//ForwardRateIpcWorker::Destroy(){
+//void ForwardRateIpcWorker::Destroy(){
 //
 //}
 
@@ -373,7 +375,7 @@ NAN_METHOD(QuantLibNode::ForwardRateNormalPc) {
 //
 //}
 
-//ForwardRateNormalPcWorker::Destroy(){
+//void ForwardRateNormalPcWorker::Destroy(){
 //
 //}
 
@@ -434,7 +436,7 @@ NAN_METHOD(QuantLibNode::MarketModelEvolverStartNewPath) {
 //
 //}
 
-//MarketModelEvolverStartNewPathWorker::Destroy(){
+//void MarketModelEvolverStartNewPathWorker::Destroy(){
 //
 //}
 
@@ -495,7 +497,7 @@ NAN_METHOD(QuantLibNode::MarketModelEvolverAdvanceStep) {
 //
 //}
 
-//MarketModelEvolverAdvanceStepWorker::Destroy(){
+//void MarketModelEvolverAdvanceStepWorker::Destroy(){
 //
 //}
 
@@ -559,7 +561,7 @@ NAN_METHOD(QuantLibNode::MarketModelEvolverCurrentStep) {
 //
 //}
 
-//MarketModelEvolverCurrentStepWorker::Destroy(){
+//void MarketModelEvolverCurrentStepWorker::Destroy(){
 //
 //}
 
@@ -627,7 +629,7 @@ NAN_METHOD(QuantLibNode::MarketModelEvolverNumeraires) {
 //
 //}
 
-//MarketModelEvolverNumerairesWorker::Destroy(){
+//void MarketModelEvolverNumerairesWorker::Destroy(){
 //
 //}
  

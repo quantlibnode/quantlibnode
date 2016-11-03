@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -139,7 +141,7 @@ NAN_METHOD(QuantLibNode::BlackCalculator2) {
 //
 //}
 
-//BlackCalculator2Worker::Destroy(){
+//void BlackCalculator2Worker::Destroy(){
 //
 //}
 
@@ -268,7 +270,7 @@ NAN_METHOD(QuantLibNode::BlackCalculator) {
 //
 //}
 
-//BlackCalculatorWorker::Destroy(){
+//void BlackCalculatorWorker::Destroy(){
 //
 //}
 
@@ -395,7 +397,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculator2) {
 //
 //}
 
-//BlackScholesCalculator2Worker::Destroy(){
+//void BlackScholesCalculator2Worker::Destroy(){
 //
 //}
 
@@ -533,7 +535,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculator) {
 //
 //}
 
-//BlackScholesCalculatorWorker::Destroy(){
+//void BlackScholesCalculatorWorker::Destroy(){
 //
 //}
 
@@ -628,7 +630,7 @@ NAN_METHOD(QuantLibNode::PricingEngine) {
 //
 //}
 
-//PricingEngineWorker::Destroy(){
+//void PricingEngineWorker::Destroy(){
 //
 //}
 
@@ -747,7 +749,7 @@ NAN_METHOD(QuantLibNode::DiscountingSwapEngine) {
 //
 //}
 
-//DiscountingSwapEngineWorker::Destroy(){
+//void DiscountingSwapEngineWorker::Destroy(){
 //
 //}
 
@@ -851,7 +853,7 @@ NAN_METHOD(QuantLibNode::BinomialPricingEngine) {
 //
 //}
 
-//BinomialPricingEngineWorker::Destroy(){
+//void BinomialPricingEngineWorker::Destroy(){
 //
 //}
 
@@ -964,7 +966,7 @@ NAN_METHOD(QuantLibNode::BlackSwaptionEngine) {
 //
 //}
 
-//BlackSwaptionEngineWorker::Destroy(){
+//void BlackSwaptionEngineWorker::Destroy(){
 //
 //}
 
@@ -1088,7 +1090,7 @@ NAN_METHOD(QuantLibNode::BlackSwaptionEngine2) {
 //
 //}
 
-//BlackSwaptionEngine2Worker::Destroy(){
+//void BlackSwaptionEngine2Worker::Destroy(){
 //
 //}
 
@@ -1201,7 +1203,7 @@ NAN_METHOD(QuantLibNode::BlackCapFloorEngine) {
 //
 //}
 
-//BlackCapFloorEngineWorker::Destroy(){
+//void BlackCapFloorEngineWorker::Destroy(){
 //
 //}
 
@@ -1325,7 +1327,7 @@ NAN_METHOD(QuantLibNode::BlackCapFloorEngine2) {
 //
 //}
 
-//BlackCapFloorEngine2Worker::Destroy(){
+//void BlackCapFloorEngine2Worker::Destroy(){
 //
 //}
 
@@ -1410,7 +1412,7 @@ NAN_METHOD(QuantLibNode::AnalyticCapFloorEngine) {
 //
 //}
 
-//AnalyticCapFloorEngineWorker::Destroy(){
+//void AnalyticCapFloorEngineWorker::Destroy(){
 //
 //}
 
@@ -1496,7 +1498,7 @@ NAN_METHOD(QuantLibNode::BondEngine) {
 //
 //}
 
-//BondEngineWorker::Destroy(){
+//void BondEngineWorker::Destroy(){
 //
 //}
 
@@ -1597,7 +1599,7 @@ NAN_METHOD(QuantLibNode::JamshidianSwaptionEngine) {
 //
 //}
 
-//JamshidianSwaptionEngineWorker::Destroy(){
+//void JamshidianSwaptionEngineWorker::Destroy(){
 //
 //}
 
@@ -1712,7 +1714,7 @@ NAN_METHOD(QuantLibNode::TreeSwaptionEngine) {
 //
 //}
 
-//TreeSwaptionEngineWorker::Destroy(){
+//void TreeSwaptionEngineWorker::Destroy(){
 //
 //}
 
@@ -1822,7 +1824,7 @@ NAN_METHOD(QuantLibNode::ModelG2SwaptionEngine) {
 //
 //}
 
-//ModelG2SwaptionEngineWorker::Destroy(){
+//void ModelG2SwaptionEngineWorker::Destroy(){
 //
 //}
 
@@ -1883,7 +1885,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorValue) {
 //
 //}
 
-//BlackCalculatorValueWorker::Destroy(){
+//void BlackCalculatorValueWorker::Destroy(){
 //
 //}
 
@@ -1944,7 +1946,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorDeltaForward) {
 //
 //}
 
-//BlackCalculatorDeltaForwardWorker::Destroy(){
+//void BlackCalculatorDeltaForwardWorker::Destroy(){
 //
 //}
 
@@ -2015,7 +2017,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorDelta) {
 //
 //}
 
-//BlackCalculatorDeltaWorker::Destroy(){
+//void BlackCalculatorDeltaWorker::Destroy(){
 //
 //}
 
@@ -2076,7 +2078,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorElasticityForward) {
 //
 //}
 
-//BlackCalculatorElasticityForwardWorker::Destroy(){
+//void BlackCalculatorElasticityForwardWorker::Destroy(){
 //
 //}
 
@@ -2147,7 +2149,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorElasticity) {
 //
 //}
 
-//BlackCalculatorElasticityWorker::Destroy(){
+//void BlackCalculatorElasticityWorker::Destroy(){
 //
 //}
 
@@ -2208,7 +2210,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorGammaForward) {
 //
 //}
 
-//BlackCalculatorGammaForwardWorker::Destroy(){
+//void BlackCalculatorGammaForwardWorker::Destroy(){
 //
 //}
 
@@ -2279,7 +2281,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorGamma) {
 //
 //}
 
-//BlackCalculatorGammaWorker::Destroy(){
+//void BlackCalculatorGammaWorker::Destroy(){
 //
 //}
 
@@ -2359,7 +2361,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorTheta) {
 //
 //}
 
-//BlackCalculatorThetaWorker::Destroy(){
+//void BlackCalculatorThetaWorker::Destroy(){
 //
 //}
 
@@ -2439,7 +2441,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorThetaPerDay) {
 //
 //}
 
-//BlackCalculatorThetaPerDayWorker::Destroy(){
+//void BlackCalculatorThetaPerDayWorker::Destroy(){
 //
 //}
 
@@ -2508,7 +2510,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorVega) {
 //
 //}
 
-//BlackCalculatorVegaWorker::Destroy(){
+//void BlackCalculatorVegaWorker::Destroy(){
 //
 //}
 
@@ -2577,7 +2579,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorRho) {
 //
 //}
 
-//BlackCalculatorRhoWorker::Destroy(){
+//void BlackCalculatorRhoWorker::Destroy(){
 //
 //}
 
@@ -2646,7 +2648,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorDividendRho) {
 //
 //}
 
-//BlackCalculatorDividendRhoWorker::Destroy(){
+//void BlackCalculatorDividendRhoWorker::Destroy(){
 //
 //}
 
@@ -2707,7 +2709,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorItmCashProbability) {
 //
 //}
 
-//BlackCalculatorItmCashProbabilityWorker::Destroy(){
+//void BlackCalculatorItmCashProbabilityWorker::Destroy(){
 //
 //}
 
@@ -2768,7 +2770,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorItmAssetProbability) {
 //
 //}
 
-//BlackCalculatorItmAssetProbabilityWorker::Destroy(){
+//void BlackCalculatorItmAssetProbabilityWorker::Destroy(){
 //
 //}
 
@@ -2829,7 +2831,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorStrikeSensitivity) {
 //
 //}
 
-//BlackCalculatorStrikeSensitivityWorker::Destroy(){
+//void BlackCalculatorStrikeSensitivityWorker::Destroy(){
 //
 //}
 
@@ -2890,7 +2892,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorAlpha) {
 //
 //}
 
-//BlackCalculatorAlphaWorker::Destroy(){
+//void BlackCalculatorAlphaWorker::Destroy(){
 //
 //}
 
@@ -2951,7 +2953,7 @@ NAN_METHOD(QuantLibNode::BlackCalculatorBeta) {
 //
 //}
 
-//BlackCalculatorBetaWorker::Destroy(){
+//void BlackCalculatorBetaWorker::Destroy(){
 //
 //}
 
@@ -3012,7 +3014,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculatorDelta) {
 //
 //}
 
-//BlackScholesCalculatorDeltaWorker::Destroy(){
+//void BlackScholesCalculatorDeltaWorker::Destroy(){
 //
 //}
 
@@ -3073,7 +3075,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculatorElasticity) {
 //
 //}
 
-//BlackScholesCalculatorElasticityWorker::Destroy(){
+//void BlackScholesCalculatorElasticityWorker::Destroy(){
 //
 //}
 
@@ -3134,7 +3136,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculatorGamma) {
 //
 //}
 
-//BlackScholesCalculatorGammaWorker::Destroy(){
+//void BlackScholesCalculatorGammaWorker::Destroy(){
 //
 //}
 
@@ -3203,7 +3205,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculatorTheta) {
 //
 //}
 
-//BlackScholesCalculatorThetaWorker::Destroy(){
+//void BlackScholesCalculatorThetaWorker::Destroy(){
 //
 //}
 
@@ -3272,7 +3274,7 @@ NAN_METHOD(QuantLibNode::BlackScholesCalculatorThetaPerDay) {
 //
 //}
 
-//BlackScholesCalculatorThetaPerDayWorker::Destroy(){
+//void BlackScholesCalculatorThetaPerDayWorker::Destroy(){
 //
 //}
 
@@ -3391,7 +3393,7 @@ NAN_METHOD(QuantLibNode::BlackFormula) {
 //
 //}
 
-//BlackFormulaWorker::Destroy(){
+//void BlackFormulaWorker::Destroy(){
 //
 //}
 
@@ -3499,7 +3501,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaCashItmProbability) {
 //
 //}
 
-//BlackFormulaCashItmProbabilityWorker::Destroy(){
+//void BlackFormulaCashItmProbabilityWorker::Destroy(){
 //
 //}
 
@@ -3618,7 +3620,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaImpliedStdDevApproximation) {
 //
 //}
 
-//BlackFormulaImpliedStdDevApproximationWorker::Destroy(){
+//void BlackFormulaImpliedStdDevApproximationWorker::Destroy(){
 //
 //}
 
@@ -3771,7 +3773,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaImpliedStdDev) {
 //
 //}
 
-//BlackFormulaImpliedStdDevWorker::Destroy(){
+//void BlackFormulaImpliedStdDevWorker::Destroy(){
 //
 //}
 
@@ -3875,7 +3877,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaStdDevDerivative) {
 //
 //}
 
-//BlackFormulaStdDevDerivativeWorker::Destroy(){
+//void BlackFormulaStdDevDerivativeWorker::Destroy(){
 //
 //}
 
@@ -3983,7 +3985,7 @@ NAN_METHOD(QuantLibNode::BachelierBlackFormula) {
 //
 //}
 
-//BachelierBlackFormulaWorker::Destroy(){
+//void BachelierBlackFormulaWorker::Destroy(){
 //
 //}
 
@@ -4091,7 +4093,7 @@ NAN_METHOD(QuantLibNode::BlackFormula2) {
 //
 //}
 
-//BlackFormula2Worker::Destroy(){
+//void BlackFormula2Worker::Destroy(){
 //
 //}
 
@@ -4188,7 +4190,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaCashItmProbability2) {
 //
 //}
 
-//BlackFormulaCashItmProbability2Worker::Destroy(){
+//void BlackFormulaCashItmProbability2Worker::Destroy(){
 //
 //}
 
@@ -4296,7 +4298,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaImpliedStdDevApproximation2) {
 //
 //}
 
-//BlackFormulaImpliedStdDevApproximation2Worker::Destroy(){
+//void BlackFormulaImpliedStdDevApproximation2Worker::Destroy(){
 //
 //}
 
@@ -4438,7 +4440,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaImpliedStdDev2) {
 //
 //}
 
-//BlackFormulaImpliedStdDev2Worker::Destroy(){
+//void BlackFormulaImpliedStdDev2Worker::Destroy(){
 //
 //}
 
@@ -4546,7 +4548,7 @@ NAN_METHOD(QuantLibNode::BlackFormulaStdDevDerivative2) {
 //
 //}
 
-//BlackFormulaStdDevDerivative2Worker::Destroy(){
+//void BlackFormulaStdDevDerivative2Worker::Destroy(){
 //
 //}
 
@@ -4643,7 +4645,7 @@ NAN_METHOD(QuantLibNode::BachelierBlackFormula2) {
 //
 //}
 
-//BachelierBlackFormula2Worker::Destroy(){
+//void BachelierBlackFormula2Worker::Destroy(){
 //
 //}
  

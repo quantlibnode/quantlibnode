@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -125,7 +127,7 @@ NAN_METHOD(QuantLibNode::StrikedTypePayoff) {
 //
 //}
 
-//StrikedTypePayoffWorker::Destroy(){
+//void StrikedTypePayoffWorker::Destroy(){
 //
 //}
 
@@ -316,7 +318,7 @@ NAN_METHOD(QuantLibNode::DoubleStickyRatchetPayoff) {
 //
 //}
 
-//DoubleStickyRatchetPayoffWorker::Destroy(){
+//void DoubleStickyRatchetPayoffWorker::Destroy(){
 //
 //}
 
@@ -452,7 +454,7 @@ NAN_METHOD(QuantLibNode::RatchetPayoff) {
 //
 //}
 
-//RatchetPayoffWorker::Destroy(){
+//void RatchetPayoffWorker::Destroy(){
 //
 //}
 
@@ -588,7 +590,7 @@ NAN_METHOD(QuantLibNode::StickyPayoff) {
 //
 //}
 
-//StickyPayoffWorker::Destroy(){
+//void StickyPayoffWorker::Destroy(){
 //
 //}
 
@@ -757,7 +759,7 @@ NAN_METHOD(QuantLibNode::RatchetMaxPayoff) {
 //
 //}
 
-//RatchetMaxPayoffWorker::Destroy(){
+//void RatchetMaxPayoffWorker::Destroy(){
 //
 //}
 
@@ -926,7 +928,7 @@ NAN_METHOD(QuantLibNode::RatchetMinPayoff) {
 //
 //}
 
-//RatchetMinPayoffWorker::Destroy(){
+//void RatchetMinPayoffWorker::Destroy(){
 //
 //}
 
@@ -1095,7 +1097,7 @@ NAN_METHOD(QuantLibNode::StickyMaxPayoff) {
 //
 //}
 
-//StickyMaxPayoffWorker::Destroy(){
+//void StickyMaxPayoffWorker::Destroy(){
 //
 //}
 
@@ -1264,7 +1266,7 @@ NAN_METHOD(QuantLibNode::StickyMinPayoff) {
 //
 //}
 
-//StickyMinPayoffWorker::Destroy(){
+//void StickyMinPayoffWorker::Destroy(){
 //
 //}
 
@@ -1325,7 +1327,7 @@ NAN_METHOD(QuantLibNode::PayoffName) {
 //
 //}
 
-//PayoffNameWorker::Destroy(){
+//void PayoffNameWorker::Destroy(){
 //
 //}
 
@@ -1386,7 +1388,7 @@ NAN_METHOD(QuantLibNode::PayoffDescription) {
 //
 //}
 
-//PayoffDescriptionWorker::Destroy(){
+//void PayoffDescriptionWorker::Destroy(){
 //
 //}
 
@@ -1457,7 +1459,7 @@ NAN_METHOD(QuantLibNode::PayoffValue) {
 //
 //}
 
-//PayoffValueWorker::Destroy(){
+//void PayoffValueWorker::Destroy(){
 //
 //}
 
@@ -1523,7 +1525,7 @@ NAN_METHOD(QuantLibNode::PayoffOptionType) {
 //
 //}
 
-//PayoffOptionTypeWorker::Destroy(){
+//void PayoffOptionTypeWorker::Destroy(){
 //
 //}
 
@@ -1587,7 +1589,7 @@ NAN_METHOD(QuantLibNode::PayoffStrike) {
 //
 //}
 
-//PayoffStrikeWorker::Destroy(){
+//void PayoffStrikeWorker::Destroy(){
 //
 //}
 
@@ -1650,7 +1652,7 @@ NAN_METHOD(QuantLibNode::PayoffThirdParameter) {
 //
 //}
 
-//PayoffThirdParameterWorker::Destroy(){
+//void PayoffThirdParameterWorker::Destroy(){
 //
 //}
  

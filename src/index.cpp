@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -215,7 +217,7 @@ NAN_METHOD(QuantLibNode::IborIndex) {
 //
 //}
 
-//IborIndexWorker::Destroy(){
+//void IborIndexWorker::Destroy(){
 //
 //}
 
@@ -368,7 +370,7 @@ NAN_METHOD(QuantLibNode::OvernightIndex) {
 //
 //}
 
-//OvernightIndexWorker::Destroy(){
+//void OvernightIndexWorker::Destroy(){
 //
 //}
 
@@ -464,7 +466,7 @@ NAN_METHOD(QuantLibNode::Euribor) {
 //
 //}
 
-//EuriborWorker::Destroy(){
+//void EuriborWorker::Destroy(){
 //
 //}
 
@@ -560,7 +562,7 @@ NAN_METHOD(QuantLibNode::Euribor365) {
 //
 //}
 
-//Euribor365Worker::Destroy(){
+//void Euribor365Worker::Destroy(){
 //
 //}
 
@@ -646,7 +648,7 @@ NAN_METHOD(QuantLibNode::Eonia) {
 //
 //}
 
-//EoniaWorker::Destroy(){
+//void EoniaWorker::Destroy(){
 //
 //}
 
@@ -757,7 +759,7 @@ NAN_METHOD(QuantLibNode::Libor) {
 //
 //}
 
-//LiborWorker::Destroy(){
+//void LiborWorker::Destroy(){
 //
 //}
 
@@ -843,7 +845,7 @@ NAN_METHOD(QuantLibNode::Sonia) {
 //
 //}
 
-//SoniaWorker::Destroy(){
+//void SoniaWorker::Destroy(){
 //
 //}
 
@@ -1056,7 +1058,7 @@ NAN_METHOD(QuantLibNode::SwapIndex) {
 //
 //}
 
-//SwapIndexWorker::Destroy(){
+//void SwapIndexWorker::Destroy(){
 //
 //}
 
@@ -1188,7 +1190,7 @@ NAN_METHOD(QuantLibNode::EuriborSwap) {
 //
 //}
 
-//EuriborSwapWorker::Destroy(){
+//void EuriborSwapWorker::Destroy(){
 //
 //}
 
@@ -1335,7 +1337,7 @@ NAN_METHOD(QuantLibNode::LiborSwap) {
 //
 //}
 
-//LiborSwapWorker::Destroy(){
+//void LiborSwapWorker::Destroy(){
 //
 //}
 
@@ -1452,7 +1454,7 @@ NAN_METHOD(QuantLibNode::EuriborSwapIsdaFixA) {
 //
 //}
 
-//EuriborSwapIsdaFixAWorker::Destroy(){
+//void EuriborSwapIsdaFixAWorker::Destroy(){
 //
 //}
 
@@ -1538,7 +1540,7 @@ NAN_METHOD(QuantLibNode::BMAIndex) {
 //
 //}
 
-//BMAIndexWorker::Destroy(){
+//void BMAIndexWorker::Destroy(){
 //
 //}
 
@@ -1753,7 +1755,7 @@ NAN_METHOD(QuantLibNode::ProxyIbor) {
 //
 //}
 
-//ProxyIborWorker::Destroy(){
+//void ProxyIborWorker::Destroy(){
 //
 //}
 
@@ -1814,7 +1816,7 @@ NAN_METHOD(QuantLibNode::IndexName) {
 //
 //}
 
-//IndexNameWorker::Destroy(){
+//void IndexNameWorker::Destroy(){
 //
 //}
 
@@ -1880,7 +1882,7 @@ NAN_METHOD(QuantLibNode::IndexFixingCalendar) {
 //
 //}
 
-//IndexFixingCalendarWorker::Destroy(){
+//void IndexFixingCalendarWorker::Destroy(){
 //
 //}
 
@@ -1977,7 +1979,7 @@ NAN_METHOD(QuantLibNode::IndexIsValidFixingDate) {
 //
 //}
 
-//IndexIsValidFixingDateWorker::Destroy(){
+//void IndexIsValidFixingDateWorker::Destroy(){
 //
 //}
 
@@ -2087,7 +2089,7 @@ NAN_METHOD(QuantLibNode::IndexFixing) {
 //
 //}
 
-//IndexFixingWorker::Destroy(){
+//void IndexFixingWorker::Destroy(){
 //
 //}
 
@@ -2195,7 +2197,7 @@ NAN_METHOD(QuantLibNode::IndexAddFixings) {
 //
 //}
 
-//IndexAddFixingsWorker::Destroy(){
+//void IndexAddFixingsWorker::Destroy(){
 //
 //}
 
@@ -2273,7 +2275,7 @@ NAN_METHOD(QuantLibNode::IndexAddFixings2) {
 //
 //}
 
-//IndexAddFixings2Worker::Destroy(){
+//void IndexAddFixings2Worker::Destroy(){
 //
 //}
 
@@ -2334,7 +2336,7 @@ NAN_METHOD(QuantLibNode::IndexClearFixings) {
 //
 //}
 
-//IndexClearFixingsWorker::Destroy(){
+//void IndexClearFixingsWorker::Destroy(){
 //
 //}
 
@@ -2395,7 +2397,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexFamilyName) {
 //
 //}
 
-//InterestRateIndexFamilyNameWorker::Destroy(){
+//void InterestRateIndexFamilyNameWorker::Destroy(){
 //
 //}
 
@@ -2459,7 +2461,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexTenor) {
 //
 //}
 
-//InterestRateIndexTenorWorker::Destroy(){
+//void InterestRateIndexTenorWorker::Destroy(){
 //
 //}
 
@@ -2523,7 +2525,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexFixingDays) {
 //
 //}
 
-//InterestRateIndexFixingDaysWorker::Destroy(){
+//void InterestRateIndexFixingDaysWorker::Destroy(){
 //
 //}
 
@@ -2589,7 +2591,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexCurrency) {
 //
 //}
 
-//InterestRateIndexCurrencyWorker::Destroy(){
+//void InterestRateIndexCurrencyWorker::Destroy(){
 //
 //}
 
@@ -2655,7 +2657,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexDayCounter) {
 //
 //}
 
-//InterestRateIndexDayCounterWorker::Destroy(){
+//void InterestRateIndexDayCounterWorker::Destroy(){
 //
 //}
 
@@ -2757,7 +2759,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexValueDate) {
 //
 //}
 
-//InterestRateIndexValueDateWorker::Destroy(){
+//void InterestRateIndexValueDateWorker::Destroy(){
 //
 //}
 
@@ -2859,7 +2861,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexFixingDate) {
 //
 //}
 
-//InterestRateIndexFixingDateWorker::Destroy(){
+//void InterestRateIndexFixingDateWorker::Destroy(){
 //
 //}
 
@@ -2961,7 +2963,7 @@ NAN_METHOD(QuantLibNode::InterestRateIndexMaturity) {
 //
 //}
 
-//InterestRateIndexMaturityWorker::Destroy(){
+//void InterestRateIndexMaturityWorker::Destroy(){
 //
 //}
 
@@ -3027,7 +3029,7 @@ NAN_METHOD(QuantLibNode::IborIndexBusinessDayConv) {
 //
 //}
 
-//IborIndexBusinessDayConvWorker::Destroy(){
+//void IborIndexBusinessDayConvWorker::Destroy(){
 //
 //}
 
@@ -3088,7 +3090,7 @@ NAN_METHOD(QuantLibNode::IborIndexEndOfMonth) {
 //
 //}
 
-//IborIndexEndOfMonthWorker::Destroy(){
+//void IborIndexEndOfMonthWorker::Destroy(){
 //
 //}
 
@@ -3152,7 +3154,7 @@ NAN_METHOD(QuantLibNode::SwapIndexFixedLegTenor) {
 //
 //}
 
-//SwapIndexFixedLegTenorWorker::Destroy(){
+//void SwapIndexFixedLegTenorWorker::Destroy(){
 //
 //}
 
@@ -3218,7 +3220,7 @@ NAN_METHOD(QuantLibNode::SwapIndexFixedLegBDC) {
 //
 //}
 
-//SwapIndexFixedLegBDCWorker::Destroy(){
+//void SwapIndexFixedLegBDCWorker::Destroy(){
 //
 //}
  

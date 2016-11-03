@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -130,7 +132,7 @@ NAN_METHOD(QuantLibNode::Leg) {
 //
 //}
 
-//LegWorker::Destroy(){
+//void LegWorker::Destroy(){
 //
 //}
 
@@ -215,7 +217,7 @@ NAN_METHOD(QuantLibNode::LegFromCapFloor) {
 //
 //}
 
-//LegFromCapFloorWorker::Destroy(){
+//void LegFromCapFloorWorker::Destroy(){
 //
 //}
 
@@ -309,7 +311,7 @@ NAN_METHOD(QuantLibNode::LegFromSwap) {
 //
 //}
 
-//LegFromSwapWorker::Destroy(){
+//void LegFromSwapWorker::Destroy(){
 //
 //}
 
@@ -408,7 +410,7 @@ NAN_METHOD(QuantLibNode::MultiPhaseLeg) {
 //
 //}
 
-//MultiPhaseLegWorker::Destroy(){
+//void MultiPhaseLegWorker::Destroy(){
 //
 //}
 
@@ -532,7 +534,7 @@ NAN_METHOD(QuantLibNode::InterestRate) {
 //
 //}
 
-//InterestRateWorker::Destroy(){
+//void InterestRateWorker::Destroy(){
 //
 //}
 
@@ -616,7 +618,7 @@ NAN_METHOD(QuantLibNode::LegFlowAnalysis) {
 //
 //}
 
-//LegFlowAnalysisWorker::Destroy(){
+//void LegFlowAnalysisWorker::Destroy(){
 //
 //}
 
@@ -695,7 +697,7 @@ NAN_METHOD(QuantLibNode::LegSetCouponPricers) {
 //
 //}
 
-//LegSetCouponPricersWorker::Destroy(){
+//void LegSetCouponPricersWorker::Destroy(){
 //
 //}
 
@@ -757,7 +759,7 @@ NAN_METHOD(QuantLibNode::InterestRateRate) {
 //
 //}
 
-//InterestRateRateWorker::Destroy(){
+//void InterestRateRateWorker::Destroy(){
 //
 //}
 
@@ -824,7 +826,7 @@ NAN_METHOD(QuantLibNode::InterestRateDayCounter) {
 //
 //}
 
-//InterestRateDayCounterWorker::Destroy(){
+//void InterestRateDayCounterWorker::Destroy(){
 //
 //}
 
@@ -891,7 +893,7 @@ NAN_METHOD(QuantLibNode::InterestRateCompounding) {
 //
 //}
 
-//InterestRateCompoundingWorker::Destroy(){
+//void InterestRateCompoundingWorker::Destroy(){
 //
 //}
 
@@ -958,7 +960,7 @@ NAN_METHOD(QuantLibNode::InterestRateFrequency) {
 //
 //}
 
-//InterestRateFrequencyWorker::Destroy(){
+//void InterestRateFrequencyWorker::Destroy(){
 //
 //}
 
@@ -1070,7 +1072,7 @@ NAN_METHOD(QuantLibNode::InterestRateDiscountFactor) {
 //
 //}
 
-//InterestRateDiscountFactorWorker::Destroy(){
+//void InterestRateDiscountFactorWorker::Destroy(){
 //
 //}
 
@@ -1182,7 +1184,7 @@ NAN_METHOD(QuantLibNode::InterestRateCompoundFactor) {
 //
 //}
 
-//InterestRateCompoundFactorWorker::Destroy(){
+//void InterestRateCompoundFactorWorker::Destroy(){
 //
 //}
 
@@ -1339,7 +1341,7 @@ NAN_METHOD(QuantLibNode::InterestRateEquivalentRate) {
 //
 //}
 
-//InterestRateEquivalentRateWorker::Destroy(){
+//void InterestRateEquivalentRateWorker::Destroy(){
 //
 //}
 
@@ -1403,7 +1405,7 @@ NAN_METHOD(QuantLibNode::LegStartDate) {
 //
 //}
 
-//LegStartDateWorker::Destroy(){
+//void LegStartDateWorker::Destroy(){
 //
 //}
 
@@ -1467,7 +1469,7 @@ NAN_METHOD(QuantLibNode::LegMaturityDate) {
 //
 //}
 
-//LegMaturityDateWorker::Destroy(){
+//void LegMaturityDateWorker::Destroy(){
 //
 //}
 
@@ -1549,7 +1551,7 @@ NAN_METHOD(QuantLibNode::LegIsExpired) {
 //
 //}
 
-//LegIsExpiredWorker::Destroy(){
+//void LegIsExpiredWorker::Destroy(){
 //
 //}
 
@@ -1634,7 +1636,7 @@ NAN_METHOD(QuantLibNode::LegPreviousCashFlowDate) {
 //
 //}
 
-//LegPreviousCashFlowDateWorker::Destroy(){
+//void LegPreviousCashFlowDateWorker::Destroy(){
 //
 //}
 
@@ -1719,7 +1721,7 @@ NAN_METHOD(QuantLibNode::LegNextCashFlowDate) {
 //
 //}
 
-//LegNextCashFlowDateWorker::Destroy(){
+//void LegNextCashFlowDateWorker::Destroy(){
 //
 //}
 
@@ -1804,7 +1806,7 @@ NAN_METHOD(QuantLibNode::LegPreviousCashFlowAmount) {
 //
 //}
 
-//LegPreviousCashFlowAmountWorker::Destroy(){
+//void LegPreviousCashFlowAmountWorker::Destroy(){
 //
 //}
 
@@ -1889,7 +1891,7 @@ NAN_METHOD(QuantLibNode::LegNextCashFlowAmount) {
 //
 //}
 
-//LegNextCashFlowAmountWorker::Destroy(){
+//void LegNextCashFlowAmountWorker::Destroy(){
 //
 //}
 
@@ -1971,7 +1973,7 @@ NAN_METHOD(QuantLibNode::LegPreviousCouponRate) {
 //
 //}
 
-//LegPreviousCouponRateWorker::Destroy(){
+//void LegPreviousCouponRateWorker::Destroy(){
 //
 //}
 
@@ -2053,7 +2055,7 @@ NAN_METHOD(QuantLibNode::LegNextCouponRate) {
 //
 //}
 
-//LegNextCouponRateWorker::Destroy(){
+//void LegNextCouponRateWorker::Destroy(){
 //
 //}
 
@@ -2138,7 +2140,7 @@ NAN_METHOD(QuantLibNode::LegNominal) {
 //
 //}
 
-//LegNominalWorker::Destroy(){
+//void LegNominalWorker::Destroy(){
 //
 //}
 
@@ -2223,7 +2225,7 @@ NAN_METHOD(QuantLibNode::LegAccrualStartDate) {
 //
 //}
 
-//LegAccrualStartDateWorker::Destroy(){
+//void LegAccrualStartDateWorker::Destroy(){
 //
 //}
 
@@ -2308,7 +2310,7 @@ NAN_METHOD(QuantLibNode::LegAccrualEndDate) {
 //
 //}
 
-//LegAccrualEndDateWorker::Destroy(){
+//void LegAccrualEndDateWorker::Destroy(){
 //
 //}
 
@@ -2393,7 +2395,7 @@ NAN_METHOD(QuantLibNode::LegReferencePeriodStart) {
 //
 //}
 
-//LegReferencePeriodStartWorker::Destroy(){
+//void LegReferencePeriodStartWorker::Destroy(){
 //
 //}
 
@@ -2478,7 +2480,7 @@ NAN_METHOD(QuantLibNode::LegReferencePeriodEnd) {
 //
 //}
 
-//LegReferencePeriodEndWorker::Destroy(){
+//void LegReferencePeriodEndWorker::Destroy(){
 //
 //}
 
@@ -2560,7 +2562,7 @@ NAN_METHOD(QuantLibNode::LegAccrualPeriod) {
 //
 //}
 
-//LegAccrualPeriodWorker::Destroy(){
+//void LegAccrualPeriodWorker::Destroy(){
 //
 //}
 
@@ -2642,7 +2644,7 @@ NAN_METHOD(QuantLibNode::LegAccrualDays) {
 //
 //}
 
-//LegAccrualDaysWorker::Destroy(){
+//void LegAccrualDaysWorker::Destroy(){
 //
 //}
 
@@ -2724,7 +2726,7 @@ NAN_METHOD(QuantLibNode::LegAccruedPeriod) {
 //
 //}
 
-//LegAccruedPeriodWorker::Destroy(){
+//void LegAccruedPeriodWorker::Destroy(){
 //
 //}
 
@@ -2806,7 +2808,7 @@ NAN_METHOD(QuantLibNode::LegAccruedDays) {
 //
 //}
 
-//LegAccruedDaysWorker::Destroy(){
+//void LegAccruedDaysWorker::Destroy(){
 //
 //}
 
@@ -2891,7 +2893,7 @@ NAN_METHOD(QuantLibNode::LegAccruedAmount) {
 //
 //}
 
-//LegAccruedAmountWorker::Destroy(){
+//void LegAccruedAmountWorker::Destroy(){
 //
 //}
 
@@ -3000,7 +3002,7 @@ NAN_METHOD(QuantLibNode::LegNPV) {
 //
 //}
 
-//LegNPVWorker::Destroy(){
+//void LegNPVWorker::Destroy(){
 //
 //}
 
@@ -3109,7 +3111,7 @@ NAN_METHOD(QuantLibNode::LegBPS) {
 //
 //}
 
-//LegBPSWorker::Destroy(){
+//void LegBPSWorker::Destroy(){
 //
 //}
 
@@ -3229,7 +3231,7 @@ NAN_METHOD(QuantLibNode::LegAtmRate) {
 //
 //}
 
-//LegAtmRateWorker::Destroy(){
+//void LegAtmRateWorker::Destroy(){
 //
 //}
 
@@ -3380,7 +3382,7 @@ NAN_METHOD(QuantLibNode::LegNPVFromYield) {
 //
 //}
 
-//LegNPVFromYieldWorker::Destroy(){
+//void LegNPVFromYieldWorker::Destroy(){
 //
 //}
 
@@ -3528,7 +3530,7 @@ NAN_METHOD(QuantLibNode::LegBPSFromYield) {
 //
 //}
 
-//LegBPSFromYieldWorker::Destroy(){
+//void LegBPSFromYieldWorker::Destroy(){
 //
 //}
 
@@ -3712,7 +3714,7 @@ NAN_METHOD(QuantLibNode::LegYield) {
 //
 //}
 
-//LegYieldWorker::Destroy(){
+//void LegYieldWorker::Destroy(){
 //
 //}
 
@@ -3875,7 +3877,7 @@ NAN_METHOD(QuantLibNode::LegDuration) {
 //
 //}
 
-//LegDurationWorker::Destroy(){
+//void LegDurationWorker::Destroy(){
 //
 //}
 
@@ -4026,7 +4028,7 @@ NAN_METHOD(QuantLibNode::LegConvexity) {
 //
 //}
 
-//LegConvexityWorker::Destroy(){
+//void LegConvexityWorker::Destroy(){
 //
 //}
 
@@ -4177,7 +4179,7 @@ NAN_METHOD(QuantLibNode::LegBasisPointValue) {
 //
 //}
 
-//LegBasisPointValueWorker::Destroy(){
+//void LegBasisPointValueWorker::Destroy(){
 //
 //}
 
@@ -4328,7 +4330,7 @@ NAN_METHOD(QuantLibNode::LegYieldValueBasisPoint) {
 //
 //}
 
-//LegYieldValueBasisPointWorker::Destroy(){
+//void LegYieldValueBasisPointWorker::Destroy(){
 //
 //}
 
@@ -4494,7 +4496,7 @@ NAN_METHOD(QuantLibNode::LegNPVFromZSpread) {
 //
 //}
 
-//LegNPVFromZSpreadWorker::Destroy(){
+//void LegNPVFromZSpreadWorker::Destroy(){
 //
 //}
 
@@ -4693,7 +4695,7 @@ NAN_METHOD(QuantLibNode::LegZSpread) {
 //
 //}
 
-//LegZSpreadWorker::Destroy(){
+//void LegZSpreadWorker::Destroy(){
 //
 //}
 
@@ -4846,7 +4848,7 @@ NAN_METHOD(QuantLibNode::InterestRateImpliedRate) {
 //
 //}
 
-//InterestRateImpliedRateWorker::Destroy(){
+//void InterestRateImpliedRateWorker::Destroy(){
 //
 //}
  

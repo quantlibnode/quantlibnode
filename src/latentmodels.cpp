@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -117,7 +119,7 @@ NAN_METHOD(QuantLibNode::GaussianDefaultProbLM) {
 //
 //}
 
-//GaussianDefaultProbLMWorker::Destroy(){
+//void GaussianDefaultProbLMWorker::Destroy(){
 //
 //}
 
@@ -241,7 +243,7 @@ NAN_METHOD(QuantLibNode::TDefaultProbLM) {
 //
 //}
 
-//TDefaultProbLMWorker::Destroy(){
+//void TDefaultProbLMWorker::Destroy(){
 //
 //}
 
@@ -344,7 +346,7 @@ NAN_METHOD(QuantLibNode::GaussianLMDefaultCorrel) {
 //
 //}
 
-//GaussianLMDefaultCorrelWorker::Destroy(){
+//void GaussianLMDefaultCorrelWorker::Destroy(){
 //
 //}
 
@@ -435,7 +437,7 @@ NAN_METHOD(QuantLibNode::GaussianLMAssetCorrel) {
 //
 //}
 
-//GaussianLMAssetCorrelWorker::Destroy(){
+//void GaussianLMAssetCorrelWorker::Destroy(){
 //
 //}
 
@@ -524,7 +526,7 @@ NAN_METHOD(QuantLibNode::GaussianLMProbNHits) {
 //
 //}
 
-//GaussianLMProbNHitsWorker::Destroy(){
+//void GaussianLMProbNHitsWorker::Destroy(){
 //
 //}
 
@@ -627,7 +629,7 @@ NAN_METHOD(QuantLibNode::TLMDefaultCorrel) {
 //
 //}
 
-//TLMDefaultCorrelWorker::Destroy(){
+//void TLMDefaultCorrelWorker::Destroy(){
 //
 //}
 
@@ -718,7 +720,7 @@ NAN_METHOD(QuantLibNode::TLMAssetCorrel) {
 //
 //}
 
-//TLMAssetCorrelWorker::Destroy(){
+//void TLMAssetCorrelWorker::Destroy(){
 //
 //}
 
@@ -807,7 +809,7 @@ NAN_METHOD(QuantLibNode::TLMProbNHits) {
 //
 //}
 
-//TLMProbNHitsWorker::Destroy(){
+//void TLMProbNHitsWorker::Destroy(){
 //
 //}
  

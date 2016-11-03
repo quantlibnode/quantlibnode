@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -122,7 +124,7 @@ NAN_METHOD(QuantLibNode::TimeSeries) {
 //
 //}
 
-//TimeSeriesWorker::Destroy(){
+//void TimeSeriesWorker::Destroy(){
 //
 //}
 
@@ -207,7 +209,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesFromIndex) {
 //
 //}
 
-//TimeSeriesFromIndexWorker::Destroy(){
+//void TimeSeriesFromIndexWorker::Destroy(){
 //
 //}
 
@@ -272,7 +274,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesFirstDate) {
 //
 //}
 
-//TimeSeriesFirstDateWorker::Destroy(){
+//void TimeSeriesFirstDateWorker::Destroy(){
 //
 //}
 
@@ -337,7 +339,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesLastDate) {
 //
 //}
 
-//TimeSeriesLastDateWorker::Destroy(){
+//void TimeSeriesLastDateWorker::Destroy(){
 //
 //}
 
@@ -402,7 +404,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesSize) {
 //
 //}
 
-//TimeSeriesSizeWorker::Destroy(){
+//void TimeSeriesSizeWorker::Destroy(){
 //
 //}
 
@@ -464,7 +466,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesEmpty) {
 //
 //}
 
-//TimeSeriesEmptyWorker::Destroy(){
+//void TimeSeriesEmptyWorker::Destroy(){
 //
 //}
 
@@ -533,7 +535,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesDates) {
 //
 //}
 
-//TimeSeriesDatesWorker::Destroy(){
+//void TimeSeriesDatesWorker::Destroy(){
 //
 //}
 
@@ -602,7 +604,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesValues) {
 //
 //}
 
-//TimeSeriesValuesWorker::Destroy(){
+//void TimeSeriesValuesWorker::Destroy(){
 //
 //}
 
@@ -704,7 +706,7 @@ NAN_METHOD(QuantLibNode::TimeSeriesValue) {
 //
 //}
 
-//TimeSeriesValueWorker::Destroy(){
+//void TimeSeriesValueWorker::Destroy(){
 //
 //}
  

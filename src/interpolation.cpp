@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -136,7 +138,7 @@ NAN_METHOD(QuantLibNode::Interpolation) {
 //
 //}
 
-//InterpolationWorker::Destroy(){
+//void InterpolationWorker::Destroy(){
 //
 //}
 
@@ -336,7 +338,7 @@ NAN_METHOD(QuantLibNode::MixedLinearCubicInterpolation) {
 //
 //}
 
-//MixedLinearCubicInterpolationWorker::Destroy(){
+//void MixedLinearCubicInterpolationWorker::Destroy(){
 //
 //}
 
@@ -522,7 +524,7 @@ NAN_METHOD(QuantLibNode::CubicInterpolation) {
 //
 //}
 
-//CubicInterpolationWorker::Destroy(){
+//void CubicInterpolationWorker::Destroy(){
 //
 //}
 
@@ -751,7 +753,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolation) {
 //
 //}
 
-//AbcdInterpolationWorker::Destroy(){
+//void AbcdInterpolationWorker::Destroy(){
 //
 //}
 
@@ -1001,7 +1003,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolation) {
 //
 //}
 
-//SABRInterpolationWorker::Destroy(){
+//void SABRInterpolationWorker::Destroy(){
 //
 //}
 
@@ -1142,7 +1144,7 @@ NAN_METHOD(QuantLibNode::Interpolation2D) {
 //
 //}
 
-//Interpolation2DWorker::Destroy(){
+//void Interpolation2DWorker::Destroy(){
 //
 //}
 
@@ -1210,7 +1212,7 @@ NAN_METHOD(QuantLibNode::ExtrapolatorEnableExtrapolation) {
 //
 //}
 
-//ExtrapolatorEnableExtrapolationWorker::Destroy(){
+//void ExtrapolatorEnableExtrapolationWorker::Destroy(){
 //
 //}
 
@@ -1317,7 +1319,7 @@ NAN_METHOD(QuantLibNode::InterpolationInterpolate) {
 //
 //}
 
-//InterpolationInterpolateWorker::Destroy(){
+//void InterpolationInterpolateWorker::Destroy(){
 //
 //}
 
@@ -1424,7 +1426,7 @@ NAN_METHOD(QuantLibNode::InterpolationDerivative) {
 //
 //}
 
-//InterpolationDerivativeWorker::Destroy(){
+//void InterpolationDerivativeWorker::Destroy(){
 //
 //}
 
@@ -1531,7 +1533,7 @@ NAN_METHOD(QuantLibNode::InterpolationSecondDerivative) {
 //
 //}
 
-//InterpolationSecondDerivativeWorker::Destroy(){
+//void InterpolationSecondDerivativeWorker::Destroy(){
 //
 //}
 
@@ -1638,7 +1640,7 @@ NAN_METHOD(QuantLibNode::InterpolationPrimitive) {
 //
 //}
 
-//InterpolationPrimitiveWorker::Destroy(){
+//void InterpolationPrimitiveWorker::Destroy(){
 //
 //}
 
@@ -1733,7 +1735,7 @@ NAN_METHOD(QuantLibNode::InterpolationIsInRange) {
 //
 //}
 
-//InterpolationIsInRangeWorker::Destroy(){
+//void InterpolationIsInRangeWorker::Destroy(){
 //
 //}
 
@@ -1797,7 +1799,7 @@ NAN_METHOD(QuantLibNode::InterpolationXmin) {
 //
 //}
 
-//InterpolationXminWorker::Destroy(){
+//void InterpolationXminWorker::Destroy(){
 //
 //}
 
@@ -1861,7 +1863,7 @@ NAN_METHOD(QuantLibNode::InterpolationXmax) {
 //
 //}
 
-//InterpolationXmaxWorker::Destroy(){
+//void InterpolationXmaxWorker::Destroy(){
 //
 //}
 
@@ -1928,7 +1930,7 @@ NAN_METHOD(QuantLibNode::CubicInterpolationPrimitiveConstants) {
 //
 //}
 
-//CubicInterpolationPrimitiveConstantsWorker::Destroy(){
+//void CubicInterpolationPrimitiveConstantsWorker::Destroy(){
 //
 //}
 
@@ -1995,7 +1997,7 @@ NAN_METHOD(QuantLibNode::CubicInterpolationACoefficients) {
 //
 //}
 
-//CubicInterpolationACoefficientsWorker::Destroy(){
+//void CubicInterpolationACoefficientsWorker::Destroy(){
 //
 //}
 
@@ -2062,7 +2064,7 @@ NAN_METHOD(QuantLibNode::CubicInterpolationBCoefficients) {
 //
 //}
 
-//CubicInterpolationBCoefficientsWorker::Destroy(){
+//void CubicInterpolationBCoefficientsWorker::Destroy(){
 //
 //}
 
@@ -2129,7 +2131,7 @@ NAN_METHOD(QuantLibNode::CubicInterpolationCCoefficients) {
 //
 //}
 
-//CubicInterpolationCCoefficientsWorker::Destroy(){
+//void CubicInterpolationCCoefficientsWorker::Destroy(){
 //
 //}
 
@@ -2193,7 +2195,7 @@ NAN_METHOD(QuantLibNode::CubicInterpolationMonotonicityAdjustments) {
 //
 //}
 
-//CubicInterpolationMonotonicityAdjustmentsWorker::Destroy(){
+//void CubicInterpolationMonotonicityAdjustmentsWorker::Destroy(){
 //
 //}
 
@@ -2256,7 +2258,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationA) {
 //
 //}
 
-//AbcdInterpolationAWorker::Destroy(){
+//void AbcdInterpolationAWorker::Destroy(){
 //
 //}
 
@@ -2319,7 +2321,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationB) {
 //
 //}
 
-//AbcdInterpolationBWorker::Destroy(){
+//void AbcdInterpolationBWorker::Destroy(){
 //
 //}
 
@@ -2382,7 +2384,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationC) {
 //
 //}
 
-//AbcdInterpolationCWorker::Destroy(){
+//void AbcdInterpolationCWorker::Destroy(){
 //
 //}
 
@@ -2445,7 +2447,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationD) {
 //
 //}
 
-//AbcdInterpolationDWorker::Destroy(){
+//void AbcdInterpolationDWorker::Destroy(){
 //
 //}
 
@@ -2508,7 +2510,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationRmsError) {
 //
 //}
 
-//AbcdInterpolationRmsErrorWorker::Destroy(){
+//void AbcdInterpolationRmsErrorWorker::Destroy(){
 //
 //}
 
@@ -2571,7 +2573,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationMaxError) {
 //
 //}
 
-//AbcdInterpolationMaxErrorWorker::Destroy(){
+//void AbcdInterpolationMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -2636,7 +2638,7 @@ NAN_METHOD(QuantLibNode::AbcdInterpolationEndCriteria) {
 //
 //}
 
-//AbcdInterpolationEndCriteriaWorker::Destroy(){
+//void AbcdInterpolationEndCriteriaWorker::Destroy(){
 //
 //}
 
@@ -2697,7 +2699,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationExpiry) {
 //
 //}
 
-//SABRInterpolationExpiryWorker::Destroy(){
+//void SABRInterpolationExpiryWorker::Destroy(){
 //
 //}
 
@@ -2761,7 +2763,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationForward) {
 //
 //}
 
-//SABRInterpolationForwardWorker::Destroy(){
+//void SABRInterpolationForwardWorker::Destroy(){
 //
 //}
 
@@ -2824,7 +2826,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationAlpha) {
 //
 //}
 
-//SABRInterpolationAlphaWorker::Destroy(){
+//void SABRInterpolationAlphaWorker::Destroy(){
 //
 //}
 
@@ -2887,7 +2889,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationBeta) {
 //
 //}
 
-//SABRInterpolationBetaWorker::Destroy(){
+//void SABRInterpolationBetaWorker::Destroy(){
 //
 //}
 
@@ -2950,7 +2952,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationNu) {
 //
 //}
 
-//SABRInterpolationNuWorker::Destroy(){
+//void SABRInterpolationNuWorker::Destroy(){
 //
 //}
 
@@ -3013,7 +3015,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationRho) {
 //
 //}
 
-//SABRInterpolationRhoWorker::Destroy(){
+//void SABRInterpolationRhoWorker::Destroy(){
 //
 //}
 
@@ -3076,7 +3078,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationRmsError) {
 //
 //}
 
-//SABRInterpolationRmsErrorWorker::Destroy(){
+//void SABRInterpolationRmsErrorWorker::Destroy(){
 //
 //}
 
@@ -3139,7 +3141,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationMaxError) {
 //
 //}
 
-//SABRInterpolationMaxErrorWorker::Destroy(){
+//void SABRInterpolationMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -3204,7 +3206,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationEndCriteria) {
 //
 //}
 
-//SABRInterpolationEndCriteriaWorker::Destroy(){
+//void SABRInterpolationEndCriteriaWorker::Destroy(){
 //
 //}
 
@@ -3271,7 +3273,7 @@ NAN_METHOD(QuantLibNode::SABRInterpolationWeights) {
 //
 //}
 
-//SABRInterpolationWeightsWorker::Destroy(){
+//void SABRInterpolationWeightsWorker::Destroy(){
 //
 //}
 
@@ -3335,7 +3337,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DXmin) {
 //
 //}
 
-//Interpolation2DXminWorker::Destroy(){
+//void Interpolation2DXminWorker::Destroy(){
 //
 //}
 
@@ -3399,7 +3401,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DXmax) {
 //
 //}
 
-//Interpolation2DXmaxWorker::Destroy(){
+//void Interpolation2DXmaxWorker::Destroy(){
 //
 //}
 
@@ -3467,7 +3469,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DXvalues) {
 //
 //}
 
-//Interpolation2DXvaluesWorker::Destroy(){
+//void Interpolation2DXvaluesWorker::Destroy(){
 //
 //}
 
@@ -3531,7 +3533,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DYmin) {
 //
 //}
 
-//Interpolation2DYminWorker::Destroy(){
+//void Interpolation2DYminWorker::Destroy(){
 //
 //}
 
@@ -3595,7 +3597,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DYmax) {
 //
 //}
 
-//Interpolation2DYmaxWorker::Destroy(){
+//void Interpolation2DYmaxWorker::Destroy(){
 //
 //}
 
@@ -3663,7 +3665,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DYvalues) {
 //
 //}
 
-//Interpolation2DYvaluesWorker::Destroy(){
+//void Interpolation2DYvaluesWorker::Destroy(){
 //
 //}
 
@@ -3737,7 +3739,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DzData) {
 //
 //}
 
-//Interpolation2DzDataWorker::Destroy(){
+//void Interpolation2DzDataWorker::Destroy(){
 //
 //}
 
@@ -3842,7 +3844,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DIsInRange) {
 //
 //}
 
-//Interpolation2DIsInRangeWorker::Destroy(){
+//void Interpolation2DIsInRangeWorker::Destroy(){
 //
 //}
 
@@ -3960,7 +3962,7 @@ NAN_METHOD(QuantLibNode::Interpolation2DInterpolate) {
 //
 //}
 
-//Interpolation2DInterpolateWorker::Destroy(){
+//void Interpolation2DInterpolateWorker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -114,7 +116,7 @@ NAN_METHOD(QuantLibNode::CalendarHolidayList) {
 //
 //}
 
-//CalendarHolidayListWorker::Destroy(){
+//void CalendarHolidayListWorker::Destroy(){
 //
 //}
 
@@ -174,7 +176,7 @@ NAN_METHOD(QuantLibNode::CalendarName) {
 //
 //}
 
-//CalendarNameWorker::Destroy(){
+//void CalendarNameWorker::Destroy(){
 //
 //}
 
@@ -267,7 +269,7 @@ NAN_METHOD(QuantLibNode::CalendarIsBusinessDay) {
 //
 //}
 
-//CalendarIsBusinessDayWorker::Destroy(){
+//void CalendarIsBusinessDayWorker::Destroy(){
 //
 //}
 
@@ -360,7 +362,7 @@ NAN_METHOD(QuantLibNode::CalendarIsHoliday) {
 //
 //}
 
-//CalendarIsHolidayWorker::Destroy(){
+//void CalendarIsHolidayWorker::Destroy(){
 //
 //}
 
@@ -453,7 +455,7 @@ NAN_METHOD(QuantLibNode::CalendarIsEndOfMonth) {
 //
 //}
 
-//CalendarIsEndOfMonthWorker::Destroy(){
+//void CalendarIsEndOfMonthWorker::Destroy(){
 //
 //}
 
@@ -550,7 +552,7 @@ NAN_METHOD(QuantLibNode::CalendarEndOfMonth) {
 //
 //}
 
-//CalendarEndOfMonthWorker::Destroy(){
+//void CalendarEndOfMonthWorker::Destroy(){
 //
 //}
 
@@ -621,7 +623,7 @@ NAN_METHOD(QuantLibNode::CalendarAddHoliday) {
 //
 //}
 
-//CalendarAddHolidayWorker::Destroy(){
+//void CalendarAddHolidayWorker::Destroy(){
 //
 //}
 
@@ -692,7 +694,7 @@ NAN_METHOD(QuantLibNode::CalendarRemoveHoliday) {
 //
 //}
 
-//CalendarRemoveHolidayWorker::Destroy(){
+//void CalendarRemoveHolidayWorker::Destroy(){
 //
 //}
 
@@ -803,7 +805,7 @@ NAN_METHOD(QuantLibNode::CalendarAdjust) {
 //
 //}
 
-//CalendarAdjustWorker::Destroy(){
+//void CalendarAdjustWorker::Destroy(){
 //
 //}
 
@@ -932,7 +934,7 @@ NAN_METHOD(QuantLibNode::CalendarAdvance) {
 //
 //}
 
-//CalendarAdvanceWorker::Destroy(){
+//void CalendarAdvanceWorker::Destroy(){
 //
 //}
 
@@ -1052,7 +1054,7 @@ NAN_METHOD(QuantLibNode::CalendarBusinessDaysBetween) {
 //
 //}
 
-//CalendarBusinessDaysBetweenWorker::Destroy(){
+//void CalendarBusinessDaysBetweenWorker::Destroy(){
 //
 //}
  

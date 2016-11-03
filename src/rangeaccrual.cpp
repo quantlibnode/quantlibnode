@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -246,7 +248,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCoupon) {
 //
 //}
 
-//RangeAccrualFloatersCouponWorker::Destroy(){
+//void RangeAccrualFloatersCouponWorker::Destroy(){
 //
 //}
 
@@ -345,7 +347,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCouponFromLeg) {
 //
 //}
 
-//RangeAccrualFloatersCouponFromLegWorker::Destroy(){
+//void RangeAccrualFloatersCouponFromLegWorker::Destroy(){
 //
 //}
 
@@ -472,7 +474,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualPricerByBgm) {
 //
 //}
 
-//RangeAccrualPricerByBgmWorker::Destroy(){
+//void RangeAccrualPricerByBgmWorker::Destroy(){
 //
 //}
 
@@ -548,7 +550,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCouponSetPricer) {
 //
 //}
 
-//RangeAccrualFloatersCouponSetPricerWorker::Destroy(){
+//void RangeAccrualFloatersCouponSetPricerWorker::Destroy(){
 //
 //}
 
@@ -617,7 +619,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCouponObservationDates) {
 //
 //}
 
-//RangeAccrualFloatersCouponObservationDatesWorker::Destroy(){
+//void RangeAccrualFloatersCouponObservationDatesWorker::Destroy(){
 //
 //}
 
@@ -682,7 +684,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCouponStarDate) {
 //
 //}
 
-//RangeAccrualFloatersCouponStarDateWorker::Destroy(){
+//void RangeAccrualFloatersCouponStarDateWorker::Destroy(){
 //
 //}
 
@@ -747,7 +749,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCouponEndDate) {
 //
 //}
 
-//RangeAccrualFloatersCouponEndDateWorker::Destroy(){
+//void RangeAccrualFloatersCouponEndDateWorker::Destroy(){
 //
 //}
 
@@ -812,7 +814,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersCouponObservationsNo) {
 //
 //}
 
-//RangeAccrualFloatersCouponObservationsNoWorker::Destroy(){
+//void RangeAccrualFloatersCouponObservationsNoWorker::Destroy(){
 //
 //}
 
@@ -889,7 +891,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualFloatersPrice) {
 //
 //}
 
-//RangeAccrualFloatersPriceWorker::Destroy(){
+//void RangeAccrualFloatersPriceWorker::Destroy(){
 //
 //}
 
@@ -966,7 +968,7 @@ NAN_METHOD(QuantLibNode::SimpleFloaterPrice) {
 //
 //}
 
-//SimpleFloaterPriceWorker::Destroy(){
+//void SimpleFloaterPriceWorker::Destroy(){
 //
 //}
  

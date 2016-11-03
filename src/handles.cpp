@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -69,7 +71,7 @@ NAN_METHOD(QuantLibNode::HandleCurrentLink) {
 //
 //}
 
-//HandleCurrentLinkWorker::Destroy(){
+//void HandleCurrentLinkWorker::Destroy(){
 //
 //}
 
@@ -129,7 +131,7 @@ NAN_METHOD(QuantLibNode::HandleEmpty) {
 //
 //}
 
-//HandleEmptyWorker::Destroy(){
+//void HandleEmptyWorker::Destroy(){
 //
 //}
 
@@ -198,7 +200,7 @@ NAN_METHOD(QuantLibNode::RelinkableHandleLinkTo) {
 //
 //}
 
-//RelinkableHandleLinkToWorker::Destroy(){
+//void RelinkableHandleLinkToWorker::Destroy(){
 //
 //}
  

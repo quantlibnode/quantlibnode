@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -112,7 +114,7 @@ NAN_METHOD(QuantLibNode::CMSwapCurveState) {
 //
 //}
 
-//CMSwapCurveStateWorker::Destroy(){
+//void CMSwapCurveStateWorker::Destroy(){
 //
 //}
 
@@ -196,7 +198,7 @@ NAN_METHOD(QuantLibNode::CoterminalSwapCurveState) {
 //
 //}
 
-//CoterminalSwapCurveStateWorker::Destroy(){
+//void CoterminalSwapCurveStateWorker::Destroy(){
 //
 //}
 
@@ -280,7 +282,7 @@ NAN_METHOD(QuantLibNode::LMMCurveState) {
 //
 //}
 
-//LMMCurveStateWorker::Destroy(){
+//void LMMCurveStateWorker::Destroy(){
 //
 //}
 
@@ -346,7 +348,7 @@ NAN_METHOD(QuantLibNode::CurveStateRateTimes) {
 //
 //}
 
-//CurveStateRateTimesWorker::Destroy(){
+//void CurveStateRateTimesWorker::Destroy(){
 //
 //}
 
@@ -412,7 +414,7 @@ NAN_METHOD(QuantLibNode::CurveStateRateTaus) {
 //
 //}
 
-//CurveStateRateTausWorker::Destroy(){
+//void CurveStateRateTausWorker::Destroy(){
 //
 //}
 
@@ -478,7 +480,7 @@ NAN_METHOD(QuantLibNode::CurveStateForwardRates) {
 //
 //}
 
-//CurveStateForwardRatesWorker::Destroy(){
+//void CurveStateForwardRatesWorker::Destroy(){
 //
 //}
 
@@ -544,7 +546,7 @@ NAN_METHOD(QuantLibNode::CurveStateCoterminalSwapRates) {
 //
 //}
 
-//CurveStateCoterminalSwapRatesWorker::Destroy(){
+//void CurveStateCoterminalSwapRatesWorker::Destroy(){
 //
 //}
 
@@ -623,7 +625,7 @@ NAN_METHOD(QuantLibNode::CurveStateCMSwapRates) {
 //
 //}
 
-//CurveStateCMSwapRatesWorker::Destroy(){
+//void CurveStateCMSwapRatesWorker::Destroy(){
 //
 //}
 
@@ -698,7 +700,7 @@ NAN_METHOD(QuantLibNode::CMSwapCurveStateSetOnCMSwapRates) {
 //
 //}
 
-//CMSwapCurveStateSetOnCMSwapRatesWorker::Destroy(){
+//void CMSwapCurveStateSetOnCMSwapRatesWorker::Destroy(){
 //
 //}
 
@@ -773,7 +775,7 @@ NAN_METHOD(QuantLibNode::CoterminalSwapCurveStateSetOnCoterminalSwapRates) {
 //
 //}
 
-//CoterminalSwapCurveStateSetOnCoterminalSwapRatesWorker::Destroy(){
+//void CoterminalSwapCurveStateSetOnCoterminalSwapRatesWorker::Destroy(){
 //
 //}
 
@@ -848,7 +850,7 @@ NAN_METHOD(QuantLibNode::LMMCurveStateSetOnForwardRates) {
 //
 //}
 
-//LMMCurveStateSetOnForwardRatesWorker::Destroy(){
+//void LMMCurveStateSetOnForwardRatesWorker::Destroy(){
 //
 //}
 
@@ -923,7 +925,7 @@ NAN_METHOD(QuantLibNode::LMMCurveStateSetOnDiscountRatios) {
 //
 //}
 
-//LMMCurveStateSetOnDiscountRatiosWorker::Destroy(){
+//void LMMCurveStateSetOnDiscountRatiosWorker::Destroy(){
 //
 //}
 
@@ -1016,7 +1018,7 @@ NAN_METHOD(QuantLibNode::ForwardsFromDiscountRatios) {
 //
 //}
 
-//ForwardsFromDiscountRatiosWorker::Destroy(){
+//void ForwardsFromDiscountRatiosWorker::Destroy(){
 //
 //}
 
@@ -1109,7 +1111,7 @@ NAN_METHOD(QuantLibNode::CoterminalSwapRatesFromDiscountRatios) {
 //
 //}
 
-//CoterminalSwapRatesFromDiscountRatiosWorker::Destroy(){
+//void CoterminalSwapRatesFromDiscountRatiosWorker::Destroy(){
 //
 //}
 
@@ -1202,7 +1204,7 @@ NAN_METHOD(QuantLibNode::CoterminalSwapAnnuitiesFromDiscountRatios) {
 //
 //}
 
-//CoterminalSwapAnnuitiesFromDiscountRatiosWorker::Destroy(){
+//void CoterminalSwapAnnuitiesFromDiscountRatiosWorker::Destroy(){
 //
 //}
 
@@ -1309,7 +1311,7 @@ NAN_METHOD(QuantLibNode::ConstantMaturitySwapRatesFromDiscountRatios) {
 //
 //}
 
-//ConstantMaturitySwapRatesFromDiscountRatiosWorker::Destroy(){
+//void ConstantMaturitySwapRatesFromDiscountRatiosWorker::Destroy(){
 //
 //}
 
@@ -1416,7 +1418,7 @@ NAN_METHOD(QuantLibNode::ConstantMaturitySwapAnnuitiesFromDiscountRatios) {
 //
 //}
 
-//ConstantMaturitySwapAnnuitiesFromDiscountRatiosWorker::Destroy(){
+//void ConstantMaturitySwapAnnuitiesFromDiscountRatiosWorker::Destroy(){
 //
 //}
  

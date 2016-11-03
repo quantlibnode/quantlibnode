@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -130,7 +132,7 @@ NAN_METHOD(QuantLibNode::CapFloor) {
 //
 //}
 
-//CapFloorWorker::Destroy(){
+//void CapFloorWorker::Destroy(){
 //
 //}
 
@@ -284,7 +286,7 @@ NAN_METHOD(QuantLibNode::MakeCapFloor) {
 //
 //}
 
-//MakeCapFloorWorker::Destroy(){
+//void MakeCapFloorWorker::Destroy(){
 //
 //}
 
@@ -350,7 +352,7 @@ NAN_METHOD(QuantLibNode::CapFloorType) {
 //
 //}
 
-//CapFloorTypeWorker::Destroy(){
+//void CapFloorTypeWorker::Destroy(){
 //
 //}
 
@@ -415,7 +417,7 @@ NAN_METHOD(QuantLibNode::CapFloorCapRates) {
 //
 //}
 
-//CapFloorCapRatesWorker::Destroy(){
+//void CapFloorCapRatesWorker::Destroy(){
 //
 //}
 
@@ -480,7 +482,7 @@ NAN_METHOD(QuantLibNode::CapFloorFloorRates) {
 //
 //}
 
-//CapFloorFloorRatesWorker::Destroy(){
+//void CapFloorFloorRatesWorker::Destroy(){
 //
 //}
 
@@ -555,7 +557,7 @@ NAN_METHOD(QuantLibNode::CapFloorAtmRate) {
 //
 //}
 
-//CapFloorAtmRateWorker::Destroy(){
+//void CapFloorAtmRateWorker::Destroy(){
 //
 //}
 
@@ -619,7 +621,7 @@ NAN_METHOD(QuantLibNode::CapFloorStartDate) {
 //
 //}
 
-//CapFloorStartDateWorker::Destroy(){
+//void CapFloorStartDateWorker::Destroy(){
 //
 //}
 
@@ -683,7 +685,7 @@ NAN_METHOD(QuantLibNode::CapFloorMaturityDate) {
 //
 //}
 
-//CapFloorMaturityDateWorker::Destroy(){
+//void CapFloorMaturityDateWorker::Destroy(){
 //
 //}
 
@@ -831,7 +833,7 @@ NAN_METHOD(QuantLibNode::CapFloorImpliedVolatility) {
 //
 //}
 
-//CapFloorImpliedVolatilityWorker::Destroy(){
+//void CapFloorImpliedVolatilityWorker::Destroy(){
 //
 //}
 
@@ -915,7 +917,7 @@ NAN_METHOD(QuantLibNode::CapFloorLegAnalysis) {
 //
 //}
 
-//CapFloorLegAnalysisWorker::Destroy(){
+//void CapFloorLegAnalysisWorker::Destroy(){
 //
 //}
  

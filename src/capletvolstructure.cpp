@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -102,7 +104,7 @@ NAN_METHOD(QuantLibNode::RelinkableHandleOptionletVolatilityStructure) {
 //
 //}
 
-//RelinkableHandleOptionletVolatilityStructureWorker::Destroy(){
+//void RelinkableHandleOptionletVolatilityStructureWorker::Destroy(){
 //
 //}
 
@@ -243,7 +245,7 @@ NAN_METHOD(QuantLibNode::ConstantOptionletVolatility) {
 //
 //}
 
-//ConstantOptionletVolatilityWorker::Destroy(){
+//void ConstantOptionletVolatilityWorker::Destroy(){
 //
 //}
 
@@ -341,7 +343,7 @@ NAN_METHOD(QuantLibNode::SpreadedOptionletVolatility) {
 //
 //}
 
-//SpreadedOptionletVolatilityWorker::Destroy(){
+//void SpreadedOptionletVolatilityWorker::Destroy(){
 //
 //}
 
@@ -426,7 +428,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletAdapter) {
 //
 //}
 
-//StrippedOptionletAdapterWorker::Destroy(){
+//void StrippedOptionletAdapterWorker::Destroy(){
 //
 //}
 
@@ -631,7 +633,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionlet) {
 //
 //}
 
-//StrippedOptionletWorker::Destroy(){
+//void StrippedOptionletWorker::Destroy(){
 //
 //}
 
@@ -763,7 +765,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper1) {
 //
 //}
 
-//OptionletStripper1Worker::Destroy(){
+//void OptionletStripper1Worker::Destroy(){
 //
 //}
 
@@ -864,7 +866,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper2) {
 //
 //}
 
-//OptionletStripper2Worker::Destroy(){
+//void OptionletStripper2Worker::Destroy(){
 //
 //}
 
@@ -1034,7 +1036,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolCurve) {
 //
 //}
 
-//CapFloorTermVolCurveWorker::Destroy(){
+//void CapFloorTermVolCurveWorker::Destroy(){
 //
 //}
 
@@ -1223,7 +1225,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolSurface) {
 //
 //}
 
-//CapFloorTermVolSurfaceWorker::Destroy(){
+//void CapFloorTermVolSurfaceWorker::Destroy(){
 //
 //}
 
@@ -1332,7 +1334,7 @@ NAN_METHOD(QuantLibNode::OptionletVTSVolatility) {
 //
 //}
 
-//OptionletVTSVolatilityWorker::Destroy(){
+//void OptionletVTSVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1444,7 +1446,7 @@ NAN_METHOD(QuantLibNode::OptionletVTSVolatility2) {
 //
 //}
 
-//OptionletVTSVolatility2Worker::Destroy(){
+//void OptionletVTSVolatility2Worker::Destroy(){
 //
 //}
 
@@ -1562,7 +1564,7 @@ NAN_METHOD(QuantLibNode::OptionletVTSBlackVariance) {
 //
 //}
 
-//OptionletVTSBlackVarianceWorker::Destroy(){
+//void OptionletVTSBlackVarianceWorker::Destroy(){
 //
 //}
 
@@ -1679,7 +1681,7 @@ NAN_METHOD(QuantLibNode::OptionletVTSBlackVariance2) {
 //
 //}
 
-//OptionletVTSBlackVariance2Worker::Destroy(){
+//void OptionletVTSBlackVariance2Worker::Destroy(){
 //
 //}
 
@@ -1758,7 +1760,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseStrikes) {
 //
 //}
 
-//StrippedOptionletBaseStrikesWorker::Destroy(){
+//void StrippedOptionletBaseStrikesWorker::Destroy(){
 //
 //}
 
@@ -1837,7 +1839,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseOptionletVolatilities) {
 //
 //}
 
-//StrippedOptionletBaseOptionletVolatilitiesWorker::Destroy(){
+//void StrippedOptionletBaseOptionletVolatilitiesWorker::Destroy(){
 //
 //}
 
@@ -1906,7 +1908,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseOptionletFixingDates) {
 //
 //}
 
-//StrippedOptionletBaseOptionletFixingDatesWorker::Destroy(){
+//void StrippedOptionletBaseOptionletFixingDatesWorker::Destroy(){
 //
 //}
 
@@ -1972,7 +1974,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseOptionletFixingTimes) {
 //
 //}
 
-//StrippedOptionletBaseOptionletFixingTimesWorker::Destroy(){
+//void StrippedOptionletBaseOptionletFixingTimesWorker::Destroy(){
 //
 //}
 
@@ -2038,7 +2040,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseAtmOptionletRates) {
 //
 //}
 
-//StrippedOptionletBaseAtmOptionletRatesWorker::Destroy(){
+//void StrippedOptionletBaseAtmOptionletRatesWorker::Destroy(){
 //
 //}
 
@@ -2105,7 +2107,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseDayCounter) {
 //
 //}
 
-//StrippedOptionletBaseDayCounterWorker::Destroy(){
+//void StrippedOptionletBaseDayCounterWorker::Destroy(){
 //
 //}
 
@@ -2172,7 +2174,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseCalendar) {
 //
 //}
 
-//StrippedOptionletBaseCalendarWorker::Destroy(){
+//void StrippedOptionletBaseCalendarWorker::Destroy(){
 //
 //}
 
@@ -2237,7 +2239,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseSettlementDays) {
 //
 //}
 
-//StrippedOptionletBaseSettlementDaysWorker::Destroy(){
+//void StrippedOptionletBaseSettlementDaysWorker::Destroy(){
 //
 //}
 
@@ -2304,7 +2306,7 @@ NAN_METHOD(QuantLibNode::StrippedOptionletBaseBusinessDayConvention) {
 //
 //}
 
-//StrippedOptionletBaseBusinessDayConventionWorker::Destroy(){
+//void StrippedOptionletBaseBusinessDayConventionWorker::Destroy(){
 //
 //}
 
@@ -2373,7 +2375,7 @@ NAN_METHOD(QuantLibNode::OptionletStripperOptionletFixingTenors) {
 //
 //}
 
-//OptionletStripperOptionletFixingTenorsWorker::Destroy(){
+//void OptionletStripperOptionletFixingTenorsWorker::Destroy(){
 //
 //}
 
@@ -2442,7 +2444,7 @@ NAN_METHOD(QuantLibNode::OptionletStripperOptionletPaymentDates) {
 //
 //}
 
-//OptionletStripperOptionletPaymentDatesWorker::Destroy(){
+//void OptionletStripperOptionletPaymentDatesWorker::Destroy(){
 //
 //}
 
@@ -2508,7 +2510,7 @@ NAN_METHOD(QuantLibNode::OptionletStripperOptionletAccrualPeriods) {
 //
 //}
 
-//OptionletStripperOptionletAccrualPeriodsWorker::Destroy(){
+//void OptionletStripperOptionletAccrualPeriodsWorker::Destroy(){
 //
 //}
 
@@ -2583,7 +2585,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper1CapFloorPrices) {
 //
 //}
 
-//OptionletStripper1CapFloorPricesWorker::Destroy(){
+//void OptionletStripper1CapFloorPricesWorker::Destroy(){
 //
 //}
 
@@ -2658,7 +2660,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper1CapFloorVolatilities) {
 //
 //}
 
-//OptionletStripper1CapFloorVolatilitiesWorker::Destroy(){
+//void OptionletStripper1CapFloorVolatilitiesWorker::Destroy(){
 //
 //}
 
@@ -2733,7 +2735,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper1OptionletPrices) {
 //
 //}
 
-//OptionletStripper1OptionletPricesWorker::Destroy(){
+//void OptionletStripper1OptionletPricesWorker::Destroy(){
 //
 //}
 
@@ -2795,7 +2797,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper1SwitchStrike) {
 //
 //}
 
-//OptionletStripper1SwitchStrikeWorker::Destroy(){
+//void OptionletStripper1SwitchStrikeWorker::Destroy(){
 //
 //}
 
@@ -2861,7 +2863,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper2SpreadsVol) {
 //
 //}
 
-//OptionletStripper2SpreadsVolWorker::Destroy(){
+//void OptionletStripper2SpreadsVolWorker::Destroy(){
 //
 //}
 
@@ -2930,7 +2932,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper2AtmCapFloorPrices) {
 //
 //}
 
-//OptionletStripper2AtmCapFloorPricesWorker::Destroy(){
+//void OptionletStripper2AtmCapFloorPricesWorker::Destroy(){
 //
 //}
 
@@ -2996,7 +2998,7 @@ NAN_METHOD(QuantLibNode::OptionletStripper2AtmCapFloorStrikes) {
 //
 //}
 
-//OptionletStripper2AtmCapFloorStrikesWorker::Destroy(){
+//void OptionletStripper2AtmCapFloorStrikesWorker::Destroy(){
 //
 //}
 
@@ -3106,7 +3108,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVTSVolatility) {
 //
 //}
 
-//CapFloorTermVTSVolatilityWorker::Destroy(){
+//void CapFloorTermVTSVolatilityWorker::Destroy(){
 //
 //}
 
@@ -3219,7 +3221,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVTSVolatility2) {
 //
 //}
 
-//CapFloorTermVTSVolatility2Worker::Destroy(){
+//void CapFloorTermVTSVolatility2Worker::Destroy(){
 //
 //}
 
@@ -3288,7 +3290,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolCurveOptionTenors) {
 //
 //}
 
-//CapFloorTermVolCurveOptionTenorsWorker::Destroy(){
+//void CapFloorTermVolCurveOptionTenorsWorker::Destroy(){
 //
 //}
 
@@ -3357,7 +3359,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolCurveOptionDates) {
 //
 //}
 
-//CapFloorTermVolCurveOptionDatesWorker::Destroy(){
+//void CapFloorTermVolCurveOptionDatesWorker::Destroy(){
 //
 //}
 
@@ -3426,7 +3428,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolSurfaceOptionTenors) {
 //
 //}
 
-//CapFloorTermVolSurfaceOptionTenorsWorker::Destroy(){
+//void CapFloorTermVolSurfaceOptionTenorsWorker::Destroy(){
 //
 //}
 
@@ -3495,7 +3497,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolSurfaceOptionDates) {
 //
 //}
 
-//CapFloorTermVolSurfaceOptionDatesWorker::Destroy(){
+//void CapFloorTermVolSurfaceOptionDatesWorker::Destroy(){
 //
 //}
 
@@ -3561,7 +3563,7 @@ NAN_METHOD(QuantLibNode::CapFloorTermVolSurfaceStrikes) {
 //
 //}
 
-//CapFloorTermVolSurfaceStrikesWorker::Destroy(){
+//void CapFloorTermVolSurfaceStrikesWorker::Destroy(){
 //
 //}
  

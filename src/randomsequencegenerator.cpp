@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -98,7 +100,7 @@ NAN_METHOD(QuantLibNode::MersenneTwisterRsg) {
 //
 //}
 
-//MersenneTwisterRsgWorker::Destroy(){
+//void MersenneTwisterRsgWorker::Destroy(){
 //
 //}
 
@@ -177,7 +179,7 @@ NAN_METHOD(QuantLibNode::FaureRsg) {
 //
 //}
 
-//FaureRsgWorker::Destroy(){
+//void FaureRsgWorker::Destroy(){
 //
 //}
 
@@ -265,7 +267,7 @@ NAN_METHOD(QuantLibNode::HaltonRsg) {
 //
 //}
 
-//HaltonRsgWorker::Destroy(){
+//void HaltonRsgWorker::Destroy(){
 //
 //}
 
@@ -353,7 +355,7 @@ NAN_METHOD(QuantLibNode::SobolRsg) {
 //
 //}
 
-//SobolRsgWorker::Destroy(){
+//void SobolRsgWorker::Destroy(){
 //
 //}
 
@@ -431,7 +433,7 @@ NAN_METHOD(QuantLibNode::Variates) {
 //
 //}
 
-//VariatesWorker::Destroy(){
+//void VariatesWorker::Destroy(){
 //
 //}
 
@@ -478,7 +480,7 @@ NAN_METHOD(QuantLibNode::Rand) {
 //
 //}
 
-//RandWorker::Destroy(){
+//void RandWorker::Destroy(){
 //
 //}
 
@@ -533,7 +535,7 @@ NAN_METHOD(QuantLibNode::Randomize) {
 //
 //}
 
-//RandomizeWorker::Destroy(){
+//void RandomizeWorker::Destroy(){
 //
 //}
  

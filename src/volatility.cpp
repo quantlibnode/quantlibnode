@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -140,7 +142,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantAbcdVariance) {
 //
 //}
 
-//PiecewiseConstantAbcdVarianceWorker::Destroy(){
+//void PiecewiseConstantAbcdVarianceWorker::Destroy(){
 //
 //}
 
@@ -260,7 +262,7 @@ NAN_METHOD(QuantLibNode::MarketModelLmExtLinearExponentialVolModel) {
 //
 //}
 
-//MarketModelLmExtLinearExponentialVolModelWorker::Destroy(){
+//void MarketModelLmExtLinearExponentialVolModelWorker::Destroy(){
 //
 //}
 
@@ -325,7 +327,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceVariances) {
 //
 //}
 
-//PiecewiseConstantVarianceVariancesWorker::Destroy(){
+//void PiecewiseConstantVarianceVariancesWorker::Destroy(){
 //
 //}
 
@@ -390,7 +392,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceVolatilities) {
 //
 //}
 
-//PiecewiseConstantVarianceVolatilitiesWorker::Destroy(){
+//void PiecewiseConstantVarianceVolatilitiesWorker::Destroy(){
 //
 //}
 
@@ -455,7 +457,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceRateTimes) {
 //
 //}
 
-//PiecewiseConstantVarianceRateTimesWorker::Destroy(){
+//void PiecewiseConstantVarianceRateTimesWorker::Destroy(){
 //
 //}
 
@@ -529,7 +531,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceVariance) {
 //
 //}
 
-//PiecewiseConstantVarianceVarianceWorker::Destroy(){
+//void PiecewiseConstantVarianceVarianceWorker::Destroy(){
 //
 //}
 
@@ -603,7 +605,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceVolatility) {
 //
 //}
 
-//PiecewiseConstantVarianceVolatilityWorker::Destroy(){
+//void PiecewiseConstantVarianceVolatilityWorker::Destroy(){
 //
 //}
 
@@ -677,7 +679,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceTotalVariance) {
 //
 //}
 
-//PiecewiseConstantVarianceTotalVarianceWorker::Destroy(){
+//void PiecewiseConstantVarianceTotalVarianceWorker::Destroy(){
 //
 //}
 
@@ -751,7 +753,7 @@ NAN_METHOD(QuantLibNode::PiecewiseConstantVarianceTotalVolatility) {
 //
 //}
 
-//PiecewiseConstantVarianceTotalVolatilityWorker::Destroy(){
+//void PiecewiseConstantVarianceTotalVolatilityWorker::Destroy(){
 //
 //}
  

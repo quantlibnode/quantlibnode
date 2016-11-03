@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -224,7 +226,7 @@ NAN_METHOD(QuantLibNode::CreditDefaultSwap) {
 //
 //}
 
-//CreditDefaultSwapWorker::Destroy(){
+//void CreditDefaultSwapWorker::Destroy(){
 //
 //}
 
@@ -337,7 +339,7 @@ NAN_METHOD(QuantLibNode::MidPointCdsEngine) {
 //
 //}
 
-//MidPointCdsEngineWorker::Destroy(){
+//void MidPointCdsEngineWorker::Destroy(){
 //
 //}
 
@@ -457,7 +459,7 @@ NAN_METHOD(QuantLibNode::HazardRateCurve) {
 //
 //}
 
-//HazardRateCurveWorker::Destroy(){
+//void HazardRateCurveWorker::Destroy(){
 //
 //}
 
@@ -686,7 +688,7 @@ NAN_METHOD(QuantLibNode::SpreadCdsHelper) {
 //
 //}
 
-//SpreadCdsHelperWorker::Destroy(){
+//void SpreadCdsHelperWorker::Destroy(){
 //
 //}
 
@@ -936,7 +938,7 @@ NAN_METHOD(QuantLibNode::UpfrontCdsHelper) {
 //
 //}
 
-//UpfrontCdsHelperWorker::Destroy(){
+//void UpfrontCdsHelperWorker::Destroy(){
 //
 //}
 
@@ -1077,7 +1079,7 @@ NAN_METHOD(QuantLibNode::PiecewiseHazardRateCurve) {
 //
 //}
 
-//PiecewiseHazardRateCurveWorker::Destroy(){
+//void PiecewiseHazardRateCurveWorker::Destroy(){
 //
 //}
 
@@ -1205,7 +1207,7 @@ NAN_METHOD(QuantLibNode::PiecewiseFlatForwardCurve) {
 //
 //}
 
-//PiecewiseFlatForwardCurveWorker::Destroy(){
+//void PiecewiseFlatForwardCurveWorker::Destroy(){
 //
 //}
 
@@ -1416,7 +1418,7 @@ NAN_METHOD(QuantLibNode::RiskyFixedBond) {
 //
 //}
 
-//RiskyFixedBondWorker::Destroy(){
+//void RiskyFixedBondWorker::Destroy(){
 //
 //}
 
@@ -1516,7 +1518,7 @@ NAN_METHOD(QuantLibNode::Issuer) {
 //
 //}
 
-//IssuerWorker::Destroy(){
+//void IssuerWorker::Destroy(){
 //
 //}
 
@@ -1659,7 +1661,7 @@ NAN_METHOD(QuantLibNode::DefaultEvent) {
 //
 //}
 
-//DefaultEventWorker::Destroy(){
+//void DefaultEventWorker::Destroy(){
 //
 //}
 
@@ -1822,7 +1824,7 @@ NAN_METHOD(QuantLibNode::SyntheticCDO) {
 //
 //}
 
-//SyntheticCDOWorker::Destroy(){
+//void SyntheticCDOWorker::Destroy(){
 //
 //}
 
@@ -1908,7 +1910,7 @@ NAN_METHOD(QuantLibNode::MidPointCDOEngine) {
 //
 //}
 
-//MidPointCDOEngineWorker::Destroy(){
+//void MidPointCDOEngineWorker::Destroy(){
 //
 //}
 
@@ -2090,7 +2092,7 @@ NAN_METHOD(QuantLibNode::NthToDefault) {
 //
 //}
 
-//NthToDefaultWorker::Destroy(){
+//void NthToDefaultWorker::Destroy(){
 //
 //}
 
@@ -2191,7 +2193,7 @@ NAN_METHOD(QuantLibNode::IntegralNtdEngine) {
 //
 //}
 
-//IntegralNtdEngineWorker::Destroy(){
+//void IntegralNtdEngineWorker::Destroy(){
 //
 //}
 
@@ -2316,7 +2318,7 @@ NAN_METHOD(QuantLibNode::BlackCdsOptionEngine) {
 //
 //}
 
-//BlackCdsOptionEngineWorker::Destroy(){
+//void BlackCdsOptionEngineWorker::Destroy(){
 //
 //}
 
@@ -2416,7 +2418,7 @@ NAN_METHOD(QuantLibNode::CDSOption) {
 //
 //}
 
-//CDSOptionWorker::Destroy(){
+//void CDSOptionWorker::Destroy(){
 //
 //}
 
@@ -2620,7 +2622,7 @@ NAN_METHOD(QuantLibNode::BaseCorrelationTermStructure) {
 //
 //}
 
-//BaseCorrelationTermStructureWorker::Destroy(){
+//void BaseCorrelationTermStructureWorker::Destroy(){
 //
 //}
 
@@ -2684,7 +2686,7 @@ NAN_METHOD(QuantLibNode::CdsCouponLegNPV) {
 //
 //}
 
-//CdsCouponLegNPVWorker::Destroy(){
+//void CdsCouponLegNPVWorker::Destroy(){
 //
 //}
 
@@ -2748,7 +2750,7 @@ NAN_METHOD(QuantLibNode::CdsDefaultLegNPV) {
 //
 //}
 
-//CdsDefaultLegNPVWorker::Destroy(){
+//void CdsDefaultLegNPVWorker::Destroy(){
 //
 //}
 
@@ -2809,7 +2811,7 @@ NAN_METHOD(QuantLibNode::CdsFairSpread) {
 //
 //}
 
-//CdsFairSpreadWorker::Destroy(){
+//void CdsFairSpreadWorker::Destroy(){
 //
 //}
 
@@ -2870,7 +2872,7 @@ NAN_METHOD(QuantLibNode::CdsFairUpfront) {
 //
 //}
 
-//CdsFairUpfrontWorker::Destroy(){
+//void CdsFairUpfrontWorker::Destroy(){
 //
 //}
 
@@ -2937,7 +2939,7 @@ NAN_METHOD(QuantLibNode::HRDates) {
 //
 //}
 
-//HRDatesWorker::Destroy(){
+//void HRDatesWorker::Destroy(){
 //
 //}
 
@@ -3004,7 +3006,7 @@ NAN_METHOD(QuantLibNode::HRates) {
 //
 //}
 
-//HRatesWorker::Destroy(){
+//void HRatesWorker::Destroy(){
 //
 //}
 
@@ -3118,7 +3120,7 @@ NAN_METHOD(QuantLibNode::CdsOptionImpliedVol) {
 //
 //}
 
-//CdsOptionImpliedVolWorker::Destroy(){
+//void CdsOptionImpliedVolWorker::Destroy(){
 //
 //}
 
@@ -3204,7 +3206,7 @@ NAN_METHOD(QuantLibNode::BaseCorrelationValue) {
 //
 //}
 
-//BaseCorrelationValueWorker::Destroy(){
+//void BaseCorrelationValueWorker::Destroy(){
 //
 //}
  

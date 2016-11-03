@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -96,7 +98,7 @@ NAN_METHOD(QuantLibNode::RelinkableHandleSwaptionVolatilityStructure) {
 //
 //}
 
-//RelinkableHandleSwaptionVolatilityStructureWorker::Destroy(){
+//void RelinkableHandleSwaptionVolatilityStructureWorker::Destroy(){
 //
 //}
 
@@ -237,7 +239,7 @@ NAN_METHOD(QuantLibNode::ConstantSwaptionVolatility) {
 //
 //}
 
-//ConstantSwaptionVolatilityWorker::Destroy(){
+//void ConstantSwaptionVolatilityWorker::Destroy(){
 //
 //}
 
@@ -335,7 +337,7 @@ NAN_METHOD(QuantLibNode::SpreadedSwaptionVolatility) {
 //
 //}
 
-//SpreadedSwaptionVolatilityWorker::Destroy(){
+//void SpreadedSwaptionVolatilityWorker::Destroy(){
 //
 //}
 
@@ -516,7 +518,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSMatrix) {
 //
 //}
 
-//SwaptionVTSMatrixWorker::Destroy(){
+//void SwaptionVTSMatrixWorker::Destroy(){
 //
 //}
 
@@ -721,7 +723,7 @@ NAN_METHOD(QuantLibNode::SwaptionVolCube2) {
 //
 //}
 
-//SwaptionVolCube2Worker::Destroy(){
+//void SwaptionVolCube2Worker::Destroy(){
 //
 //}
 
@@ -1014,7 +1016,7 @@ NAN_METHOD(QuantLibNode::SwaptionVolCube1) {
 //
 //}
 
-//SwaptionVolCube1Worker::Destroy(){
+//void SwaptionVolCube1Worker::Destroy(){
 //
 //}
 
@@ -1130,7 +1132,7 @@ NAN_METHOD(QuantLibNode::SmileSectionByCube) {
 //
 //}
 
-//SmileSectionByCubeWorker::Destroy(){
+//void SmileSectionByCubeWorker::Destroy(){
 //
 //}
 
@@ -1249,7 +1251,7 @@ NAN_METHOD(QuantLibNode::SmileSectionByCube2) {
 //
 //}
 
-//SmileSectionByCube2Worker::Destroy(){
+//void SmileSectionByCube2Worker::Destroy(){
 //
 //}
 
@@ -1377,7 +1379,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSVolatility) {
 //
 //}
 
-//SwaptionVTSVolatilityWorker::Destroy(){
+//void SwaptionVTSVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1508,7 +1510,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSVolatility2) {
 //
 //}
 
-//SwaptionVTSVolatility2Worker::Destroy(){
+//void SwaptionVTSVolatility2Worker::Destroy(){
 //
 //}
 
@@ -1640,7 +1642,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSBlackVariance) {
 //
 //}
 
-//SwaptionVTSBlackVarianceWorker::Destroy(){
+//void SwaptionVTSBlackVarianceWorker::Destroy(){
 //
 //}
 
@@ -1771,7 +1773,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSBlackVariance2) {
 //
 //}
 
-//SwaptionVTSBlackVariance2Worker::Destroy(){
+//void SwaptionVTSBlackVariance2Worker::Destroy(){
 //
 //}
 
@@ -1840,7 +1842,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSMaxSwapTenor) {
 //
 //}
 
-//SwaptionVTSMaxSwapTenorWorker::Destroy(){
+//void SwaptionVTSMaxSwapTenorWorker::Destroy(){
 //
 //}
 
@@ -1911,7 +1913,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSBusinessDayConvention) {
 //
 //}
 
-//SwaptionVTSBusinessDayConventionWorker::Destroy(){
+//void SwaptionVTSBusinessDayConventionWorker::Destroy(){
 //
 //}
 
@@ -2017,7 +2019,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSOptionDateFromTenor) {
 //
 //}
 
-//SwaptionVTSOptionDateFromTenorWorker::Destroy(){
+//void SwaptionVTSOptionDateFromTenorWorker::Destroy(){
 //
 //}
 
@@ -2118,7 +2120,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSSwapLength) {
 //
 //}
 
-//SwaptionVTSSwapLengthWorker::Destroy(){
+//void SwaptionVTSSwapLengthWorker::Destroy(){
 //
 //}
 
@@ -2207,7 +2209,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSSwapLength2) {
 //
 //}
 
-//SwaptionVTSSwapLength2Worker::Destroy(){
+//void SwaptionVTSSwapLength2Worker::Destroy(){
 //
 //}
 
@@ -2280,7 +2282,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSMatrixOptionDates) {
 //
 //}
 
-//SwaptionVTSMatrixOptionDatesWorker::Destroy(){
+//void SwaptionVTSMatrixOptionDatesWorker::Destroy(){
 //
 //}
 
@@ -2353,7 +2355,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSMatrixOptionTenors) {
 //
 //}
 
-//SwaptionVTSMatrixOptionTenorsWorker::Destroy(){
+//void SwaptionVTSMatrixOptionTenorsWorker::Destroy(){
 //
 //}
 
@@ -2426,7 +2428,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSMatrixSwapTenors) {
 //
 //}
 
-//SwaptionVTSMatrixSwapTenorsWorker::Destroy(){
+//void SwaptionVTSMatrixSwapTenorsWorker::Destroy(){
 //
 //}
 
@@ -2516,7 +2518,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSMatrixLocate) {
 //
 //}
 
-//SwaptionVTSMatrixLocateWorker::Destroy(){
+//void SwaptionVTSMatrixLocateWorker::Destroy(){
 //
 //}
 
@@ -2632,7 +2634,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSatmStrike) {
 //
 //}
 
-//SwaptionVTSatmStrikeWorker::Destroy(){
+//void SwaptionVTSatmStrikeWorker::Destroy(){
 //
 //}
 
@@ -2747,7 +2749,7 @@ NAN_METHOD(QuantLibNode::SwaptionVTSatmStrike2) {
 //
 //}
 
-//SwaptionVTSatmStrike2Worker::Destroy(){
+//void SwaptionVTSatmStrike2Worker::Destroy(){
 //
 //}
 
@@ -2820,7 +2822,7 @@ NAN_METHOD(QuantLibNode::SparseSabrParameters) {
 //
 //}
 
-//SparseSabrParametersWorker::Destroy(){
+//void SparseSabrParametersWorker::Destroy(){
 //
 //}
 
@@ -2893,7 +2895,7 @@ NAN_METHOD(QuantLibNode::DenseSabrParameters) {
 //
 //}
 
-//DenseSabrParametersWorker::Destroy(){
+//void DenseSabrParametersWorker::Destroy(){
 //
 //}
 
@@ -2966,7 +2968,7 @@ NAN_METHOD(QuantLibNode::MarketVolCube) {
 //
 //}
 
-//MarketVolCubeWorker::Destroy(){
+//void MarketVolCubeWorker::Destroy(){
 //
 //}
 
@@ -3039,7 +3041,7 @@ NAN_METHOD(QuantLibNode::VolCubeAtmCalibrated) {
 //
 //}
 
-//VolCubeAtmCalibratedWorker::Destroy(){
+//void VolCubeAtmCalibratedWorker::Destroy(){
 //
 //}
  

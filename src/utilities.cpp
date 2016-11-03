@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -66,7 +68,7 @@ NAN_METHOD(QuantLibNode::xlVersion) {
 //
 //}
 
-//xlVersionWorker::Destroy(){
+//void xlVersionWorker::Destroy(){
 //
 //}
 
@@ -113,7 +115,7 @@ NAN_METHOD(QuantLibNode::AddinVersion) {
 //
 //}
 
-//AddinVersionWorker::Destroy(){
+//void AddinVersionWorker::Destroy(){
 //
 //}
 
@@ -160,7 +162,7 @@ NAN_METHOD(QuantLibNode::Version) {
 //
 //}
 
-//VersionWorker::Destroy(){
+//void VersionWorker::Destroy(){
 //
 //}
 
@@ -205,7 +207,7 @@ NAN_METHOD(QuantLibNode::FunctionCount) {
 //
 //}
 
-//FunctionCountWorker::Destroy(){
+//void FunctionCountWorker::Destroy(){
 //
 //}
  

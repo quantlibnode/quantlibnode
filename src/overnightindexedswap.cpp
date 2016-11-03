@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -182,7 +184,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwap) {
 //
 //}
 
-//OvernightIndexedSwapWorker::Destroy(){
+//void OvernightIndexedSwapWorker::Destroy(){
 //
 //}
 
@@ -342,7 +344,7 @@ NAN_METHOD(QuantLibNode::MakeOIS) {
 //
 //}
 
-//MakeOISWorker::Destroy(){
+//void MakeOISWorker::Destroy(){
 //
 //}
 
@@ -484,7 +486,7 @@ NAN_METHOD(QuantLibNode::MakeDatedOIS) {
 //
 //}
 
-//MakeDatedOISWorker::Destroy(){
+//void MakeDatedOISWorker::Destroy(){
 //
 //}
 
@@ -569,7 +571,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFromOISRateHelper) {
 //
 //}
 
-//OvernightIndexedSwapFromOISRateHelperWorker::Destroy(){
+//void OvernightIndexedSwapFromOISRateHelperWorker::Destroy(){
 //
 //}
 
@@ -630,7 +632,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFixedLegBPS) {
 //
 //}
 
-//OvernightIndexedSwapFixedLegBPSWorker::Destroy(){
+//void OvernightIndexedSwapFixedLegBPSWorker::Destroy(){
 //
 //}
 
@@ -691,7 +693,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFixedLegNPV) {
 //
 //}
 
-//OvernightIndexedSwapFixedLegNPVWorker::Destroy(){
+//void OvernightIndexedSwapFixedLegNPVWorker::Destroy(){
 //
 //}
 
@@ -752,7 +754,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFairRate) {
 //
 //}
 
-//OvernightIndexedSwapFairRateWorker::Destroy(){
+//void OvernightIndexedSwapFairRateWorker::Destroy(){
 //
 //}
 
@@ -813,7 +815,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapOvernightLegBPS) {
 //
 //}
 
-//OvernightIndexedSwapOvernightLegBPSWorker::Destroy(){
+//void OvernightIndexedSwapOvernightLegBPSWorker::Destroy(){
 //
 //}
 
@@ -874,7 +876,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapOvernightLegNPV) {
 //
 //}
 
-//OvernightIndexedSwapOvernightLegNPVWorker::Destroy(){
+//void OvernightIndexedSwapOvernightLegNPVWorker::Destroy(){
 //
 //}
 
@@ -935,7 +937,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFairSpread) {
 //
 //}
 
-//OvernightIndexedSwapFairSpreadWorker::Destroy(){
+//void OvernightIndexedSwapFairSpreadWorker::Destroy(){
 //
 //}
 
@@ -1001,7 +1003,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapType) {
 //
 //}
 
-//OvernightIndexedSwapTypeWorker::Destroy(){
+//void OvernightIndexedSwapTypeWorker::Destroy(){
 //
 //}
 
@@ -1062,7 +1064,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapNominal) {
 //
 //}
 
-//OvernightIndexedSwapNominalWorker::Destroy(){
+//void OvernightIndexedSwapNominalWorker::Destroy(){
 //
 //}
 
@@ -1123,7 +1125,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFixedRate) {
 //
 //}
 
-//OvernightIndexedSwapFixedRateWorker::Destroy(){
+//void OvernightIndexedSwapFixedRateWorker::Destroy(){
 //
 //}
 
@@ -1189,7 +1191,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFixedDayCount) {
 //
 //}
 
-//OvernightIndexedSwapFixedDayCountWorker::Destroy(){
+//void OvernightIndexedSwapFixedDayCountWorker::Destroy(){
 //
 //}
 
@@ -1250,7 +1252,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapSpread) {
 //
 //}
 
-//OvernightIndexedSwapSpreadWorker::Destroy(){
+//void OvernightIndexedSwapSpreadWorker::Destroy(){
 //
 //}
 
@@ -1334,7 +1336,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapFixedLegAnalysis) {
 //
 //}
 
-//OvernightIndexedSwapFixedLegAnalysisWorker::Destroy(){
+//void OvernightIndexedSwapFixedLegAnalysisWorker::Destroy(){
 //
 //}
 
@@ -1418,7 +1420,7 @@ NAN_METHOD(QuantLibNode::OvernightIndexedSwapOvernightLegAnalysis) {
 //
 //}
 
-//OvernightIndexedSwapOvernightLegAnalysisWorker::Destroy(){
+//void OvernightIndexedSwapOvernightLegAnalysisWorker::Destroy(){
 //
 //}
  

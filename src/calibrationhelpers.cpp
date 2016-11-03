@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -206,7 +208,7 @@ NAN_METHOD(QuantLibNode::SwaptionHelper) {
 //
 //}
 
-//SwaptionHelperWorker::Destroy(){
+//void SwaptionHelperWorker::Destroy(){
 //
 //}
 
@@ -281,7 +283,7 @@ NAN_METHOD(QuantLibNode::CalibrationHelperSetPricingEngine) {
 //
 //}
 
-//CalibrationHelperSetPricingEngineWorker::Destroy(){
+//void CalibrationHelperSetPricingEngineWorker::Destroy(){
 //
 //}
 
@@ -395,7 +397,7 @@ NAN_METHOD(QuantLibNode::CalibrationHelperImpliedVolatility) {
 //
 //}
 
-//CalibrationHelperImpliedVolatilityWorker::Destroy(){
+//void CalibrationHelperImpliedVolatilityWorker::Destroy(){
 //
 //}
 
@@ -456,7 +458,7 @@ NAN_METHOD(QuantLibNode::SwaptionHelperModelValue) {
 //
 //}
 
-//SwaptionHelperModelValueWorker::Destroy(){
+//void SwaptionHelperModelValueWorker::Destroy(){
 //
 //}
 
@@ -614,7 +616,7 @@ NAN_METHOD(QuantLibNode::OneFactorAffineModelCalibrate) {
 //
 //}
 
-//OneFactorAffineModelCalibrateWorker::Destroy(){
+//void OneFactorAffineModelCalibrateWorker::Destroy(){
 //
 //}
 
@@ -772,7 +774,7 @@ NAN_METHOD(QuantLibNode::ModelG2Calibrate) {
 //
 //}
 
-//ModelG2CalibrateWorker::Destroy(){
+//void ModelG2CalibrateWorker::Destroy(){
 //
 //}
  

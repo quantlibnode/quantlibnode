@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -150,7 +152,7 @@ NAN_METHOD(QuantLibNode::BarrierOption) {
 //
 //}
 
-//BarrierOptionWorker::Destroy(){
+//void BarrierOptionWorker::Destroy(){
 //
 //}
 
@@ -265,7 +267,7 @@ NAN_METHOD(QuantLibNode::CaAsianOption) {
 //
 //}
 
-//CaAsianOptionWorker::Destroy(){
+//void CaAsianOptionWorker::Destroy(){
 //
 //}
 
@@ -426,7 +428,7 @@ NAN_METHOD(QuantLibNode::DaAsianOption) {
 //
 //}
 
-//DaAsianOptionWorker::Destroy(){
+//void DaAsianOptionWorker::Destroy(){
 //
 //}
 
@@ -566,7 +568,7 @@ NAN_METHOD(QuantLibNode::DividendVanillaOption) {
 //
 //}
 
-//DividendVanillaOptionWorker::Destroy(){
+//void DividendVanillaOptionWorker::Destroy(){
 //
 //}
 
@@ -689,7 +691,7 @@ NAN_METHOD(QuantLibNode::ForwardVanillaOption) {
 //
 //}
 
-//ForwardVanillaOptionWorker::Destroy(){
+//void ForwardVanillaOptionWorker::Destroy(){
 //
 //}
 
@@ -789,7 +791,7 @@ NAN_METHOD(QuantLibNode::VanillaOption) {
 //
 //}
 
-//VanillaOptionWorker::Destroy(){
+//void VanillaOptionWorker::Destroy(){
 //
 //}
 
@@ -889,7 +891,7 @@ NAN_METHOD(QuantLibNode::EuropeanOption) {
 //
 //}
 
-//EuropeanOptionWorker::Destroy(){
+//void EuropeanOptionWorker::Destroy(){
 //
 //}
 
@@ -989,7 +991,7 @@ NAN_METHOD(QuantLibNode::QuantoVanillaOption) {
 //
 //}
 
-//QuantoVanillaOptionWorker::Destroy(){
+//void QuantoVanillaOptionWorker::Destroy(){
 //
 //}
 
@@ -1112,7 +1114,7 @@ NAN_METHOD(QuantLibNode::QuantoForwardVanillaOption) {
 //
 //}
 
-//QuantoForwardVanillaOptionWorker::Destroy(){
+//void QuantoForwardVanillaOptionWorker::Destroy(){
 //
 //}
 
@@ -1176,7 +1178,7 @@ NAN_METHOD(QuantLibNode::Delta) {
 //
 //}
 
-//DeltaWorker::Destroy(){
+//void DeltaWorker::Destroy(){
 //
 //}
 
@@ -1240,7 +1242,7 @@ NAN_METHOD(QuantLibNode::DeltaForward) {
 //
 //}
 
-//DeltaForwardWorker::Destroy(){
+//void DeltaForwardWorker::Destroy(){
 //
 //}
 
@@ -1304,7 +1306,7 @@ NAN_METHOD(QuantLibNode::Elasticity) {
 //
 //}
 
-//ElasticityWorker::Destroy(){
+//void ElasticityWorker::Destroy(){
 //
 //}
 
@@ -1368,7 +1370,7 @@ NAN_METHOD(QuantLibNode::Gamma) {
 //
 //}
 
-//GammaWorker::Destroy(){
+//void GammaWorker::Destroy(){
 //
 //}
 
@@ -1432,7 +1434,7 @@ NAN_METHOD(QuantLibNode::Theta) {
 //
 //}
 
-//ThetaWorker::Destroy(){
+//void ThetaWorker::Destroy(){
 //
 //}
 
@@ -1496,7 +1498,7 @@ NAN_METHOD(QuantLibNode::ThetaPerDay) {
 //
 //}
 
-//ThetaPerDayWorker::Destroy(){
+//void ThetaPerDayWorker::Destroy(){
 //
 //}
 
@@ -1560,7 +1562,7 @@ NAN_METHOD(QuantLibNode::Vega) {
 //
 //}
 
-//VegaWorker::Destroy(){
+//void VegaWorker::Destroy(){
 //
 //}
 
@@ -1624,7 +1626,7 @@ NAN_METHOD(QuantLibNode::Rho) {
 //
 //}
 
-//RhoWorker::Destroy(){
+//void RhoWorker::Destroy(){
 //
 //}
 
@@ -1688,7 +1690,7 @@ NAN_METHOD(QuantLibNode::DividendRho) {
 //
 //}
 
-//DividendRhoWorker::Destroy(){
+//void DividendRhoWorker::Destroy(){
 //
 //}
 
@@ -1752,7 +1754,7 @@ NAN_METHOD(QuantLibNode::ItmCashProbability) {
 //
 //}
 
-//ItmCashProbabilityWorker::Destroy(){
+//void ItmCashProbabilityWorker::Destroy(){
 //
 //}
  

@@ -9,10 +9,7 @@ node_modules
 .idea
 nbproject
 .git
-cmake
 .gitignore
-CMakeLists.txt
-bower.json
 *.o
 *.a
 *.exe

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -145,7 +147,7 @@ NAN_METHOD(QuantLibNode::FlatSmileSection) {
 //
 //}
 
-//FlatSmileSectionWorker::Destroy(){
+//void FlatSmileSectionWorker::Destroy(){
 //
 //}
 
@@ -408,7 +410,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSection) {
 //
 //}
 
-//SabrInterpolatedSmileSectionWorker::Destroy(){
+//void SabrInterpolatedSmileSectionWorker::Destroy(){
 //
 //}
 
@@ -684,7 +686,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSection1) {
 //
 //}
 
-//SabrInterpolatedSmileSection1Worker::Destroy(){
+//void SabrInterpolatedSmileSection1Worker::Destroy(){
 //
 //}
 
@@ -921,7 +923,7 @@ NAN_METHOD(QuantLibNode::SabrSmileSection) {
 //
 //}
 
-//SabrSmileSectionWorker::Destroy(){
+//void SabrSmileSectionWorker::Destroy(){
 //
 //}
 
@@ -1065,7 +1067,7 @@ NAN_METHOD(QuantLibNode::InterpolatedSmileSection) {
 //
 //}
 
-//InterpolatedSmileSectionWorker::Destroy(){
+//void InterpolatedSmileSectionWorker::Destroy(){
 //
 //}
 
@@ -1160,7 +1162,7 @@ NAN_METHOD(QuantLibNode::SmileSectionFromSabrVolSurface) {
 //
 //}
 
-//SmileSectionFromSabrVolSurfaceWorker::Destroy(){
+//void SmileSectionFromSabrVolSurfaceWorker::Destroy(){
 //
 //}
 
@@ -1229,7 +1231,7 @@ NAN_METHOD(QuantLibNode::SmileSectionVolatility) {
 //
 //}
 
-//SmileSectionVolatilityWorker::Destroy(){
+//void SmileSectionVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1298,7 +1300,7 @@ NAN_METHOD(QuantLibNode::SmileSectionVariance) {
 //
 //}
 
-//SmileSectionVarianceWorker::Destroy(){
+//void SmileSectionVarianceWorker::Destroy(){
 //
 //}
 
@@ -1359,7 +1361,7 @@ NAN_METHOD(QuantLibNode::SmileSectionAtmLevel) {
 //
 //}
 
-//SmileSectionAtmLevelWorker::Destroy(){
+//void SmileSectionAtmLevelWorker::Destroy(){
 //
 //}
 
@@ -1423,7 +1425,7 @@ NAN_METHOD(QuantLibNode::SmileSectionExerciseDate) {
 //
 //}
 
-//SmileSectionExerciseDateWorker::Destroy(){
+//void SmileSectionExerciseDateWorker::Destroy(){
 //
 //}
 
@@ -1489,7 +1491,7 @@ NAN_METHOD(QuantLibNode::SmileSectionDayCounter) {
 //
 //}
 
-//SmileSectionDayCounterWorker::Destroy(){
+//void SmileSectionDayCounterWorker::Destroy(){
 //
 //}
 
@@ -1550,7 +1552,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionAlpha) {
 //
 //}
 
-//SabrInterpolatedSmileSectionAlphaWorker::Destroy(){
+//void SabrInterpolatedSmileSectionAlphaWorker::Destroy(){
 //
 //}
 
@@ -1611,7 +1613,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionBeta) {
 //
 //}
 
-//SabrInterpolatedSmileSectionBetaWorker::Destroy(){
+//void SabrInterpolatedSmileSectionBetaWorker::Destroy(){
 //
 //}
 
@@ -1672,7 +1674,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionNu) {
 //
 //}
 
-//SabrInterpolatedSmileSectionNuWorker::Destroy(){
+//void SabrInterpolatedSmileSectionNuWorker::Destroy(){
 //
 //}
 
@@ -1733,7 +1735,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionRho) {
 //
 //}
 
-//SabrInterpolatedSmileSectionRhoWorker::Destroy(){
+//void SabrInterpolatedSmileSectionRhoWorker::Destroy(){
 //
 //}
 
@@ -1794,7 +1796,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionError) {
 //
 //}
 
-//SabrInterpolatedSmileSectionErrorWorker::Destroy(){
+//void SabrInterpolatedSmileSectionErrorWorker::Destroy(){
 //
 //}
 
@@ -1855,7 +1857,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionMaxError) {
 //
 //}
 
-//SabrInterpolatedSmileSectionMaxErrorWorker::Destroy(){
+//void SabrInterpolatedSmileSectionMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -1921,7 +1923,7 @@ NAN_METHOD(QuantLibNode::SabrInterpolatedSmileSectionEndCriteria) {
 //
 //}
 
-//SabrInterpolatedSmileSectionEndCriteriaWorker::Destroy(){
+//void SabrInterpolatedSmileSectionEndCriteriaWorker::Destroy(){
 //
 //}
  

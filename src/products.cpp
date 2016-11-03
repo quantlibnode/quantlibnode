@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -85,7 +87,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductComposite) {
 //
 //}
 
-//MarketModelMultiProductCompositeWorker::Destroy(){
+//void MarketModelMultiProductCompositeWorker::Destroy(){
 //
 //}
 
@@ -211,7 +213,7 @@ NAN_METHOD(QuantLibNode::MarketModelOneStepForwards) {
 //
 //}
 
-//MarketModelOneStepForwardsWorker::Destroy(){
+//void MarketModelOneStepForwardsWorker::Destroy(){
 //
 //}
 
@@ -387,7 +389,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiStepRatchet) {
 //
 //}
 
-//MarketModelMultiStepRatchetWorker::Destroy(){
+//void MarketModelMultiStepRatchetWorker::Destroy(){
 //
 //}
 
@@ -519,7 +521,7 @@ NAN_METHOD(QuantLibNode::MarketModelOneStepOptionlets) {
 //
 //}
 
-//MarketModelOneStepOptionletsWorker::Destroy(){
+//void MarketModelOneStepOptionletsWorker::Destroy(){
 //
 //}
 
@@ -595,7 +597,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductCompositeAdd) {
 //
 //}
 
-//MarketModelMultiProductCompositeAddWorker::Destroy(){
+//void MarketModelMultiProductCompositeAddWorker::Destroy(){
 //
 //}
 
@@ -657,7 +659,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductCompositeFinalize) {
 //
 //}
 
-//MarketModelMultiProductCompositeFinalizeWorker::Destroy(){
+//void MarketModelMultiProductCompositeFinalizeWorker::Destroy(){
 //
 //}
 
@@ -726,7 +728,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductSuggestedNumeraires) {
 //
 //}
 
-//MarketModelMultiProductSuggestedNumerairesWorker::Destroy(){
+//void MarketModelMultiProductSuggestedNumerairesWorker::Destroy(){
 //
 //}
 
@@ -792,7 +794,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductPossibleCashFlowTimes) {
 //
 //}
 
-//MarketModelMultiProductPossibleCashFlowTimesWorker::Destroy(){
+//void MarketModelMultiProductPossibleCashFlowTimesWorker::Destroy(){
 //
 //}
 
@@ -854,7 +856,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductNumberOfProducts) {
 //
 //}
 
-//MarketModelMultiProductNumberOfProductsWorker::Destroy(){
+//void MarketModelMultiProductNumberOfProductsWorker::Destroy(){
 //
 //}
 
@@ -916,7 +918,7 @@ NAN_METHOD(QuantLibNode::MarketModelMultiProductMaxNumberOfCashFlowsPerProductPe
 //
 //}
 
-//MarketModelMultiProductMaxNumberOfCashFlowsPerProductPerStepWorker::Destroy(){
+//void MarketModelMultiProductMaxNumberOfCashFlowsPerProductPerStepWorker::Destroy(){
 //
 //}
  

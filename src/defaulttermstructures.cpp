@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -92,7 +94,7 @@ NAN_METHOD(QuantLibNode::RelinkableHandleDefaultProbabilityTermStructure) {
 //
 //}
 
-//RelinkableHandleDefaultProbabilityTermStructureWorker::Destroy(){
+//void RelinkableHandleDefaultProbabilityTermStructureWorker::Destroy(){
 //
 //}
 
@@ -218,7 +220,7 @@ NAN_METHOD(QuantLibNode::FlatHazardRate) {
 //
 //}
 
-//FlatHazardRateWorker::Destroy(){
+//void FlatHazardRateWorker::Destroy(){
 //
 //}
 
@@ -328,7 +330,7 @@ NAN_METHOD(QuantLibNode::DefaultTSDefaultProbability) {
 //
 //}
 
-//DefaultTSDefaultProbabilityWorker::Destroy(){
+//void DefaultTSDefaultProbabilityWorker::Destroy(){
 //
 //}
 
@@ -415,7 +417,7 @@ NAN_METHOD(QuantLibNode::ProbabilityToHR) {
 //
 //}
 
-//ProbabilityToHRWorker::Destroy(){
+//void ProbabilityToHRWorker::Destroy(){
 //
 //}
  

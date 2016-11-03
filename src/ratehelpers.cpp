@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -116,7 +118,7 @@ NAN_METHOD(QuantLibNode::DepositRateHelper) {
 //
 //}
 
-//DepositRateHelperWorker::Destroy(){
+//void DepositRateHelperWorker::Destroy(){
 //
 //}
 
@@ -279,7 +281,7 @@ NAN_METHOD(QuantLibNode::DepositRateHelper2) {
 //
 //}
 
-//DepositRateHelper2Worker::Destroy(){
+//void DepositRateHelper2Worker::Destroy(){
 //
 //}
 
@@ -446,7 +448,7 @@ NAN_METHOD(QuantLibNode::SwapRateHelper) {
 //
 //}
 
-//SwapRateHelperWorker::Destroy(){
+//void SwapRateHelperWorker::Destroy(){
 //
 //}
 
@@ -700,7 +702,7 @@ NAN_METHOD(QuantLibNode::SwapRateHelper2) {
 //
 //}
 
-//SwapRateHelper2Worker::Destroy(){
+//void SwapRateHelper2Worker::Destroy(){
 //
 //}
 
@@ -840,7 +842,7 @@ NAN_METHOD(QuantLibNode::OISRateHelper) {
 //
 //}
 
-//OISRateHelperWorker::Destroy(){
+//void OISRateHelperWorker::Destroy(){
 //
 //}
 
@@ -977,7 +979,7 @@ NAN_METHOD(QuantLibNode::DatedOISRateHelper) {
 //
 //}
 
-//DatedOISRateHelperWorker::Destroy(){
+//void DatedOISRateHelperWorker::Destroy(){
 //
 //}
 
@@ -1116,7 +1118,7 @@ NAN_METHOD(QuantLibNode::FraRateHelper) {
 //
 //}
 
-//FraRateHelperWorker::Destroy(){
+//void FraRateHelperWorker::Destroy(){
 //
 //}
 
@@ -1318,7 +1320,7 @@ NAN_METHOD(QuantLibNode::FraRateHelper2) {
 //
 //}
 
-//FraRateHelper2Worker::Destroy(){
+//void FraRateHelper2Worker::Destroy(){
 //
 //}
 
@@ -1424,7 +1426,7 @@ NAN_METHOD(QuantLibNode::BondHelper) {
 //
 //}
 
-//BondHelperWorker::Destroy(){
+//void BondHelperWorker::Destroy(){
 //
 //}
 
@@ -1687,7 +1689,7 @@ NAN_METHOD(QuantLibNode::FixedRateBondHelper) {
 //
 //}
 
-//FixedRateBondHelperWorker::Destroy(){
+//void FixedRateBondHelperWorker::Destroy(){
 //
 //}
 
@@ -1823,7 +1825,7 @@ NAN_METHOD(QuantLibNode::FuturesRateHelper) {
 //
 //}
 
-//FuturesRateHelperWorker::Destroy(){
+//void FuturesRateHelperWorker::Destroy(){
 //
 //}
 
@@ -2007,7 +2009,7 @@ NAN_METHOD(QuantLibNode::FuturesRateHelper2) {
 //
 //}
 
-//FuturesRateHelper2Worker::Destroy(){
+//void FuturesRateHelper2Worker::Destroy(){
 //
 //}
 
@@ -2155,7 +2157,7 @@ NAN_METHOD(QuantLibNode::FuturesRateHelper3) {
 //
 //}
 
-//FuturesRateHelper3Worker::Destroy(){
+//void FuturesRateHelper3Worker::Destroy(){
 //
 //}
 
@@ -2340,7 +2342,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelper) {
 //
 //}
 
-//FxSwapRateHelperWorker::Destroy(){
+//void FxSwapRateHelperWorker::Destroy(){
 //
 //}
 
@@ -2404,7 +2406,7 @@ NAN_METHOD(QuantLibNode::RateHelperEarliestDate) {
 //
 //}
 
-//RateHelperEarliestDateWorker::Destroy(){
+//void RateHelperEarliestDateWorker::Destroy(){
 //
 //}
 
@@ -2468,7 +2470,7 @@ NAN_METHOD(QuantLibNode::RateHelperLatestRelevantDate) {
 //
 //}
 
-//RateHelperLatestRelevantDateWorker::Destroy(){
+//void RateHelperLatestRelevantDateWorker::Destroy(){
 //
 //}
 
@@ -2532,7 +2534,7 @@ NAN_METHOD(QuantLibNode::RateHelperPillarDate) {
 //
 //}
 
-//RateHelperPillarDateWorker::Destroy(){
+//void RateHelperPillarDateWorker::Destroy(){
 //
 //}
 
@@ -2596,7 +2598,7 @@ NAN_METHOD(QuantLibNode::RateHelperMaturityDate) {
 //
 //}
 
-//RateHelperMaturityDateWorker::Destroy(){
+//void RateHelperMaturityDateWorker::Destroy(){
 //
 //}
 
@@ -2656,7 +2658,7 @@ NAN_METHOD(QuantLibNode::RateHelperQuoteName) {
 //
 //}
 
-//RateHelperQuoteNameWorker::Destroy(){
+//void RateHelperQuoteNameWorker::Destroy(){
 //
 //}
 
@@ -2717,7 +2719,7 @@ NAN_METHOD(QuantLibNode::RateHelperQuoteValue) {
 //
 //}
 
-//RateHelperQuoteValueWorker::Destroy(){
+//void RateHelperQuoteValueWorker::Destroy(){
 //
 //}
 
@@ -2778,7 +2780,7 @@ NAN_METHOD(QuantLibNode::RateHelperQuoteIsValid) {
 //
 //}
 
-//RateHelperQuoteIsValidWorker::Destroy(){
+//void RateHelperQuoteIsValidWorker::Destroy(){
 //
 //}
 
@@ -2839,7 +2841,7 @@ NAN_METHOD(QuantLibNode::RateHelperImpliedQuote) {
 //
 //}
 
-//RateHelperImpliedQuoteWorker::Destroy(){
+//void RateHelperImpliedQuoteWorker::Destroy(){
 //
 //}
 
@@ -2900,7 +2902,7 @@ NAN_METHOD(QuantLibNode::RateHelperQuoteError) {
 //
 //}
 
-//RateHelperQuoteErrorWorker::Destroy(){
+//void RateHelperQuoteErrorWorker::Destroy(){
 //
 //}
 
@@ -2961,7 +2963,7 @@ NAN_METHOD(QuantLibNode::SwapRateHelperSpread) {
 //
 //}
 
-//SwapRateHelperSpreadWorker::Destroy(){
+//void SwapRateHelperSpreadWorker::Destroy(){
 //
 //}
 
@@ -3025,7 +3027,7 @@ NAN_METHOD(QuantLibNode::SwapRateHelperForwardStart) {
 //
 //}
 
-//SwapRateHelperForwardStartWorker::Destroy(){
+//void SwapRateHelperForwardStartWorker::Destroy(){
 //
 //}
 
@@ -3086,7 +3088,7 @@ NAN_METHOD(QuantLibNode::FuturesRateHelperConvexityAdjustment) {
 //
 //}
 
-//FuturesRateHelperConvexityAdjustmentWorker::Destroy(){
+//void FuturesRateHelperConvexityAdjustmentWorker::Destroy(){
 //
 //}
 
@@ -3150,7 +3152,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperSpotValue) {
 //
 //}
 
-//FxSwapRateHelperSpotValueWorker::Destroy(){
+//void FxSwapRateHelperSpotValueWorker::Destroy(){
 //
 //}
 
@@ -3214,7 +3216,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperTenor) {
 //
 //}
 
-//FxSwapRateHelperTenorWorker::Destroy(){
+//void FxSwapRateHelperTenorWorker::Destroy(){
 //
 //}
 
@@ -3278,7 +3280,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperFixingDays) {
 //
 //}
 
-//FxSwapRateHelperFixingDaysWorker::Destroy(){
+//void FxSwapRateHelperFixingDaysWorker::Destroy(){
 //
 //}
 
@@ -3344,7 +3346,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperCalendar) {
 //
 //}
 
-//FxSwapRateHelperCalendarWorker::Destroy(){
+//void FxSwapRateHelperCalendarWorker::Destroy(){
 //
 //}
 
@@ -3410,7 +3412,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperBDC) {
 //
 //}
 
-//FxSwapRateHelperBDCWorker::Destroy(){
+//void FxSwapRateHelperBDCWorker::Destroy(){
 //
 //}
 
@@ -3471,7 +3473,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperEOM) {
 //
 //}
 
-//FxSwapRateHelperEOMWorker::Destroy(){
+//void FxSwapRateHelperEOMWorker::Destroy(){
 //
 //}
 
@@ -3532,7 +3534,7 @@ NAN_METHOD(QuantLibNode::FxSwapRateHelperIsBaseCurrencyCollateralCurrency) {
 //
 //}
 
-//FxSwapRateHelperIsBaseCurrencyCollateralCurrencyWorker::Destroy(){
+//void FxSwapRateHelperIsBaseCurrencyCollateralCurrencyWorker::Destroy(){
 //
 //}
 
@@ -3698,7 +3700,7 @@ NAN_METHOD(QuantLibNode::RateHelperSelection) {
 //
 //}
 
-//RateHelperSelectionWorker::Destroy(){
+//void RateHelperSelectionWorker::Destroy(){
 //
 //}
 
@@ -3758,7 +3760,7 @@ NAN_METHOD(QuantLibNode::RateHelperRate) {
 //
 //}
 
-//RateHelperRateWorker::Destroy(){
+//void RateHelperRateWorker::Destroy(){
 //
 //}
  

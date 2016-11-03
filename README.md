@@ -1,5 +1,5 @@
-quantlib [![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib)
-========
+QuantLibNode [![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib)
+============
 
 QuantLib Async Bindings for Node.js
 
@@ -9,6 +9,21 @@ Getting started
 ```sh
 npm install quantlib
 ```
+
+* Windows
+
+`npm install quantlib` will do everything, including the package and pre-built native addon
+
+* Linux & Mac
+
+Quantlib and QuantLibAddin must be built first, then build QuantLibNode linking to them
+
+Version Matrix
+--------------
+
+| QuantLib | QuantLibAddin | Node.js | QuantLibNode |
+| -------- | ------------- | ------- | ------------ |
+|    1.7.1 |         1.7.0 |   6.9.1 |        0.1.x |
 
 Example
 -------

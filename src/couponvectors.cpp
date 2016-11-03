@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -160,7 +162,7 @@ NAN_METHOD(QuantLibNode::FixedRateLeg) {
 //
 //}
 
-//FixedRateLegWorker::Destroy(){
+//void FixedRateLegWorker::Destroy(){
 //
 //}
 
@@ -294,7 +296,7 @@ NAN_METHOD(QuantLibNode::FixedRateLeg2) {
 //
 //}
 
-//FixedRateLeg2Worker::Destroy(){
+//void FixedRateLeg2Worker::Destroy(){
 //
 //}
 
@@ -525,7 +527,7 @@ NAN_METHOD(QuantLibNode::IborLeg) {
 //
 //}
 
-//IborLegWorker::Destroy(){
+//void IborLegWorker::Destroy(){
 //
 //}
 
@@ -819,7 +821,7 @@ NAN_METHOD(QuantLibNode::DigitalIborLeg) {
 //
 //}
 
-//DigitalIborLegWorker::Destroy(){
+//void DigitalIborLegWorker::Destroy(){
 //
 //}
 
@@ -1050,7 +1052,7 @@ NAN_METHOD(QuantLibNode::CmsLeg) {
 //
 //}
 
-//CmsLegWorker::Destroy(){
+//void CmsLegWorker::Destroy(){
 //
 //}
 
@@ -1344,7 +1346,7 @@ NAN_METHOD(QuantLibNode::DigitalCmsLeg) {
 //
 //}
 
-//DigitalCmsLegWorker::Destroy(){
+//void DigitalCmsLegWorker::Destroy(){
 //
 //}
 
@@ -1596,7 +1598,7 @@ NAN_METHOD(QuantLibNode::RangeAccrualLeg) {
 //
 //}
 
-//RangeAccrualLegWorker::Destroy(){
+//void RangeAccrualLegWorker::Destroy(){
 //
 //}
 
@@ -1827,7 +1829,7 @@ NAN_METHOD(QuantLibNode::CmsZeroLeg) {
 //
 //}
 
-//CmsZeroLegWorker::Destroy(){
+//void CmsZeroLegWorker::Destroy(){
 //
 //}
 
@@ -1923,7 +1925,7 @@ NAN_METHOD(QuantLibNode::IborCouponPricer) {
 //
 //}
 
-//IborCouponPricerWorker::Destroy(){
+//void IborCouponPricerWorker::Destroy(){
 //
 //}
 
@@ -2046,7 +2048,7 @@ NAN_METHOD(QuantLibNode::CmsCouponPricer) {
 //
 //}
 
-//CmsCouponPricerWorker::Destroy(){
+//void CmsCouponPricerWorker::Destroy(){
 //
 //}
 
@@ -2192,7 +2194,7 @@ NAN_METHOD(QuantLibNode::ConundrumPricerByNumericalIntegration) {
 //
 //}
 
-//ConundrumPricerByNumericalIntegrationWorker::Destroy(){
+//void ConundrumPricerByNumericalIntegrationWorker::Destroy(){
 //
 //}
 
@@ -2288,7 +2290,7 @@ NAN_METHOD(QuantLibNode::DigitalReplication) {
 //
 //}
 
-//DigitalReplicationWorker::Destroy(){
+//void DigitalReplicationWorker::Destroy(){
 //
 //}
 
@@ -2349,7 +2351,7 @@ NAN_METHOD(QuantLibNode::ConundrumPricerByNumericalIntegrationUpperLimit) {
 //
 //}
 
-//ConundrumPricerByNumericalIntegrationUpperLimitWorker::Destroy(){
+//void ConundrumPricerByNumericalIntegrationUpperLimitWorker::Destroy(){
 //
 //}
  

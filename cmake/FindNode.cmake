@@ -4,7 +4,7 @@
 #  NODE_GYP_FOUND - True if node found.
 
 #  Read environment variables to find node_gyp include/lib directories
-SET(NODE_GYP_VER "4.4.5")
+SET(NODE_GYP_VER "6.9.1")
 MESSAGE( STATUS "NODE_GYP_VER:         " ${NODE_GYP_VER} )
 SET(NODE_GYP_DIR $ENV{NODE_GYP_DIR}/${NODE_GYP_VER})
 MESSAGE( STATUS "NODE_GYP_DIR:         " ${NODE_GYP_DIR} )

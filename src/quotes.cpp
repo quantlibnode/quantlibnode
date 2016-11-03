@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -117,7 +119,7 @@ NAN_METHOD(QuantLibNode::SimpleQuote) {
 //
 //}
 
-//SimpleQuoteWorker::Destroy(){
+//void SimpleQuoteWorker::Destroy(){
 //
 //}
 
@@ -214,7 +216,7 @@ NAN_METHOD(QuantLibNode::ForwardValueQuote) {
 //
 //}
 
-//ForwardValueQuoteWorker::Destroy(){
+//void ForwardValueQuoteWorker::Destroy(){
 //
 //}
 
@@ -326,7 +328,7 @@ NAN_METHOD(QuantLibNode::ForwardSwapQuote) {
 //
 //}
 
-//ForwardSwapQuoteWorker::Destroy(){
+//void ForwardSwapQuoteWorker::Destroy(){
 //
 //}
 
@@ -468,7 +470,7 @@ NAN_METHOD(QuantLibNode::ImpliedStdDevQuote) {
 //
 //}
 
-//ImpliedStdDevQuoteWorker::Destroy(){
+//void ImpliedStdDevQuoteWorker::Destroy(){
 //
 //}
 
@@ -607,7 +609,7 @@ NAN_METHOD(QuantLibNode::EurodollarFuturesImpliedStdDevQuote) {
 //
 //}
 
-//EurodollarFuturesImpliedStdDevQuoteWorker::Destroy(){
+//void EurodollarFuturesImpliedStdDevQuoteWorker::Destroy(){
 //
 //}
 
@@ -711,7 +713,7 @@ NAN_METHOD(QuantLibNode::CompositeQuote) {
 //
 //}
 
-//CompositeQuoteWorker::Destroy(){
+//void CompositeQuoteWorker::Destroy(){
 //
 //}
 
@@ -842,7 +844,7 @@ NAN_METHOD(QuantLibNode::FuturesConvAdjustmentQuote) {
 //
 //}
 
-//FuturesConvAdjustmentQuoteWorker::Destroy(){
+//void FuturesConvAdjustmentQuoteWorker::Destroy(){
 //
 //}
 
@@ -927,7 +929,7 @@ NAN_METHOD(QuantLibNode::LastFixingQuote) {
 //
 //}
 
-//LastFixingQuoteWorker::Destroy(){
+//void LastFixingQuoteWorker::Destroy(){
 //
 //}
 
@@ -1007,7 +1009,7 @@ NAN_METHOD(QuantLibNode::RelinkableHandleQuote) {
 //
 //}
 
-//RelinkableHandleQuoteWorker::Destroy(){
+//void RelinkableHandleQuoteWorker::Destroy(){
 //
 //}
 
@@ -1071,7 +1073,7 @@ NAN_METHOD(QuantLibNode::QuoteValue) {
 //
 //}
 
-//QuoteValueWorker::Destroy(){
+//void QuoteValueWorker::Destroy(){
 //
 //}
 
@@ -1132,7 +1134,7 @@ NAN_METHOD(QuantLibNode::QuoteIsValid) {
 //
 //}
 
-//QuoteIsValidWorker::Destroy(){
+//void QuoteIsValidWorker::Destroy(){
 //
 //}
 
@@ -1193,7 +1195,7 @@ NAN_METHOD(QuantLibNode::SimpleQuoteReset) {
 //
 //}
 
-//SimpleQuoteResetWorker::Destroy(){
+//void SimpleQuoteResetWorker::Destroy(){
 //
 //}
 
@@ -1266,7 +1268,7 @@ NAN_METHOD(QuantLibNode::SimpleQuoteSetValue) {
 //
 //}
 
-//SimpleQuoteSetValueWorker::Destroy(){
+//void SimpleQuoteSetValueWorker::Destroy(){
 //
 //}
 
@@ -1336,7 +1338,7 @@ NAN_METHOD(QuantLibNode::SimpleQuoteSetTickValue) {
 //
 //}
 
-//SimpleQuoteSetTickValueWorker::Destroy(){
+//void SimpleQuoteSetTickValueWorker::Destroy(){
 //
 //}
 
@@ -1399,7 +1401,7 @@ NAN_METHOD(QuantLibNode::SimpleQuoteTickValue) {
 //
 //}
 
-//SimpleQuoteTickValueWorker::Destroy(){
+//void SimpleQuoteTickValueWorker::Destroy(){
 //
 //}
 
@@ -1463,7 +1465,7 @@ NAN_METHOD(QuantLibNode::FuturesConvAdjustmentQuoteVolatility) {
 //
 //}
 
-//FuturesConvAdjustmentQuoteVolatilityWorker::Destroy(){
+//void FuturesConvAdjustmentQuoteVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1527,7 +1529,7 @@ NAN_METHOD(QuantLibNode::FuturesConvAdjustmentQuoteMeanReversion) {
 //
 //}
 
-//FuturesConvAdjustmentQuoteMeanReversionWorker::Destroy(){
+//void FuturesConvAdjustmentQuoteMeanReversionWorker::Destroy(){
 //
 //}
 
@@ -1591,7 +1593,7 @@ NAN_METHOD(QuantLibNode::FuturesConvAdjustmentQuoteImmDate) {
 //
 //}
 
-//FuturesConvAdjustmentQuoteImmDateWorker::Destroy(){
+//void FuturesConvAdjustmentQuoteImmDateWorker::Destroy(){
 //
 //}
 
@@ -1655,7 +1657,7 @@ NAN_METHOD(QuantLibNode::FuturesConvAdjustmentQuoteFuturesValue) {
 //
 //}
 
-//FuturesConvAdjustmentQuoteFuturesValueWorker::Destroy(){
+//void FuturesConvAdjustmentQuoteFuturesValueWorker::Destroy(){
 //
 //}
 
@@ -1719,7 +1721,7 @@ NAN_METHOD(QuantLibNode::LastFixingQuoteReferenceDate) {
 //
 //}
 
-//LastFixingQuoteReferenceDateWorker::Destroy(){
+//void LastFixingQuoteReferenceDateWorker::Destroy(){
 //
 //}
 
@@ -1874,7 +1876,7 @@ NAN_METHOD(QuantLibNode::BucketAnalysis) {
 //
 //}
 
-//BucketAnalysisWorker::Destroy(){
+//void BucketAnalysisWorker::Destroy(){
 //
 //}
 
@@ -1991,7 +1993,7 @@ NAN_METHOD(QuantLibNode::BucketAnalysisDelta) {
 //
 //}
 
-//BucketAnalysisDeltaWorker::Destroy(){
+//void BucketAnalysisDeltaWorker::Destroy(){
 //
 //}
 
@@ -2123,7 +2125,7 @@ NAN_METHOD(QuantLibNode::BucketAnalysisDelta2) {
 //
 //}
 
-//BucketAnalysisDelta2Worker::Destroy(){
+//void BucketAnalysisDelta2Worker::Destroy(){
 //
 //}
  

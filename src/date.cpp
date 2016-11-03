@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -80,7 +82,7 @@ NAN_METHOD(QuantLibNode::PeriodFromFrequency) {
 //
 //}
 
-//PeriodFromFrequencyWorker::Destroy(){
+//void PeriodFromFrequencyWorker::Destroy(){
 //
 //}
 
@@ -169,7 +171,7 @@ NAN_METHOD(QuantLibNode::FrequencyFromPeriod) {
 //
 //}
 
-//FrequencyFromPeriodWorker::Destroy(){
+//void FrequencyFromPeriodWorker::Destroy(){
 //
 //}
 
@@ -245,7 +247,7 @@ NAN_METHOD(QuantLibNode::PeriodLessThan) {
 //
 //}
 
-//PeriodLessThanWorker::Destroy(){
+//void PeriodLessThanWorker::Destroy(){
 //
 //}
 
@@ -309,7 +311,7 @@ NAN_METHOD(QuantLibNode::PeriodEquivalent) {
 //
 //}
 
-//PeriodEquivalentWorker::Destroy(){
+//void PeriodEquivalentWorker::Destroy(){
 //
 //}
 
@@ -359,7 +361,7 @@ NAN_METHOD(QuantLibNode::DateMinDate) {
 //
 //}
 
-//DateMinDateWorker::Destroy(){
+//void DateMinDateWorker::Destroy(){
 //
 //}
 
@@ -409,7 +411,7 @@ NAN_METHOD(QuantLibNode::DateMaxDate) {
 //
 //}
 
-//DateMaxDateWorker::Destroy(){
+//void DateMaxDateWorker::Destroy(){
 //
 //}
 
@@ -483,7 +485,7 @@ NAN_METHOD(QuantLibNode::DateIsLeap) {
 //
 //}
 
-//DateIsLeapWorker::Destroy(){
+//void DateIsLeapWorker::Destroy(){
 //
 //}
 
@@ -569,7 +571,7 @@ NAN_METHOD(QuantLibNode::DateEndOfMonth) {
 //
 //}
 
-//DateEndOfMonthWorker::Destroy(){
+//void DateEndOfMonthWorker::Destroy(){
 //
 //}
 
@@ -650,7 +652,7 @@ NAN_METHOD(QuantLibNode::DateIsEndOfMonth) {
 //
 //}
 
-//DateIsEndOfMonthWorker::Destroy(){
+//void DateIsEndOfMonthWorker::Destroy(){
 //
 //}
 
@@ -750,7 +752,7 @@ NAN_METHOD(QuantLibNode::DateNextWeekday) {
 //
 //}
 
-//DateNextWeekdayWorker::Destroy(){
+//void DateNextWeekdayWorker::Destroy(){
 //
 //}
 
@@ -847,7 +849,7 @@ NAN_METHOD(QuantLibNode::DateNthWeekday) {
 //
 //}
 
-//DateNthWeekdayWorker::Destroy(){
+//void DateNthWeekdayWorker::Destroy(){
 //
 //}
 
@@ -936,7 +938,7 @@ NAN_METHOD(QuantLibNode::IMMIsIMMdate) {
 //
 //}
 
-//IMMIsIMMdateWorker::Destroy(){
+//void IMMIsIMMdateWorker::Destroy(){
 //
 //}
 
@@ -1019,7 +1021,7 @@ NAN_METHOD(QuantLibNode::IMMIsIMMcode) {
 //
 //}
 
-//IMMIsIMMcodeWorker::Destroy(){
+//void IMMIsIMMcodeWorker::Destroy(){
 //
 //}
 
@@ -1100,7 +1102,7 @@ NAN_METHOD(QuantLibNode::IMMcode) {
 //
 //}
 
-//IMMcodeWorker::Destroy(){
+//void IMMcodeWorker::Destroy(){
 //
 //}
 
@@ -1167,7 +1169,7 @@ NAN_METHOD(QuantLibNode::IMMNextCode) {
 //
 //}
 
-//IMMNextCodeWorker::Destroy(){
+//void IMMNextCodeWorker::Destroy(){
 //
 //}
 
@@ -1244,7 +1246,7 @@ NAN_METHOD(QuantLibNode::IMMNextCodes) {
 //
 //}
 
-//IMMNextCodesWorker::Destroy(){
+//void IMMNextCodesWorker::Destroy(){
 //
 //}
 
@@ -1335,7 +1337,7 @@ NAN_METHOD(QuantLibNode::IMMdate) {
 //
 //}
 
-//IMMdateWorker::Destroy(){
+//void IMMdateWorker::Destroy(){
 //
 //}
 
@@ -1405,7 +1407,7 @@ NAN_METHOD(QuantLibNode::IMMNextDate) {
 //
 //}
 
-//IMMNextDateWorker::Destroy(){
+//void IMMNextDateWorker::Destroy(){
 //
 //}
 
@@ -1482,7 +1484,7 @@ NAN_METHOD(QuantLibNode::IMMNextDates) {
 //
 //}
 
-//IMMNextDatesWorker::Destroy(){
+//void IMMNextDatesWorker::Destroy(){
 //
 //}
 
@@ -1571,7 +1573,7 @@ NAN_METHOD(QuantLibNode::ASXIsASXdate) {
 //
 //}
 
-//ASXIsASXdateWorker::Destroy(){
+//void ASXIsASXdateWorker::Destroy(){
 //
 //}
 
@@ -1654,7 +1656,7 @@ NAN_METHOD(QuantLibNode::ASXIsASXcode) {
 //
 //}
 
-//ASXIsASXcodeWorker::Destroy(){
+//void ASXIsASXcodeWorker::Destroy(){
 //
 //}
 
@@ -1735,7 +1737,7 @@ NAN_METHOD(QuantLibNode::ASXcode) {
 //
 //}
 
-//ASXcodeWorker::Destroy(){
+//void ASXcodeWorker::Destroy(){
 //
 //}
 
@@ -1802,7 +1804,7 @@ NAN_METHOD(QuantLibNode::ASXNextCode) {
 //
 //}
 
-//ASXNextCodeWorker::Destroy(){
+//void ASXNextCodeWorker::Destroy(){
 //
 //}
 
@@ -1879,7 +1881,7 @@ NAN_METHOD(QuantLibNode::ASXNextCodes) {
 //
 //}
 
-//ASXNextCodesWorker::Destroy(){
+//void ASXNextCodesWorker::Destroy(){
 //
 //}
 
@@ -1970,7 +1972,7 @@ NAN_METHOD(QuantLibNode::ASXdate) {
 //
 //}
 
-//ASXdateWorker::Destroy(){
+//void ASXdateWorker::Destroy(){
 //
 //}
 
@@ -2040,7 +2042,7 @@ NAN_METHOD(QuantLibNode::ASXNextDate) {
 //
 //}
 
-//ASXNextDateWorker::Destroy(){
+//void ASXNextDateWorker::Destroy(){
 //
 //}
 
@@ -2117,7 +2119,7 @@ NAN_METHOD(QuantLibNode::ASXNextDates) {
 //
 //}
 
-//ASXNextDatesWorker::Destroy(){
+//void ASXNextDatesWorker::Destroy(){
 //
 //}
 
@@ -2169,7 +2171,7 @@ NAN_METHOD(QuantLibNode::ECBKnownDates) {
 //
 //}
 
-//ECBKnownDatesWorker::Destroy(){
+//void ECBKnownDatesWorker::Destroy(){
 //
 //}
 
@@ -2227,7 +2229,7 @@ NAN_METHOD(QuantLibNode::ECBAddDate) {
 //
 //}
 
-//ECBAddDateWorker::Destroy(){
+//void ECBAddDateWorker::Destroy(){
 //
 //}
 
@@ -2285,7 +2287,7 @@ NAN_METHOD(QuantLibNode::ECBRemoveDate) {
 //
 //}
 
-//ECBRemoveDateWorker::Destroy(){
+//void ECBRemoveDateWorker::Destroy(){
 //
 //}
 
@@ -2358,7 +2360,7 @@ NAN_METHOD(QuantLibNode::ECBdate2) {
 //
 //}
 
-//ECBdate2Worker::Destroy(){
+//void ECBdate2Worker::Destroy(){
 //
 //}
 
@@ -2429,7 +2431,7 @@ NAN_METHOD(QuantLibNode::ECBdate) {
 //
 //}
 
-//ECBdateWorker::Destroy(){
+//void ECBdateWorker::Destroy(){
 //
 //}
 
@@ -2487,7 +2489,7 @@ NAN_METHOD(QuantLibNode::ECBcode) {
 //
 //}
 
-//ECBcodeWorker::Destroy(){
+//void ECBcodeWorker::Destroy(){
 //
 //}
 
@@ -2548,7 +2550,7 @@ NAN_METHOD(QuantLibNode::ECBNextDate) {
 //
 //}
 
-//ECBNextDateWorker::Destroy(){
+//void ECBNextDateWorker::Destroy(){
 //
 //}
 
@@ -2607,7 +2609,7 @@ NAN_METHOD(QuantLibNode::ECBNextDate2) {
 //
 //}
 
-//ECBNextDate2Worker::Destroy(){
+//void ECBNextDate2Worker::Destroy(){
 //
 //}
 
@@ -2673,7 +2675,7 @@ NAN_METHOD(QuantLibNode::ECBNextDates) {
 //
 //}
 
-//ECBNextDatesWorker::Destroy(){
+//void ECBNextDatesWorker::Destroy(){
 //
 //}
 
@@ -2754,7 +2756,7 @@ NAN_METHOD(QuantLibNode::ECBIsECBdate) {
 //
 //}
 
-//ECBIsECBdateWorker::Destroy(){
+//void ECBIsECBdateWorker::Destroy(){
 //
 //}
 
@@ -2829,7 +2831,7 @@ NAN_METHOD(QuantLibNode::ECBIsECBcode) {
 //
 //}
 
-//ECBIsECBcodeWorker::Destroy(){
+//void ECBIsECBcodeWorker::Destroy(){
 //
 //}
 
@@ -2887,7 +2889,7 @@ NAN_METHOD(QuantLibNode::ECBNextCode) {
 //
 //}
 
-//ECBNextCodeWorker::Destroy(){
+//void ECBNextCodeWorker::Destroy(){
 //
 //}
 
@@ -2943,7 +2945,7 @@ NAN_METHOD(QuantLibNode::ECBNextCode2) {
 //
 //}
 
-//ECBNextCode2Worker::Destroy(){
+//void ECBNextCode2Worker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -170,7 +172,7 @@ NAN_METHOD(QuantLibNode::FlatVol) {
 //
 //}
 
-//FlatVolWorker::Destroy(){
+//void FlatVolWorker::Destroy(){
 //
 //}
 
@@ -357,7 +359,7 @@ NAN_METHOD(QuantLibNode::AbcdVol) {
 //
 //}
 
-//AbcdVolWorker::Destroy(){
+//void AbcdVolWorker::Destroy(){
 //
 //}
 
@@ -442,7 +444,7 @@ NAN_METHOD(QuantLibNode::PseudoRootFacade) {
 //
 //}
 
-//PseudoRootFacadeWorker::Destroy(){
+//void PseudoRootFacadeWorker::Destroy(){
 //
 //}
 
@@ -527,7 +529,7 @@ NAN_METHOD(QuantLibNode::CotSwapToFwdAdapter) {
 //
 //}
 
-//CotSwapToFwdAdapterWorker::Destroy(){
+//void CotSwapToFwdAdapterWorker::Destroy(){
 //
 //}
 
@@ -654,7 +656,7 @@ NAN_METHOD(QuantLibNode::FwdPeriodAdapter) {
 //
 //}
 
-//FwdPeriodAdapterWorker::Destroy(){
+//void FwdPeriodAdapterWorker::Destroy(){
 //
 //}
 
@@ -739,7 +741,7 @@ NAN_METHOD(QuantLibNode::FwdToCotSwapAdapter) {
 //
 //}
 
-//FwdToCotSwapAdapterWorker::Destroy(){
+//void FwdToCotSwapAdapterWorker::Destroy(){
 //
 //}
 
@@ -880,7 +882,7 @@ NAN_METHOD(QuantLibNode::FlatVolFactory) {
 //
 //}
 
-//FlatVolFactoryWorker::Destroy(){
+//void FlatVolFactoryWorker::Destroy(){
 //
 //}
 
@@ -946,7 +948,7 @@ NAN_METHOD(QuantLibNode::MarketModelInitialRates) {
 //
 //}
 
-//MarketModelInitialRatesWorker::Destroy(){
+//void MarketModelInitialRatesWorker::Destroy(){
 //
 //}
 
@@ -1012,7 +1014,7 @@ NAN_METHOD(QuantLibNode::MarketModelDisplacements) {
 //
 //}
 
-//MarketModelDisplacementsWorker::Destroy(){
+//void MarketModelDisplacementsWorker::Destroy(){
 //
 //}
 
@@ -1074,7 +1076,7 @@ NAN_METHOD(QuantLibNode::MarketModelNumberOfRates) {
 //
 //}
 
-//MarketModelNumberOfRatesWorker::Destroy(){
+//void MarketModelNumberOfRatesWorker::Destroy(){
 //
 //}
 
@@ -1136,7 +1138,7 @@ NAN_METHOD(QuantLibNode::MarketModelNumberOfFactors) {
 //
 //}
 
-//MarketModelNumberOfFactorsWorker::Destroy(){
+//void MarketModelNumberOfFactorsWorker::Destroy(){
 //
 //}
 
@@ -1198,7 +1200,7 @@ NAN_METHOD(QuantLibNode::MarketModelNumberOfSteps) {
 //
 //}
 
-//MarketModelNumberOfStepsWorker::Destroy(){
+//void MarketModelNumberOfStepsWorker::Destroy(){
 //
 //}
 
@@ -1286,7 +1288,7 @@ NAN_METHOD(QuantLibNode::MarketModelPseudoRoot) {
 //
 //}
 
-//MarketModelPseudoRootWorker::Destroy(){
+//void MarketModelPseudoRootWorker::Destroy(){
 //
 //}
 
@@ -1374,7 +1376,7 @@ NAN_METHOD(QuantLibNode::MarketModelCovariance) {
 //
 //}
 
-//MarketModelCovarianceWorker::Destroy(){
+//void MarketModelCovarianceWorker::Destroy(){
 //
 //}
 
@@ -1462,7 +1464,7 @@ NAN_METHOD(QuantLibNode::MarketModelTotalCovariance) {
 //
 //}
 
-//MarketModelTotalCovarianceWorker::Destroy(){
+//void MarketModelTotalCovarianceWorker::Destroy(){
 //
 //}
 
@@ -1541,7 +1543,7 @@ NAN_METHOD(QuantLibNode::MarketModelTimeDependentVolatility) {
 //
 //}
 
-//MarketModelTimeDependentVolatilityWorker::Destroy(){
+//void MarketModelTimeDependentVolatilityWorker::Destroy(){
 //
 //}
 
@@ -1617,7 +1619,7 @@ NAN_METHOD(QuantLibNode::CoterminalSwapForwardJacobian) {
 //
 //}
 
-//CoterminalSwapForwardJacobianWorker::Destroy(){
+//void CoterminalSwapForwardJacobianWorker::Destroy(){
 //
 //}
 
@@ -1702,7 +1704,7 @@ NAN_METHOD(QuantLibNode::CoterminalSwapZedMatrix) {
 //
 //}
 
-//CoterminalSwapZedMatrixWorker::Destroy(){
+//void CoterminalSwapZedMatrixWorker::Destroy(){
 //
 //}
 
@@ -1778,7 +1780,7 @@ NAN_METHOD(QuantLibNode::CoinitialSwapForwardJacobian) {
 //
 //}
 
-//CoinitialSwapForwardJacobianWorker::Destroy(){
+//void CoinitialSwapForwardJacobianWorker::Destroy(){
 //
 //}
 
@@ -1863,7 +1865,7 @@ NAN_METHOD(QuantLibNode::CoinitialSwapZedMatrix) {
 //
 //}
 
-//CoinitialSwapZedMatrixWorker::Destroy(){
+//void CoinitialSwapZedMatrixWorker::Destroy(){
 //
 //}
 
@@ -1953,7 +1955,7 @@ NAN_METHOD(QuantLibNode::CmSwapForwardJacobian) {
 //
 //}
 
-//CmSwapForwardJacobianWorker::Destroy(){
+//void CmSwapForwardJacobianWorker::Destroy(){
 //
 //}
 
@@ -2052,7 +2054,7 @@ NAN_METHOD(QuantLibNode::CmSwapZedMatrix) {
 //
 //}
 
-//CmSwapZedMatrixWorker::Destroy(){
+//void CmSwapZedMatrixWorker::Destroy(){
 //
 //}
 
@@ -2158,7 +2160,7 @@ NAN_METHOD(QuantLibNode::Annuity) {
 //
 //}
 
-//AnnuityWorker::Destroy(){
+//void AnnuityWorker::Destroy(){
 //
 //}
 
@@ -2264,7 +2266,7 @@ NAN_METHOD(QuantLibNode::SwapDerivative) {
 //
 //}
 
-//SwapDerivativeWorker::Destroy(){
+//void SwapDerivativeWorker::Destroy(){
 //
 //}
 
@@ -2345,7 +2347,7 @@ NAN_METHOD(QuantLibNode::RateVolDifferences) {
 //
 //}
 
-//RateVolDifferencesWorker::Destroy(){
+//void RateVolDifferencesWorker::Destroy(){
 //
 //}
 
@@ -2440,7 +2442,7 @@ NAN_METHOD(QuantLibNode::RateInstVolDifferences) {
 //
 //}
 
-//RateInstVolDifferencesWorker::Destroy(){
+//void RateInstVolDifferencesWorker::Destroy(){
 //
 //}
  

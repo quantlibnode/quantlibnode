@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -137,7 +139,7 @@ NAN_METHOD(QuantLibNode::BlackConstantVol) {
 //
 //}
 
-//BlackConstantVolWorker::Destroy(){
+//void BlackConstantVolWorker::Destroy(){
 //
 //}
 
@@ -307,7 +309,7 @@ NAN_METHOD(QuantLibNode::BlackVarianceSurface) {
 //
 //}
 
-//BlackVarianceSurfaceWorker::Destroy(){
+//void BlackVarianceSurfaceWorker::Destroy(){
 //
 //}
 
@@ -489,7 +491,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurve) {
 //
 //}
 
-//AbcdAtmVolCurveWorker::Destroy(){
+//void AbcdAtmVolCurveWorker::Destroy(){
 //
 //}
 
@@ -650,7 +652,7 @@ NAN_METHOD(QuantLibNode::SabrVolSurface) {
 //
 //}
 
-//SabrVolSurfaceWorker::Destroy(){
+//void SabrVolSurfaceWorker::Destroy(){
 //
 //}
 
@@ -717,7 +719,7 @@ NAN_METHOD(QuantLibNode::VolatilityTermStructureBusinessDayConvention) {
 //
 //}
 
-//VolatilityTermStructureBusinessDayConventionWorker::Destroy(){
+//void VolatilityTermStructureBusinessDayConventionWorker::Destroy(){
 //
 //}
 
@@ -796,7 +798,7 @@ NAN_METHOD(QuantLibNode::VolatilityTermStructureOptionDateFromTenor) {
 //
 //}
 
-//VolatilityTermStructureOptionDateFromTenorWorker::Destroy(){
+//void VolatilityTermStructureOptionDateFromTenorWorker::Destroy(){
 //
 //}
 
@@ -858,7 +860,7 @@ NAN_METHOD(QuantLibNode::VolatilityTermStructureMinStrike) {
 //
 //}
 
-//VolatilityTermStructureMinStrikeWorker::Destroy(){
+//void VolatilityTermStructureMinStrikeWorker::Destroy(){
 //
 //}
 
@@ -920,7 +922,7 @@ NAN_METHOD(QuantLibNode::VolatilityTermStructureMaxStrike) {
 //
 //}
 
-//VolatilityTermStructureMaxStrikeWorker::Destroy(){
+//void VolatilityTermStructureMaxStrikeWorker::Destroy(){
 //
 //}
 
@@ -1002,7 +1004,7 @@ NAN_METHOD(QuantLibNode::BlackAtmVolCurveAtmVol) {
 //
 //}
 
-//BlackAtmVolCurveAtmVolWorker::Destroy(){
+//void BlackAtmVolCurveAtmVolWorker::Destroy(){
 //
 //}
 
@@ -1087,7 +1089,7 @@ NAN_METHOD(QuantLibNode::BlackAtmVolCurveAtmVol2) {
 //
 //}
 
-//BlackAtmVolCurveAtmVol2Worker::Destroy(){
+//void BlackAtmVolCurveAtmVol2Worker::Destroy(){
 //
 //}
 
@@ -1166,7 +1168,7 @@ NAN_METHOD(QuantLibNode::BlackAtmVolCurveAtmVol3) {
 //
 //}
 
-//BlackAtmVolCurveAtmVol3Worker::Destroy(){
+//void BlackAtmVolCurveAtmVol3Worker::Destroy(){
 //
 //}
 
@@ -1248,7 +1250,7 @@ NAN_METHOD(QuantLibNode::BlackAtmVolCurveAtmVariance) {
 //
 //}
 
-//BlackAtmVolCurveAtmVarianceWorker::Destroy(){
+//void BlackAtmVolCurveAtmVarianceWorker::Destroy(){
 //
 //}
 
@@ -1333,7 +1335,7 @@ NAN_METHOD(QuantLibNode::BlackAtmVolCurveAtmVariance2) {
 //
 //}
 
-//BlackAtmVolCurveAtmVariance2Worker::Destroy(){
+//void BlackAtmVolCurveAtmVariance2Worker::Destroy(){
 //
 //}
 
@@ -1412,7 +1414,7 @@ NAN_METHOD(QuantLibNode::BlackAtmVolCurveAtmVariance3) {
 //
 //}
 
-//BlackAtmVolCurveAtmVariance3Worker::Destroy(){
+//void BlackAtmVolCurveAtmVariance3Worker::Destroy(){
 //
 //}
 
@@ -1505,7 +1507,7 @@ NAN_METHOD(QuantLibNode::BlackVolTermStructureBlackVol) {
 //
 //}
 
-//BlackVolTermStructureBlackVolWorker::Destroy(){
+//void BlackVolTermStructureBlackVolWorker::Destroy(){
 //
 //}
 
@@ -1601,7 +1603,7 @@ NAN_METHOD(QuantLibNode::BlackVolTermStructureBlackVariance) {
 //
 //}
 
-//BlackVolTermStructureBlackVarianceWorker::Destroy(){
+//void BlackVolTermStructureBlackVarianceWorker::Destroy(){
 //
 //}
 
@@ -1706,7 +1708,7 @@ NAN_METHOD(QuantLibNode::BlackVolTermStructureBlackForwardVol) {
 //
 //}
 
-//BlackVolTermStructureBlackForwardVolWorker::Destroy(){
+//void BlackVolTermStructureBlackForwardVolWorker::Destroy(){
 //
 //}
 
@@ -1814,7 +1816,7 @@ NAN_METHOD(QuantLibNode::BlackVolTermStructureBlackForwardVariance) {
 //
 //}
 
-//BlackVolTermStructureBlackForwardVarianceWorker::Destroy(){
+//void BlackVolTermStructureBlackForwardVarianceWorker::Destroy(){
 //
 //}
 
@@ -1883,7 +1885,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveOptionTenors) {
 //
 //}
 
-//AbcdAtmVolCurveOptionTenorsWorker::Destroy(){
+//void AbcdAtmVolCurveOptionTenorsWorker::Destroy(){
 //
 //}
 
@@ -1952,7 +1954,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveOptionTenorsInInterpolation) {
 //
 //}
 
-//AbcdAtmVolCurveOptionTenorsInInterpolationWorker::Destroy(){
+//void AbcdAtmVolCurveOptionTenorsInInterpolationWorker::Destroy(){
 //
 //}
 
@@ -2021,7 +2023,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveOptionDates) {
 //
 //}
 
-//AbcdAtmVolCurveOptionDatesWorker::Destroy(){
+//void AbcdAtmVolCurveOptionDatesWorker::Destroy(){
 //
 //}
 
@@ -2087,7 +2089,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveOptionTimes) {
 //
 //}
 
-//AbcdAtmVolCurveOptionTimesWorker::Destroy(){
+//void AbcdAtmVolCurveOptionTimesWorker::Destroy(){
 //
 //}
 
@@ -2152,7 +2154,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveRmsError) {
 //
 //}
 
-//AbcdAtmVolCurveRmsErrorWorker::Destroy(){
+//void AbcdAtmVolCurveRmsErrorWorker::Destroy(){
 //
 //}
 
@@ -2217,7 +2219,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveMaxError) {
 //
 //}
 
-//AbcdAtmVolCurveMaxErrorWorker::Destroy(){
+//void AbcdAtmVolCurveMaxErrorWorker::Destroy(){
 //
 //}
 
@@ -2282,7 +2284,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveA) {
 //
 //}
 
-//AbcdAtmVolCurveAWorker::Destroy(){
+//void AbcdAtmVolCurveAWorker::Destroy(){
 //
 //}
 
@@ -2347,7 +2349,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveB) {
 //
 //}
 
-//AbcdAtmVolCurveBWorker::Destroy(){
+//void AbcdAtmVolCurveBWorker::Destroy(){
 //
 //}
 
@@ -2412,7 +2414,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveC) {
 //
 //}
 
-//AbcdAtmVolCurveCWorker::Destroy(){
+//void AbcdAtmVolCurveCWorker::Destroy(){
 //
 //}
 
@@ -2477,7 +2479,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveD) {
 //
 //}
 
-//AbcdAtmVolCurveDWorker::Destroy(){
+//void AbcdAtmVolCurveDWorker::Destroy(){
 //
 //}
 
@@ -2546,7 +2548,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveKatOptionTenors) {
 //
 //}
 
-//AbcdAtmVolCurveKatOptionTenorsWorker::Destroy(){
+//void AbcdAtmVolCurveKatOptionTenorsWorker::Destroy(){
 //
 //}
 
@@ -2619,7 +2621,7 @@ NAN_METHOD(QuantLibNode::AbcdAtmVolCurveK) {
 //
 //}
 
-//AbcdAtmVolCurveKWorker::Destroy(){
+//void AbcdAtmVolCurveKWorker::Destroy(){
 //
 //}
 
@@ -2696,7 +2698,7 @@ NAN_METHOD(QuantLibNode::VolatilitySpreads) {
 //
 //}
 
-//VolatilitySpreadsWorker::Destroy(){
+//void VolatilitySpreadsWorker::Destroy(){
 //
 //}
 
@@ -2776,7 +2778,7 @@ NAN_METHOD(QuantLibNode::VolatilitySpreads2) {
 //
 //}
 
-//VolatilitySpreads2Worker::Destroy(){
+//void VolatilitySpreads2Worker::Destroy(){
 //
 //}
 
@@ -2836,7 +2838,7 @@ NAN_METHOD(QuantLibNode::AtmCurve) {
 //
 //}
 
-//AtmCurveWorker::Destroy(){
+//void AtmCurveWorker::Destroy(){
 //
 //}
 
@@ -2945,7 +2947,7 @@ NAN_METHOD(QuantLibNode::SabrVolatility) {
 //
 //}
 
-//SabrVolatilityWorker::Destroy(){
+//void SabrVolatilityWorker::Destroy(){
 //
 //}
  

@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_content.cc
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #include <nan.h>
 #include <string.h>
@@ -221,7 +223,7 @@ NAN_METHOD(QuantLibNode::VanillaSwap) {
 //
 //}
 
-//VanillaSwapWorker::Destroy(){
+//void VanillaSwapWorker::Destroy(){
 //
 //}
 
@@ -396,7 +398,7 @@ NAN_METHOD(QuantLibNode::MakeVanillaSwap) {
 //
 //}
 
-//MakeVanillaSwapWorker::Destroy(){
+//void MakeVanillaSwapWorker::Destroy(){
 //
 //}
 
@@ -556,7 +558,7 @@ NAN_METHOD(QuantLibNode::MakeIMMSwap) {
 //
 //}
 
-//MakeIMMSwapWorker::Destroy(){
+//void MakeIMMSwapWorker::Destroy(){
 //
 //}
 
@@ -653,7 +655,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFromSwapIndex) {
 //
 //}
 
-//VanillaSwapFromSwapIndexWorker::Destroy(){
+//void VanillaSwapFromSwapIndexWorker::Destroy(){
 //
 //}
 
@@ -738,7 +740,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFromSwapRateHelper) {
 //
 //}
 
-//VanillaSwapFromSwapRateHelperWorker::Destroy(){
+//void VanillaSwapFromSwapRateHelperWorker::Destroy(){
 //
 //}
 
@@ -799,7 +801,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFixedLegBPS) {
 //
 //}
 
-//VanillaSwapFixedLegBPSWorker::Destroy(){
+//void VanillaSwapFixedLegBPSWorker::Destroy(){
 //
 //}
 
@@ -860,7 +862,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFixedLegNPV) {
 //
 //}
 
-//VanillaSwapFixedLegNPVWorker::Destroy(){
+//void VanillaSwapFixedLegNPVWorker::Destroy(){
 //
 //}
 
@@ -921,7 +923,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFairRate) {
 //
 //}
 
-//VanillaSwapFairRateWorker::Destroy(){
+//void VanillaSwapFairRateWorker::Destroy(){
 //
 //}
 
@@ -982,7 +984,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFloatingLegBPS) {
 //
 //}
 
-//VanillaSwapFloatingLegBPSWorker::Destroy(){
+//void VanillaSwapFloatingLegBPSWorker::Destroy(){
 //
 //}
 
@@ -1043,7 +1045,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFloatingLegNPV) {
 //
 //}
 
-//VanillaSwapFloatingLegNPVWorker::Destroy(){
+//void VanillaSwapFloatingLegNPVWorker::Destroy(){
 //
 //}
 
@@ -1104,7 +1106,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFairSpread) {
 //
 //}
 
-//VanillaSwapFairSpreadWorker::Destroy(){
+//void VanillaSwapFairSpreadWorker::Destroy(){
 //
 //}
 
@@ -1170,7 +1172,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapType) {
 //
 //}
 
-//VanillaSwapTypeWorker::Destroy(){
+//void VanillaSwapTypeWorker::Destroy(){
 //
 //}
 
@@ -1231,7 +1233,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapNominal) {
 //
 //}
 
-//VanillaSwapNominalWorker::Destroy(){
+//void VanillaSwapNominalWorker::Destroy(){
 //
 //}
 
@@ -1292,7 +1294,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFixedRate) {
 //
 //}
 
-//VanillaSwapFixedRateWorker::Destroy(){
+//void VanillaSwapFixedRateWorker::Destroy(){
 //
 //}
 
@@ -1358,7 +1360,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFixedDayCount) {
 //
 //}
 
-//VanillaSwapFixedDayCountWorker::Destroy(){
+//void VanillaSwapFixedDayCountWorker::Destroy(){
 //
 //}
 
@@ -1419,7 +1421,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapSpread) {
 //
 //}
 
-//VanillaSwapSpreadWorker::Destroy(){
+//void VanillaSwapSpreadWorker::Destroy(){
 //
 //}
 
@@ -1485,7 +1487,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFloatingDayCount) {
 //
 //}
 
-//VanillaSwapFloatingDayCountWorker::Destroy(){
+//void VanillaSwapFloatingDayCountWorker::Destroy(){
 //
 //}
 
@@ -1551,7 +1553,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapPaymentConvention) {
 //
 //}
 
-//VanillaSwapPaymentConventionWorker::Destroy(){
+//void VanillaSwapPaymentConventionWorker::Destroy(){
 //
 //}
 
@@ -1635,7 +1637,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFixedLegAnalysis) {
 //
 //}
 
-//VanillaSwapFixedLegAnalysisWorker::Destroy(){
+//void VanillaSwapFixedLegAnalysisWorker::Destroy(){
 //
 //}
 
@@ -1719,7 +1721,7 @@ NAN_METHOD(QuantLibNode::VanillaSwapFloatingLegAnalysis) {
 //
 //}
 
-//VanillaSwapFloatingLegAnalysisWorker::Destroy(){
+//void VanillaSwapFloatingLegAnalysisWorker::Destroy(){
 //
 //}
  

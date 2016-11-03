@@ -1,4 +1,6 @@
-// This is a generated file, modify: generate/templates/class_header.h
+/* 
+  Copyright (C) 2016 Jerry Jin
+*/
 
 #ifndef capfloor_h
 #define capfloor_h

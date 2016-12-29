@@ -19,11 +19,11 @@ npm install quantlib
 
 * Windows - 64-Bit
 
-I will try to build and upload the pre-built addon, before that, Please refer to [how to build](#building_the_native_addon) below
+I will try to build and upload the pre-built addon, before that, Please refer to [how to build](#building-the-native-addon) below
 
 * Linux & Mac
 
-Please refer to [how to build](#building_the_native_addon) below
+Please refer to [how to build](#building-the-native-addon) below
 
 
 ## QuantLib Documents

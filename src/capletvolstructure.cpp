@@ -154,6 +154,7 @@ void ConstantOptionletVolatilityWorker::Execute(){
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::ConstantOptionletVolatility(
           valueObject,
@@ -162,7 +163,7 @@ void ConstantOptionletVolatilityWorker::Execute(){
           BusinessDayConventionEnum,
           VolatilityLibObj,
           DayCounterEnum,
-          mVolatilityType,
+		  strEnum[mVolatilityType],
           mDisplacement,
           false
       ));
@@ -512,6 +513,7 @@ void StrippedOptionletWorker::Execute(){
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::StrippedOptionlet(
           valueObject,
@@ -523,7 +525,7 @@ void StrippedOptionletWorker::Execute(){
           mStrikes,
           VolatilitiesLibObj,
           DayCounterEnum,
-          mVolatilityType,
+		  strEnum[mVolatilityType],
           mDisplacement,
           false
       ));
@@ -717,6 +719,7 @@ void OptionletStripper1Worker::Execute(){
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::OptionletStripper1(
           valueObject,
@@ -725,7 +728,7 @@ void OptionletStripper1Worker::Execute(){
           mSwitchStrike,
           mAccuracy,
           MaxIterLib,
-          mVolatilityType,
+		  strEnum[mVolatilityType],
           mDisplacement,
           false
       ));

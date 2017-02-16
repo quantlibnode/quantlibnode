@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #ifndef capletvolstructure_h
@@ -57,6 +57,8 @@ class ConstantOptionletVolatilityWorker : public Nan::AsyncWorker {
     string mBusinessDayConvention;
     ObjectHandler::property_t mVolatility;
     string mDayCounter;
+    string mVolatilityType;
+    double mDisplacement;
 
     string mReturnValue;
 
@@ -70,6 +72,8 @@ class ConstantOptionletVolatilityWorker : public Nan::AsyncWorker {
       ,string BusinessDayConvention
       ,ObjectHandler::property_t Volatility
       ,string DayCounter
+      ,string VolatilityType
+      ,double Displacement
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
@@ -78,6 +82,8 @@ class ConstantOptionletVolatilityWorker : public Nan::AsyncWorker {
       ,mBusinessDayConvention(BusinessDayConvention)
       ,mVolatility(Volatility)
       ,mDayCounter(DayCounter)
+      ,mVolatilityType(VolatilityType)
+      ,mDisplacement(Displacement)
       {
 
       };
@@ -168,6 +174,8 @@ class StrippedOptionletWorker : public Nan::AsyncWorker {
     std::vector<double> mStrikes;
     std::vector< std::vector<ObjectHandler::property_t> > mVolatilities;
     string mDayCounter;
+    string mVolatilityType;
+    double mDisplacement;
 
     string mReturnValue;
 
@@ -184,6 +192,8 @@ class StrippedOptionletWorker : public Nan::AsyncWorker {
       ,std::vector<double> Strikes
       ,std::vector< std::vector<ObjectHandler::property_t> > Volatilities
       ,string DayCounter
+      ,string VolatilityType
+      ,double Displacement
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
@@ -195,6 +205,8 @@ class StrippedOptionletWorker : public Nan::AsyncWorker {
       ,mStrikes(Strikes)
       ,mVolatilities(Volatilities)
       ,mDayCounter(DayCounter)
+      ,mVolatilityType(VolatilityType)
+      ,mDisplacement(Displacement)
       {
 
       };
@@ -217,6 +229,8 @@ class OptionletStripper1Worker : public Nan::AsyncWorker {
     double mSwitchStrike;
     double mAccuracy;
     ObjectHandler::property_t mMaxIter;
+    string mVolatilityType;
+    double mDisplacement;
 
     string mReturnValue;
 
@@ -230,6 +244,8 @@ class OptionletStripper1Worker : public Nan::AsyncWorker {
       ,double SwitchStrike
       ,double Accuracy
       ,ObjectHandler::property_t MaxIter
+      ,string VolatilityType
+      ,double Displacement
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
@@ -238,6 +254,8 @@ class OptionletStripper1Worker : public Nan::AsyncWorker {
       ,mSwitchStrike(SwitchStrike)
       ,mAccuracy(Accuracy)
       ,mMaxIter(MaxIter)
+      ,mVolatilityType(VolatilityType)
+      ,mDisplacement(Displacement)
       {
 
       };

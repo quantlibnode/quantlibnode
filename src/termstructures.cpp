@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #include <nan.h>
@@ -844,6 +844,11 @@ void InterpolatedYieldCurveWorker::Execute(){
   std::vector<QuantLib::Date> JumpDatesLib = ObjectHandler::vector::convert2<QuantLib::Date>(
       mJumpDates, "JumpDates");
 
+
+  // convert input datatypes to QuantLib datatypes
+  QuantLib::Size NRateHelperLib;
+  QuantLibAddin::cppToLibrary(mNRateHelper, NRateHelperLib);
+
  
     // Construct the Value Object
     boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
@@ -857,6 +862,8 @@ void InterpolatedYieldCurveWorker::Execute(){
           mJumpDates,
           mTraitsID,
           mInterpolatorID,
+          mMixedInterpolationBehavior,
+          mNRateHelper,
           false
       ));
 
@@ -872,6 +879,8 @@ void InterpolatedYieldCurveWorker::Execute(){
           JumpDatesLib,
           mTraitsID,
           mInterpolatorID,
+          mMixedInterpolationBehavior,
+          NRateHelperLib,
           false
       ));
 
@@ -927,6 +936,12 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurve) {
   }
   if (info.Length() == 8 || !info[8]->IsString()) {
       return Nan::ThrowError("InterpolatorID is required.");
+  }
+  if (info.Length() == 9 || !info[9]->IsString()) {
+      return Nan::ThrowError("MixedInterpolationBehavior is required.");
+  }
+  if (info.Length() == 10 || !info[10]->IsNumber()) {
+      return Nan::ThrowError("NRateHelper is required.");
   }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
@@ -986,9 +1001,16 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurve) {
   String::Utf8Value strInterpolatorID(info[8]->ToString());
   string InterpolatorIDCpp(strdup(*strInterpolatorID));
 
+  // convert js argument to c++ type
+  String::Utf8Value strMixedInterpolationBehavior(info[9]->ToString());
+  string MixedInterpolationBehaviorCpp(strdup(*strMixedInterpolationBehavior));
+
+  // convert js argument to c++ type
+  long NRateHelperCpp = Nan::To<int32_t>(info[10]).FromJust();
+
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[9].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[11].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new InterpolatedYieldCurveWorker(
     callback
@@ -1001,6 +1023,8 @@ NAN_METHOD(QuantLibNode::InterpolatedYieldCurve) {
     ,JumpDatesCpp
     ,TraitsIDCpp
     ,InterpolatorIDCpp
+    ,MixedInterpolationBehaviorCpp
+    ,NRateHelperCpp
   ));
 
 }

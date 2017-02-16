@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #ifndef pricingengines_h
@@ -446,6 +446,77 @@ class BlackCapFloorEngine2Worker : public Nan::AsyncWorker {
       };
 
     //~BlackCapFloorEngine2Worker();
+
+    //void Destroy();
+
+    void Execute();
+
+    void HandleOKCallback();
+
+};
+
+class BachelierCapFloorEngineWorker : public Nan::AsyncWorker {
+  public:
+    string mObjectID;
+    ObjectHandler::property_t mYieldCurve;
+    ObjectHandler::property_t mVolTS;
+
+    string mReturnValue;
+
+    string mError;
+
+    BachelierCapFloorEngineWorker(
+      Nan::Callback *callback
+      ,string ObjectID
+      ,ObjectHandler::property_t YieldCurve
+      ,ObjectHandler::property_t VolTS
+    ):
+      Nan::AsyncWorker(callback)
+      ,mObjectID(ObjectID)
+      ,mYieldCurve(YieldCurve)
+      ,mVolTS(VolTS)
+      {
+
+      };
+
+    //~BachelierCapFloorEngineWorker();
+
+    //void Destroy();
+
+    void Execute();
+
+    void HandleOKCallback();
+
+};
+
+class BachelierCapFloorEngine2Worker : public Nan::AsyncWorker {
+  public:
+    string mObjectID;
+    ObjectHandler::property_t mYieldCurve;
+    ObjectHandler::property_t mVol;
+    string mDayCounter;
+
+    string mReturnValue;
+
+    string mError;
+
+    BachelierCapFloorEngine2Worker(
+      Nan::Callback *callback
+      ,string ObjectID
+      ,ObjectHandler::property_t YieldCurve
+      ,ObjectHandler::property_t Vol
+      ,string DayCounter
+    ):
+      Nan::AsyncWorker(callback)
+      ,mObjectID(ObjectID)
+      ,mYieldCurve(YieldCurve)
+      ,mVol(Vol)
+      ,mDayCounter(DayCounter)
+      {
+
+      };
+
+    //~BachelierCapFloorEngine2Worker();
 
     //void Destroy();
 
@@ -1526,6 +1597,49 @@ class BachelierBlackFormulaWorker : public Nan::AsyncWorker {
       };
 
     //~BachelierBlackFormulaWorker();
+
+    //void Destroy();
+
+    void Execute();
+
+    void HandleOKCallback();
+
+};
+
+class BachelierBlackFormulaImpliedVolWorker : public Nan::AsyncWorker {
+  public:
+    string mOptionType;
+    double mStrike;
+    double mAtmForwardValue;
+    double mTimeToExpiry;
+    double mOptionPrice;
+    double mDeflator;
+
+    double mReturnValue;
+
+    string mError;
+
+    BachelierBlackFormulaImpliedVolWorker(
+      Nan::Callback *callback
+      ,string OptionType
+      ,double Strike
+      ,double AtmForwardValue
+      ,double TimeToExpiry
+      ,double OptionPrice
+      ,double Deflator
+    ):
+      Nan::AsyncWorker(callback)
+      ,mOptionType(OptionType)
+      ,mStrike(Strike)
+      ,mAtmForwardValue(AtmForwardValue)
+      ,mTimeToExpiry(TimeToExpiry)
+      ,mOptionPrice(OptionPrice)
+      ,mDeflator(Deflator)
+      {
+
+      };
+
+    //~BachelierBlackFormulaImpliedVolWorker();
 
     //void Destroy();
 

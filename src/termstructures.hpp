@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #ifndef termstructures_h
@@ -285,6 +285,8 @@ class InterpolatedYieldCurveWorker : public Nan::AsyncWorker {
     std::vector<ObjectHandler::property_t> mJumpDates;
     string mTraitsID;
     string mInterpolatorID;
+    string mMixedInterpolationBehavior;
+    long mNRateHelper;
 
     string mReturnValue;
 
@@ -301,6 +303,8 @@ class InterpolatedYieldCurveWorker : public Nan::AsyncWorker {
       ,std::vector<ObjectHandler::property_t> JumpDates
       ,string TraitsID
       ,string InterpolatorID
+      ,string MixedInterpolationBehavior
+      ,long NRateHelper
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
@@ -312,6 +316,8 @@ class InterpolatedYieldCurveWorker : public Nan::AsyncWorker {
       ,mJumpDates(JumpDates)
       ,mTraitsID(TraitsID)
       ,mInterpolatorID(InterpolatorID)
+      ,mMixedInterpolationBehavior(MixedInterpolationBehavior)
+      ,mNRateHelper(NRateHelper)
       {
 
       };

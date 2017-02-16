@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #ifndef piecewiseyieldcurve_h
@@ -64,6 +64,67 @@ class PiecewiseYieldCurveWorker : public Nan::AsyncWorker {
       };
 
     //~PiecewiseYieldCurveWorker();
+
+    //void Destroy();
+
+    void Execute();
+
+    void HandleOKCallback();
+
+};
+
+class PiecewiseYieldCurveMixedInterpolationWorker : public Nan::AsyncWorker {
+  public:
+    string mObjectID;
+    ObjectHandler::property_t mNDays;
+    string mCalendar;
+    std::vector<string> mRateHelpers;
+    string mDayCounter;
+    std::vector<ObjectHandler::property_t> mJumps;
+    std::vector<ObjectHandler::property_t> mJumpDates;
+    double mAccuracy;
+    string mTraitsID;
+    string mInterpolatorID;
+    string mMixedInterpolationBehavior;
+    long mPillarsBeforeChange;
+
+    string mReturnValue;
+
+    string mError;
+
+    PiecewiseYieldCurveMixedInterpolationWorker(
+      Nan::Callback *callback
+      ,string ObjectID
+      ,ObjectHandler::property_t NDays
+      ,string Calendar
+      ,std::vector<string> RateHelpers
+      ,string DayCounter
+      ,std::vector<ObjectHandler::property_t> Jumps
+      ,std::vector<ObjectHandler::property_t> JumpDates
+      ,double Accuracy
+      ,string TraitsID
+      ,string InterpolatorID
+      ,string MixedInterpolationBehavior
+      ,long PillarsBeforeChange
+    ):
+      Nan::AsyncWorker(callback)
+      ,mObjectID(ObjectID)
+      ,mNDays(NDays)
+      ,mCalendar(Calendar)
+      ,mRateHelpers(RateHelpers)
+      ,mDayCounter(DayCounter)
+      ,mJumps(Jumps)
+      ,mJumpDates(JumpDates)
+      ,mAccuracy(Accuracy)
+      ,mTraitsID(TraitsID)
+      ,mInterpolatorID(InterpolatorID)
+      ,mMixedInterpolationBehavior(MixedInterpolationBehavior)
+      ,mPillarsBeforeChange(PillarsBeforeChange)
+      {
+
+      };
+
+    //~PiecewiseYieldCurveMixedInterpolationWorker();
 
     //void Destroy();
 

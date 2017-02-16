@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #include <nan.h>
@@ -1328,6 +1328,221 @@ NAN_METHOD(QuantLibNode::BlackCapFloorEngine2) {
 //}
 
 //void BlackCapFloorEngine2Worker::Destroy(){
+//
+//}
+
+void BachelierCapFloorEngineWorker::Execute(){
+
+  try{
+
+  // convert object IDs into library objects
+  OH_GET_OBJECT(YieldCurveCoerce, mYieldCurve, ObjectHandler::Object)
+  QuantLib::Handle<QuantLib::YieldTermStructure> YieldCurveLibObj =
+      QuantLibAddin::CoerceHandle<
+          QuantLibAddin::YieldTermStructure,
+          QuantLib::YieldTermStructure>()(
+              YieldCurveCoerce);
+
+
+  // convert object IDs into library objects
+  OH_GET_OBJECT(VolTSCoerce, mVolTS, ObjectHandler::Object)
+  QuantLib::Handle<QuantLib::OptionletVolatilityStructure> VolTSLibObj =
+      QuantLibAddin::CoerceHandle<
+          QuantLibAddin::OptionletVolatilityStructure,
+          QuantLib::OptionletVolatilityStructure>()(
+              VolTSCoerce);
+
+ 
+    // Construct the Value Object
+    boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
+      new QuantLibAddin::ValueObjects::qlBachelierCapFloorEngine(
+          mObjectID,
+          mYieldCurve,
+          mVolTS,
+          false
+      ));
+
+    // Construct the Object
+    boost::shared_ptr<ObjectHandler::Object> object(
+      new QuantLibAddin::BachelierCapFloorEngine(
+          valueObject,
+          YieldCurveLibObj,
+          VolTSLibObj,
+          false
+      ));
+
+    // Store the Object in the Repository
+    mReturnValue = ObjectHandler::Repository::instance().storeObject(mObjectID, object, false, valueObject);
+    
+   }catch(const std::exception &e){
+    mError = e.what();
+  }catch (...){
+    mError = "unkown error";
+  }
+
+}
+
+void BachelierCapFloorEngineWorker::HandleOKCallback(){
+  Nan::HandleScope scope;
+
+
+  Local<v8::Value> argv[2] = {
+		  Nan::New<String>(mError).ToLocalChecked(),
+      Nan::New<String>(mReturnValue).ToLocalChecked()
+	};
+
+	callback->Call(2, argv);
+}
+
+NAN_METHOD(QuantLibNode::BachelierCapFloorEngine) {
+
+  // validate js arguments
+  if (info.Length() == 0 || !info[0]->IsString()) {
+      return Nan::ThrowError("ObjectID is required.");
+  }
+  // convert js argument to c++ type
+  String::Utf8Value strObjectID(info[0]->ToString());
+  string ObjectIDCpp(strdup(*strObjectID));
+
+  // convert js argument to c++ type
+  ObjectHandler::property_t YieldCurveCpp =
+      ObjectHandler::property_t(static_cast<double>(Nan::To<double>(info[1]).FromJust()));
+
+  // convert js argument to c++ type
+  ObjectHandler::property_t VolTSCpp =
+      ObjectHandler::property_t(static_cast<double>(Nan::To<double>(info[2]).FromJust()));
+
+ 
+  // declare callback
+  Nan::Callback *callback = new Nan::Callback(info[3].As<Function>());
+  // launch Async worker
+  Nan::AsyncQueueWorker(new BachelierCapFloorEngineWorker(
+    callback
+    ,ObjectIDCpp
+    ,YieldCurveCpp
+    ,VolTSCpp
+  ));
+
+}
+
+//BachelierCapFloorEngineWorker::~BachelierCapFloorEngineWorker(){
+//
+//}
+
+//void BachelierCapFloorEngineWorker::Destroy(){
+//
+//}
+
+void BachelierCapFloorEngine2Worker::Execute(){
+
+  try{
+
+  // convert object IDs into library objects
+  OH_GET_OBJECT(YieldCurveCoerce, mYieldCurve, ObjectHandler::Object)
+  QuantLib::Handle<QuantLib::YieldTermStructure> YieldCurveLibObj =
+      QuantLibAddin::CoerceHandle<
+          QuantLibAddin::YieldTermStructure,
+          QuantLib::YieldTermStructure>()(
+              YieldCurveCoerce);
+
+
+  // convert object IDs into library objects
+  QuantLib::Handle<QuantLib::Quote> VolLibObj =
+      ObjectHandler::convert2< QuantLib::Handle<QuantLib::Quote> >(mVol, "Vol");
+
+
+  // convert input datatypes to QuantLib enumerated datatypes
+  QuantLib::DayCounter DayCounterEnum =
+      ObjectHandler::Create<QuantLib::DayCounter>()(mDayCounter);
+
+ 
+    // Construct the Value Object
+    boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
+      new QuantLibAddin::ValueObjects::qlBachelierCapFloorEngine2(
+          mObjectID,
+          mYieldCurve,
+          mVol,
+          mDayCounter,
+          false
+      ));
+
+    // Construct the Object
+    boost::shared_ptr<ObjectHandler::Object> object(
+      new QuantLibAddin::BachelierCapFloorEngine(
+          valueObject,
+          YieldCurveLibObj,
+          VolLibObj,
+          DayCounterEnum,
+          false
+      ));
+
+    // Store the Object in the Repository
+    mReturnValue = ObjectHandler::Repository::instance().storeObject(mObjectID, object, false, valueObject);
+    
+   }catch(const std::exception &e){
+    mError = e.what();
+  }catch (...){
+    mError = "unkown error";
+  }
+
+}
+
+void BachelierCapFloorEngine2Worker::HandleOKCallback(){
+  Nan::HandleScope scope;
+
+
+  Local<v8::Value> argv[2] = {
+		  Nan::New<String>(mError).ToLocalChecked(),
+      Nan::New<String>(mReturnValue).ToLocalChecked()
+	};
+
+	callback->Call(2, argv);
+}
+
+NAN_METHOD(QuantLibNode::BachelierCapFloorEngine2) {
+
+  // validate js arguments
+  if (info.Length() == 0 || !info[0]->IsString()) {
+      return Nan::ThrowError("ObjectID is required.");
+  }
+  if (info.Length() == 3 || !info[3]->IsString()) {
+      return Nan::ThrowError("DayCounter is required.");
+  }
+  // convert js argument to c++ type
+  String::Utf8Value strObjectID(info[0]->ToString());
+  string ObjectIDCpp(strdup(*strObjectID));
+
+  // convert js argument to c++ type
+  ObjectHandler::property_t YieldCurveCpp =
+      ObjectHandler::property_t(static_cast<double>(Nan::To<double>(info[1]).FromJust()));
+
+  // convert js argument to c++ type
+  ObjectHandler::property_t VolCpp =
+      ObjectHandler::property_t(static_cast<double>(Nan::To<double>(info[2]).FromJust()));
+
+  // convert js argument to c++ type
+  String::Utf8Value strDayCounter(info[3]->ToString());
+  string DayCounterCpp(strdup(*strDayCounter));
+
+ 
+  // declare callback
+  Nan::Callback *callback = new Nan::Callback(info[4].As<Function>());
+  // launch Async worker
+  Nan::AsyncQueueWorker(new BachelierCapFloorEngine2Worker(
+    callback
+    ,ObjectIDCpp
+    ,YieldCurveCpp
+    ,VolCpp
+    ,DayCounterCpp
+  ));
+
+}
+
+//BachelierCapFloorEngine2Worker::~BachelierCapFloorEngine2Worker(){
+//
+//}
+
+//void BachelierCapFloorEngine2Worker::Destroy(){
 //
 //}
 
@@ -3986,6 +4201,125 @@ NAN_METHOD(QuantLibNode::BachelierBlackFormula) {
 //}
 
 //void BachelierBlackFormulaWorker::Destroy(){
+//
+//}
+
+void BachelierBlackFormulaImpliedVolWorker::Execute(){
+
+  try{
+
+  // convert input datatypes to QuantLib enumerated datatypes
+  QuantLib::Option::Type OptionTypeEnum =
+      ObjectHandler::Create<QuantLib::Option::Type>()(mOptionType);
+
+
+  // convert input datatypes to QuantLib datatypes
+
+  // convert input datatypes to QuantLib datatypes
+
+  // convert input datatypes to QuantLib datatypes
+
+  // convert input datatypes to QuantLib datatypes
+
+  // convert input datatypes to QuantLib datatypes
+       // invoke the utility function
+  QuantLib::Real returnValue = QuantLib::bachelierBlackFormulaImpliedVol(
+      OptionTypeEnum
+      ,
+       mStrike
+      ,
+       mAtmForwardValue
+      ,
+       mTimeToExpiry
+      ,
+       mOptionPrice
+      ,
+       mDeflator
+     );
+
+  mReturnValue = returnValue;
+
+   }catch(const std::exception &e){
+    mError = e.what();
+  }catch (...){
+    mError = "unkown error";
+  }
+
+}
+
+void BachelierBlackFormulaImpliedVolWorker::HandleOKCallback(){
+  Nan::HandleScope scope;
+
+
+  Local<v8::Value> argv[2] = {
+		  Nan::New<String>(mError).ToLocalChecked(),
+      Nan::New<Number>(mReturnValue)
+	};
+
+	callback->Call(2, argv);
+}
+
+NAN_METHOD(QuantLibNode::BachelierBlackFormulaImpliedVol) {
+
+  // validate js arguments
+  if (info.Length() == 0 || !info[0]->IsString()) {
+      return Nan::ThrowError("OptionType is required.");
+  }
+  if (info.Length() == 1 || !info[1]->IsNumber()) {
+      return Nan::ThrowError("Strike is required.");
+  }
+  if (info.Length() == 2 || !info[2]->IsNumber()) {
+      return Nan::ThrowError("AtmForwardValue is required.");
+  }
+  if (info.Length() == 3 || !info[3]->IsNumber()) {
+      return Nan::ThrowError("TimeToExpiry is required.");
+  }
+  if (info.Length() == 4 || !info[4]->IsNumber()) {
+      return Nan::ThrowError("OptionPrice is required.");
+  }
+  if (info.Length() == 5 || !info[5]->IsNumber()) {
+      return Nan::ThrowError("Deflator is required.");
+  }
+  // convert js argument to c++ type
+  String::Utf8Value strOptionType(info[0]->ToString());
+  string OptionTypeCpp(strdup(*strOptionType));
+
+  // convert js argument to c++ type
+  double StrikeCpp = Nan::To<double>(info[1]).FromJust();
+
+  // convert js argument to c++ type
+  double AtmForwardValueCpp = Nan::To<double>(info[2]).FromJust();
+
+  // convert js argument to c++ type
+  double TimeToExpiryCpp = Nan::To<double>(info[3]).FromJust();
+
+  // convert js argument to c++ type
+  double OptionPriceCpp = Nan::To<double>(info[4]).FromJust();
+
+  // convert js argument to c++ type
+  double DeflatorCpp = Nan::To<double>(info[5]).FromJust();
+
+ 
+  // declare callback
+  Nan::Callback *callback = new Nan::Callback(info[6].As<Function>());
+  // launch Async worker
+  Nan::AsyncQueueWorker(new BachelierBlackFormulaImpliedVolWorker(
+    callback
+    ,OptionTypeCpp
+    ,StrikeCpp
+    ,AtmForwardValueCpp
+    ,TimeToExpiryCpp
+    ,OptionPriceCpp
+    ,DeflatorCpp
+  ));
+
+}
+
+//BachelierBlackFormulaImpliedVolWorker::~BachelierBlackFormulaImpliedVolWorker(){
+//
+//}
+
+//void BachelierBlackFormulaImpliedVolWorker::Destroy(){
 //
 //}
 

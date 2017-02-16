@@ -1,3 +1,7 @@
+/*
+  Copyright (C) 2016 -2017 Jerry Jin
+*/
+
 #include <v8.h>
 #include <node.h>
 #include <nan.h>

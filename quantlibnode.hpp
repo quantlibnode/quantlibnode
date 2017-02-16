@@ -1,3 +1,8 @@
+/*
+  Copyright (C) 2016 -2017 Jerry Jin
+*/
+
+
 #ifndef quantlibnode_hpp
 #define quantlibnode_hpp
 

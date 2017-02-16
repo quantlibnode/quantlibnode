@@ -32,7 +32,7 @@ Quantlib and QuantLibAddin must be built first, then build QuantLibNode linking 
 
 | QuantLib | QuantLibAddin | Node.js | quantlib.node |
 | -------- | ------------- | ------- | ------------- |
-|    1.7.1 |         1.7.0 |   6.9.1 |         0.1.x |
+|    1.8.1 |         1.8.0 |   6.9.4 |         0.2.x |
 
 ## Example
 

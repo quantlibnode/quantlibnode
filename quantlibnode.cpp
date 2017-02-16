@@ -1080,6 +1080,11 @@ NAN_MODULE_INIT(init){
   Nan::SetMethod(target, "PiecewiseConstantVarianceTotalVariance", QuantLibNode::PiecewiseConstantVarianceTotalVariance);
   Nan::SetMethod(target, "PiecewiseConstantVarianceTotalVolatility", QuantLibNode::PiecewiseConstantVarianceTotalVolatility);
 
+  Nan::SetMethod(target, "PiecewiseYieldCurveMixedInterpolation", QuantLibNode::PiecewiseYieldCurveMixedInterpolation);
+  Nan::SetMethod(target, "BachelierCapFloorEngine", QuantLibNode::BachelierCapFloorEngine);
+  Nan::SetMethod(target, "BachelierCapFloorEngine2", QuantLibNode::BachelierCapFloorEngine2);
+  Nan::SetMethod(target, "BachelierBlackFormulaImpliedVol", QuantLibNode::BachelierBlackFormulaImpliedVol);
+
   Nan::SetMethod(target, "DeleteObject", QuantLibNode::DeleteObject);
   Nan::SetMethod(target, "DeleteObjects", QuantLibNode::DeleteObjects);
   Nan::SetMethod(target, "DeleteAllObjects", QuantLibNode::DeleteAllObjects);

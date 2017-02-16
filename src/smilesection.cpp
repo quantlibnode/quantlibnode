@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #include <nan.h>
@@ -42,6 +42,8 @@ void FlatSmileSectionWorker::Execute(){
 
 
   // convert input datatypes to QuantLib datatypes
+
+  // convert input datatypes to QuantLib datatypes
  
     // Construct the Value Object
     boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
@@ -52,10 +54,13 @@ void FlatSmileSectionWorker::Execute(){
           mDayCounter,
           mRefDate,
           mAtmValue,
+          mVolatilityType,
+          mDisplacement,
           false
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::FlatSmileSection(
           valueObject,
@@ -64,6 +69,8 @@ void FlatSmileSectionWorker::Execute(){
           DayCounterEnum,
           RefDateLib,
           mAtmValue,
+		  strEnum[mVolatilityType],
+          mDisplacement,
           false
       ));
 
@@ -105,6 +112,12 @@ NAN_METHOD(QuantLibNode::FlatSmileSection) {
   if (info.Length() == 5 || !info[5]->IsNumber()) {
       return Nan::ThrowError("AtmValue is required.");
   }
+  if (info.Length() == 6 || !info[6]->IsString()) {
+      return Nan::ThrowError("VolatilityType is required.");
+  }
+  if (info.Length() == 7 || !info[7]->IsNumber()) {
+      return Nan::ThrowError("Displacement is required.");
+  }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
   string ObjectIDCpp(strdup(*strObjectID));
@@ -127,9 +140,16 @@ NAN_METHOD(QuantLibNode::FlatSmileSection) {
   // convert js argument to c++ type
   double AtmValueCpp = Nan::To<double>(info[5]).FromJust();
 
+  // convert js argument to c++ type
+  String::Utf8Value strVolatilityType(info[6]->ToString());
+  string VolatilityTypeCpp(strdup(*strVolatilityType));
+
+  // convert js argument to c++ type
+  double DisplacementCpp = Nan::To<double>(info[7]).FromJust();
+
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[6].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[8].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new FlatSmileSectionWorker(
     callback
@@ -139,6 +159,8 @@ NAN_METHOD(QuantLibNode::FlatSmileSection) {
     ,DayCounterCpp
     ,RefDateCpp
     ,AtmValueCpp
+    ,VolatilityTypeCpp
+    ,DisplacementCpp
   ));
 
 }
@@ -950,6 +972,8 @@ void InterpolatedSmileSectionWorker::Execute(){
   QuantLib::DayCounter DayCounterEnum =
       ObjectHandler::Create<QuantLib::DayCounter>()(mDayCounter);
 
+
+  // convert input datatypes to QuantLib datatypes
  
     // Construct the Value Object
     boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
@@ -960,10 +984,13 @@ void InterpolatedSmileSectionWorker::Execute(){
           mStdDevs,
           mAtmLevel,
           mDayCounter,
+          mVolatilityType,
+          mDisplacement,
           false
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::InterpolatedSmileSection(
           valueObject,
@@ -972,6 +999,8 @@ void InterpolatedSmileSectionWorker::Execute(){
           StdDevsLibObj,
           AtmLevelLibObj,
           DayCounterEnum,
+		  strEnum[mVolatilityType],
+          mDisplacement,
           false
       ));
 
@@ -1013,6 +1042,12 @@ NAN_METHOD(QuantLibNode::InterpolatedSmileSection) {
   if (info.Length() == 5 || !info[5]->IsString()) {
       return Nan::ThrowError("DayCounter is required.");
   }
+  if (info.Length() == 6 || !info[6]->IsString()) {
+      return Nan::ThrowError("VolatilityType is required.");
+  }
+  if (info.Length() == 7 || !info[7]->IsNumber()) {
+      return Nan::ThrowError("Displacement is required.");
+  }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
   string ObjectIDCpp(strdup(*strObjectID));
@@ -1047,9 +1082,16 @@ NAN_METHOD(QuantLibNode::InterpolatedSmileSection) {
   String::Utf8Value strDayCounter(info[5]->ToString());
   string DayCounterCpp(strdup(*strDayCounter));
 
+  // convert js argument to c++ type
+  String::Utf8Value strVolatilityType(info[6]->ToString());
+  string VolatilityTypeCpp(strdup(*strVolatilityType));
+
+  // convert js argument to c++ type
+  double DisplacementCpp = Nan::To<double>(info[7]).FromJust();
+
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[6].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[8].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new InterpolatedSmileSectionWorker(
     callback
@@ -1059,6 +1101,8 @@ NAN_METHOD(QuantLibNode::InterpolatedSmileSection) {
     ,StdDevsCpp
     ,AtmLevelCpp
     ,DayCounterCpp
+    ,VolatilityTypeCpp
+    ,DisplacementCpp
   ));
 
 }

@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #include <nan.h>
@@ -136,6 +136,8 @@ void ConstantOptionletVolatilityWorker::Execute(){
   QuantLib::DayCounter DayCounterEnum =
       ObjectHandler::Create<QuantLib::DayCounter>()(mDayCounter);
 
+
+  // convert input datatypes to QuantLib datatypes
  
     // Construct the Value Object
     boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
@@ -146,10 +148,13 @@ void ConstantOptionletVolatilityWorker::Execute(){
           mBusinessDayConvention,
           mVolatility,
           mDayCounter,
+          mVolatilityType,
+          mDisplacement,
           false
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::ConstantOptionletVolatility(
           valueObject,
@@ -158,6 +163,8 @@ void ConstantOptionletVolatilityWorker::Execute(){
           BusinessDayConventionEnum,
           VolatilityLibObj,
           DayCounterEnum,
+		  strEnum[mVolatilityType],
+          mDisplacement,
           false
       ));
 
@@ -202,6 +209,12 @@ NAN_METHOD(QuantLibNode::ConstantOptionletVolatility) {
   if (info.Length() == 5 || !info[5]->IsString()) {
       return Nan::ThrowError("DayCounter is required.");
   }
+  if (info.Length() == 6 || !info[6]->IsString()) {
+      return Nan::ThrowError("VolatilityType is required.");
+  }
+  if (info.Length() == 7 || !info[7]->IsNumber()) {
+      return Nan::ThrowError("Displacement is required.");
+  }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
   string ObjectIDCpp(strdup(*strObjectID));
@@ -225,9 +238,16 @@ NAN_METHOD(QuantLibNode::ConstantOptionletVolatility) {
   String::Utf8Value strDayCounter(info[5]->ToString());
   string DayCounterCpp(strdup(*strDayCounter));
 
+  // convert js argument to c++ type
+  String::Utf8Value strVolatilityType(info[6]->ToString());
+  string VolatilityTypeCpp(strdup(*strVolatilityType));
+
+  // convert js argument to c++ type
+  double DisplacementCpp = Nan::To<double>(info[7]).FromJust();
+
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[6].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[8].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new ConstantOptionletVolatilityWorker(
     callback
@@ -237,6 +257,8 @@ NAN_METHOD(QuantLibNode::ConstantOptionletVolatility) {
     ,BusinessDayConventionCpp
     ,VolatilityCpp
     ,DayCounterCpp
+    ,VolatilityTypeCpp
+    ,DisplacementCpp
   ));
 
 }
@@ -470,6 +492,8 @@ void StrippedOptionletWorker::Execute(){
   QuantLib::DayCounter DayCounterEnum =
       ObjectHandler::Create<QuantLib::DayCounter>()(mDayCounter);
 
+
+  // convert input datatypes to QuantLib datatypes
  
     // Construct the Value Object
     boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
@@ -483,10 +507,13 @@ void StrippedOptionletWorker::Execute(){
           mStrikes,
           mVolatilities,
           mDayCounter,
+          mVolatilityType,
+          mDisplacement,
           false
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::StrippedOptionlet(
           valueObject,
@@ -498,6 +525,8 @@ void StrippedOptionletWorker::Execute(){
           mStrikes,
           VolatilitiesLibObj,
           DayCounterEnum,
+		  strEnum[mVolatilityType],
+          mDisplacement,
           false
       ));
 
@@ -553,6 +582,12 @@ NAN_METHOD(QuantLibNode::StrippedOptionlet) {
   }
   if (info.Length() == 8 || !info[8]->IsString()) {
       return Nan::ThrowError("DayCounter is required.");
+  }
+  if (info.Length() == 9 || !info[9]->IsString()) {
+      return Nan::ThrowError("VolatilityType is required.");
+  }
+  if (info.Length() == 10 || !info[10]->IsNumber()) {
+      return Nan::ThrowError("Displacement is required.");
   }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
@@ -610,9 +645,16 @@ NAN_METHOD(QuantLibNode::StrippedOptionlet) {
   String::Utf8Value strDayCounter(info[8]->ToString());
   string DayCounterCpp(strdup(*strDayCounter));
 
+  // convert js argument to c++ type
+  String::Utf8Value strVolatilityType(info[9]->ToString());
+  string VolatilityTypeCpp(strdup(*strVolatilityType));
+
+  // convert js argument to c++ type
+  double DisplacementCpp = Nan::To<double>(info[10]).FromJust();
+
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[9].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[11].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new StrippedOptionletWorker(
     callback
@@ -625,6 +667,8 @@ NAN_METHOD(QuantLibNode::StrippedOptionlet) {
     ,StrikesCpp
     ,VolatilitiesCpp
     ,DayCounterCpp
+    ,VolatilityTypeCpp
+    ,DisplacementCpp
   ));
 
 }
@@ -657,6 +701,8 @@ void OptionletStripper1Worker::Execute(){
   QuantLib::Natural MaxIterLib = ObjectHandler::convert2<long>(
       mMaxIter, "MaxIter", QuantLib::Null<QuantLib::Natural>());
 
+
+  // convert input datatypes to QuantLib datatypes
  
     // Construct the Value Object
     boost::shared_ptr<ObjectHandler::ValueObject> valueObject(
@@ -667,10 +713,13 @@ void OptionletStripper1Worker::Execute(){
           mSwitchStrike,
           mAccuracy,
           mMaxIter,
+          mVolatilityType,
+          mDisplacement,
           false
       ));
 
     // Construct the Object
+	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::OptionletStripper1(
           valueObject,
@@ -679,6 +728,8 @@ void OptionletStripper1Worker::Execute(){
           mSwitchStrike,
           mAccuracy,
           MaxIterLib,
+		  strEnum[mVolatilityType],
+          mDisplacement,
           false
       ));
 
@@ -723,6 +774,12 @@ NAN_METHOD(QuantLibNode::OptionletStripper1) {
   if (info.Length() == 4 || !info[4]->IsNumber()) {
       return Nan::ThrowError("Accuracy is required.");
   }
+  if (info.Length() == 6 || !info[6]->IsString()) {
+      return Nan::ThrowError("VolatilityType is required.");
+  }
+  if (info.Length() == 7 || !info[7]->IsNumber()) {
+      return Nan::ThrowError("Displacement is required.");
+  }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
   string ObjectIDCpp(strdup(*strObjectID));
@@ -745,9 +802,16 @@ NAN_METHOD(QuantLibNode::OptionletStripper1) {
   ObjectHandler::property_t MaxIterCpp =
       ObjectHandler::property_t(static_cast<long>(Nan::To<int32_t>(info[5]).FromJust()));
 
+  // convert js argument to c++ type
+  String::Utf8Value strVolatilityType(info[6]->ToString());
+  string VolatilityTypeCpp(strdup(*strVolatilityType));
+
+  // convert js argument to c++ type
+  double DisplacementCpp = Nan::To<double>(info[7]).FromJust();
+
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[6].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[8].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new OptionletStripper1Worker(
     callback
@@ -757,6 +821,8 @@ NAN_METHOD(QuantLibNode::OptionletStripper1) {
     ,SwitchStrikeCpp
     ,AccuracyCpp
     ,MaxIterCpp
+    ,VolatilityTypeCpp
+    ,DisplacementCpp
   ));
 
 }

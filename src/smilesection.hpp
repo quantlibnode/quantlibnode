@@ -1,5 +1,5 @@
 /* 
-  Copyright (C) 2016 Jerry Jin
+  Copyright (C) 2016 -2017 Jerry Jin
 */
 
 #ifndef smilesection_h
@@ -26,6 +26,8 @@ class FlatSmileSectionWorker : public Nan::AsyncWorker {
     string mDayCounter;
     ObjectHandler::property_t mRefDate;
     double mAtmValue;
+    string mVolatilityType;
+    double mDisplacement;
 
     string mReturnValue;
 
@@ -39,6 +41,8 @@ class FlatSmileSectionWorker : public Nan::AsyncWorker {
       ,string DayCounter
       ,ObjectHandler::property_t RefDate
       ,double AtmValue
+      ,string VolatilityType
+      ,double Displacement
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
@@ -47,6 +51,8 @@ class FlatSmileSectionWorker : public Nan::AsyncWorker {
       ,mDayCounter(DayCounter)
       ,mRefDate(RefDate)
       ,mAtmValue(AtmValue)
+      ,mVolatilityType(VolatilityType)
+      ,mDisplacement(Displacement)
       {
 
       };
@@ -306,6 +312,8 @@ class InterpolatedSmileSectionWorker : public Nan::AsyncWorker {
     std::vector<ObjectHandler::property_t> mStdDevs;
     ObjectHandler::property_t mAtmLevel;
     string mDayCounter;
+    string mVolatilityType;
+    double mDisplacement;
 
     string mReturnValue;
 
@@ -319,6 +327,8 @@ class InterpolatedSmileSectionWorker : public Nan::AsyncWorker {
       ,std::vector<ObjectHandler::property_t> StdDevs
       ,ObjectHandler::property_t AtmLevel
       ,string DayCounter
+      ,string VolatilityType
+      ,double Displacement
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
@@ -327,6 +337,8 @@ class InterpolatedSmileSectionWorker : public Nan::AsyncWorker {
       ,mStdDevs(StdDevs)
       ,mAtmLevel(AtmLevel)
       ,mDayCounter(DayCounter)
+      ,mVolatilityType(VolatilityType)
+      ,mDisplacement(Displacement)
       {
 
       };

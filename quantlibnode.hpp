@@ -1,3 +1,8 @@
+/*
+  Copyright (C) 2016 -2017 Jerry Jin
+*/
+
+
 #ifndef quantlibnode_hpp
 #define quantlibnode_hpp
 
@@ -1126,6 +1131,11 @@ public:
 	static NAN_METHOD(PiecewiseConstantVarianceVolatility);
 	static NAN_METHOD(PiecewiseConstantVarianceTotalVariance);
 	static NAN_METHOD(PiecewiseConstantVarianceTotalVolatility);
+
+	static NAN_METHOD(PiecewiseYieldCurveMixedInterpolation);
+	static NAN_METHOD(BachelierCapFloorEngine);
+	static NAN_METHOD(BachelierCapFloorEngine2);
+	static NAN_METHOD(BachelierBlackFormulaImpliedVol);
 
 	static NAN_METHOD(DeleteObject);
 	static NAN_METHOD(DeleteObjects);

@@ -13,13 +13,9 @@ All functions in this project are Async, they are exported to [Promise](https://
 npm install quantlib
 ```
 
-* Windows - 32-Bit
+* Windows
 
 `npm install quantlib` will do everything, including the node package installation and pre-built native addon (no dependency) download, you can start use it right away.
-
-* Windows - 64-Bit
-
-I will try to build and upload the pre-built addon, before that, Please refer to [how to build](#building-the-native-addon) below
 
 * Linux & Mac
 

@@ -18,6 +18,7 @@ npm install quantlib
 `npm install quantlib` will do everything, including the node package installation and pre-built native addon (no dependency) download, you can start use it right away.
 
 > v0.2.x windows prebuilt on windows 8.1 with VC14
+
 > v0.1.x windows prebuilt on windows 7 with VC12, only 32-bit available
 
 * Linux & Mac
@@ -115,8 +116,14 @@ var mtx1 =
   [0.81880,	0.83520,	0.85230,	0.87040,	0.88940,	0.90940,	0.93040,	0.95240,	0.97560,	1.00000]
 ];
 
+/* 
+ * call Constructor to create object, objectID needs to be provided as input, this is diffierent with QuantLibXL
+ * ObjectID, can be generated with Node.js, it needs to be uniquie
+ * since this is on server side, you may put session# as part of objectID
+*/
 ql.SymmetricSchurDecomposition('mtx#1',mtx1).then(function(obj){
-
+  
+  // call Method with objectID, this is same as QuantLibXL
   ql.SymmetricSchurDecompositionEigenvalues(obj).then(function(r){
     console.log(r);
   });

@@ -13,9 +13,12 @@ All functions in this project are Async, they are exported to [Promise](https://
 npm install quantlib
 ```
 
-* Windows
+* Windows (32-bit & 64-bit)
 
 `npm install quantlib` will do everything, including the node package installation and pre-built native addon (no dependency) download, you can start use it right away.
+
+> v0.2.x windows prebuilt on windows 8.1 with VC14
+> v0.1.x windows prebuilt on windows 7 with VC12, only 32-bit available
 
 * Linux & Mac
 
@@ -45,6 +48,8 @@ Please refer to [how to build](#building-the-native-addon) below
 * [node-gyp](https://github.com/nodejs/node-gyp) ~3.0.3
 * QuantLib, QuantLibAddin, ObjectHandler source code according to [version matrix](#version-matrix), they need to be put in the same directory
 * `boost` - which is required to build QuantLib
+
+> for Mac OS X and Linux, QuantLib projects must be built with `-std=c++11` this flag is required by node
 
 #### Set environment variable
 

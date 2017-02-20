@@ -106,7 +106,11 @@ please refer to `cmake/*.cmake` and `CMakeList.txt` files
 
 ## Example
 
-> This is from QuantLibXL - StandaloneExamples - Math - RankReduction.xlsx - FirstCorrMatrix - M3:12 - forumula: {=qlSymmetricSchurDecompositionEigenvalues(C2)}
+> This is from QuantLibXL - StandaloneExamples - Math - RankReduction.xlsx - FirstCorrMatrix
+
+> C2 - formulat: =qlSymmetricSchurDecomposition(,B3:K12)
+
+> M3:12 - forumula: {=qlSymmetricSchurDecompositionEigenvalues(C2)}
 
 > the input/output are the same
 
@@ -132,10 +136,10 @@ var mtx1 =
  * ObjectID, can be generated with Node.js, it needs to be uniquie
  * since this is on server side, you may put session# as part of objectID
 */
-ql.SymmetricSchurDecomposition('mtx#1',mtx1).then(function(obj){
+ql.SymmetricSchurDecomposition('mtx#1',mtx1).then(function(obj){ //C2 formula: =qlSymmetricSchurDecomposition(,B3:K12)
   
   // call Method with objectID, this is same as QuantLibXL
-  ql.SymmetricSchurDecompositionEigenvalues(obj).then(function(r){
+  ql.SymmetricSchurDecompositionEigenvalues(obj).then(function(r){ // M3:12 formula: {=qlSymmetricSchurDecompositionEigenvalues(C2)}
     console.log(r);
   });
 

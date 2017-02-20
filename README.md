@@ -57,6 +57,8 @@ Please refer to [how to build](#building-the-native-addon) below
 
 > for Mac OS X and Linux, QuantLib projects must be built with `-std=c++11` this flag is required by node
 
+> for linux, need to add `-fPIC` flag
+
 #### Set environment variable
 
 please refer to `cmake/*.cmake` and `CMakeList.txt` files
@@ -103,6 +105,10 @@ please refer to `cmake/*.cmake` and `CMakeList.txt` files
 5. For Linux, you may need to put `quantlib.node` under `build/Release` manually,
 
 ## Example
+
+> This is from QuantLibXL - StandaloneExamples - Math - RankReduction.xlsx - FirstCorrMatrix - M3:12 - forumula: {=qlSymmetricSchurDecompositionEigenvalues(C2)}
+
+> the input/output are the same
 
 ```js
 var ql = require('quantlib');

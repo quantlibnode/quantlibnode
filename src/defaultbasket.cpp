@@ -444,7 +444,7 @@ NAN_METHOD(QuantLibNode::CreditBasketLoss) {
 //
 //}
 
-void CrediBasketAttachLiveWorker::Execute(){
+void CreditBasketAttachLiveWorker::Execute(){
 
   try{
        // convert object IDs into library objects
@@ -467,7 +467,7 @@ void CrediBasketAttachLiveWorker::Execute(){
 
 }
 
-void CrediBasketAttachLiveWorker::HandleOKCallback(){
+void CreditBasketAttachLiveWorker::HandleOKCallback(){
   Nan::HandleScope scope;
 
 
@@ -479,7 +479,7 @@ void CrediBasketAttachLiveWorker::HandleOKCallback(){
 	callback->Call(2, argv);
 }
 
-NAN_METHOD(QuantLibNode::CrediBasketAttachLive) {
+NAN_METHOD(QuantLibNode::CreditBasketAttachLive) {
 
   // validate js arguments
   if (info.Length() == 0 || !info[0]->IsString()) {
@@ -493,22 +493,22 @@ NAN_METHOD(QuantLibNode::CrediBasketAttachLive) {
   // declare callback
   Nan::Callback *callback = new Nan::Callback(info[1].As<Function>());
   // launch Async worker
-  Nan::AsyncQueueWorker(new CrediBasketAttachLiveWorker(
+  Nan::AsyncQueueWorker(new CreditBasketAttachLiveWorker(
     callback
     ,ObjectIDCpp
   ));
 
 }
 
-//CrediBasketAttachLiveWorker::~CrediBasketAttachLiveWorker(){
+//CreditBasketAttachLiveWorker::~CreditBasketAttachLiveWorker(){
 //
 //}
 
-//void CrediBasketAttachLiveWorker::Destroy(){
+//void CreditBasketAttachLiveWorker::Destroy(){
 //
 //}
 
-void CrediBasketDetachLiveWorker::Execute(){
+void CreditBasketDetachLiveWorker::Execute(){
 
   try{
        // convert object IDs into library objects
@@ -531,7 +531,7 @@ void CrediBasketDetachLiveWorker::Execute(){
 
 }
 
-void CrediBasketDetachLiveWorker::HandleOKCallback(){
+void CreditBasketDetachLiveWorker::HandleOKCallback(){
   Nan::HandleScope scope;
 
 
@@ -543,7 +543,7 @@ void CrediBasketDetachLiveWorker::HandleOKCallback(){
 	callback->Call(2, argv);
 }
 
-NAN_METHOD(QuantLibNode::CrediBasketDetachLive) {
+NAN_METHOD(QuantLibNode::CreditBasketDetachLive) {
 
   // validate js arguments
   if (info.Length() == 0 || !info[0]->IsString()) {
@@ -557,18 +557,18 @@ NAN_METHOD(QuantLibNode::CrediBasketDetachLive) {
   // declare callback
   Nan::Callback *callback = new Nan::Callback(info[1].As<Function>());
   // launch Async worker
-  Nan::AsyncQueueWorker(new CrediBasketDetachLiveWorker(
+  Nan::AsyncQueueWorker(new CreditBasketDetachLiveWorker(
     callback
     ,ObjectIDCpp
   ));
 
 }
 
-//CrediBasketDetachLiveWorker::~CrediBasketDetachLiveWorker(){
+//CreditBasketDetachLiveWorker::~CreditBasketDetachLiveWorker(){
 //
 //}
 
-//void CrediBasketDetachLiveWorker::Destroy(){
+//void CreditBasketDetachLiveWorker::Destroy(){
 //
 //}
 

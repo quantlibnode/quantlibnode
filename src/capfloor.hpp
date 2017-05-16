@@ -282,6 +282,7 @@ class CapFloorImpliedVolatilityWorker : public Nan::AsyncWorker {
     ObjectHandler::property_t mMaxIter;
     double mMinVol;
     double mMaxVol;
+    string mVolatilityType;
     double mDisplacement;
 
     double mReturnValue;
@@ -298,6 +299,7 @@ class CapFloorImpliedVolatilityWorker : public Nan::AsyncWorker {
       ,ObjectHandler::property_t MaxIter
       ,double MinVol
       ,double MaxVol
+      ,string VolatilityType
       ,double Displacement
     ):
       Nan::AsyncWorker(callback)
@@ -309,6 +311,7 @@ class CapFloorImpliedVolatilityWorker : public Nan::AsyncWorker {
       ,mMaxIter(MaxIter)
       ,mMinVol(MinVol)
       ,mMaxVol(MaxVol)
+      ,mVolatilityType(VolatilityType)
       ,mDisplacement(Displacement)
       {
 

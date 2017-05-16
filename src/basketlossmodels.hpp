@@ -22,7 +22,7 @@ class GaussianLHPLossmodelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     double mCorrelation;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
 
     string mReturnValue;
 
@@ -32,12 +32,12 @@ class GaussianLHPLossmodelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,double Correlation
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mCorrelation(Correlation)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       {
 
       };
@@ -56,7 +56,7 @@ class IHGaussPoolLossModelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     double mCorrelation;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     long mNumBuckets;
 
     string mReturnValue;
@@ -67,13 +67,13 @@ class IHGaussPoolLossModelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,double Correlation
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,long NumBuckets
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mCorrelation(Correlation)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mNumBuckets(NumBuckets)
       {
 
@@ -93,7 +93,7 @@ class IHStudentPoolLossModelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     double mCorrelation;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     std::vector<double> mTtraits;
     long mNumBuckets;
 
@@ -105,14 +105,14 @@ class IHStudentPoolLossModelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,double Correlation
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,std::vector<double> Ttraits
       ,long NumBuckets
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mCorrelation(Correlation)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mTtraits(Ttraits)
       ,mNumBuckets(NumBuckets)
       {
@@ -133,7 +133,7 @@ class GBinomialLossmodelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
 
     string mReturnValue;
 
@@ -143,12 +143,12 @@ class GBinomialLossmodelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       {
 
       };
@@ -167,7 +167,7 @@ class TBinomialLossmodelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     std::vector<double> mTtraits;
 
     string mReturnValue;
@@ -178,13 +178,13 @@ class TBinomialLossmodelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,std::vector<double> Ttraits
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mTtraits(Ttraits)
       {
 
@@ -244,7 +244,7 @@ class GMCLossModelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     long mNumSimulations;
 
     string mReturnValue;
@@ -255,13 +255,13 @@ class GMCLossModelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,long NumSimulations
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mNumSimulations(NumSimulations)
       {
 
@@ -281,7 +281,7 @@ class GRandomRRMCLossModelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     double mModelA;
     long mNumSimulations;
 
@@ -293,14 +293,14 @@ class GRandomRRMCLossModelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,double ModelA
       ,long NumSimulations
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mModelA(ModelA)
       ,mNumSimulations(NumSimulations)
       {
@@ -321,7 +321,7 @@ class TMCLossModelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     std::vector<double> mTtraits;
     long mNumSimulations;
 
@@ -333,14 +333,14 @@ class TMCLossModelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,std::vector<double> Ttraits
       ,long NumSimulations
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mTtraits(Ttraits)
       ,mNumSimulations(NumSimulations)
       {
@@ -361,7 +361,7 @@ class TRandomRRMCLossModelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     std::vector<double> mTtraits;
     double mModelA;
     long mNumSimulations;
@@ -374,7 +374,7 @@ class TRandomRRMCLossModelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,std::vector<double> Ttraits
       ,double ModelA
       ,long NumSimulations
@@ -382,7 +382,7 @@ class TRandomRRMCLossModelWorker : public Nan::AsyncWorker {
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mTtraits(Ttraits)
       ,mModelA(ModelA)
       ,mNumSimulations(NumSimulations)
@@ -404,7 +404,7 @@ class GSaddlePointLossmodelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
 
     string mReturnValue;
 
@@ -414,12 +414,12 @@ class GSaddlePointLossmodelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       {
 
       };
@@ -438,7 +438,7 @@ class TSaddlePointLossmodelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
     std::vector<double> mTtraits;
 
     string mReturnValue;
@@ -449,13 +449,13 @@ class TSaddlePointLossmodelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
       ,std::vector<double> Ttraits
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       ,mTtraits(Ttraits)
       {
 
@@ -475,7 +475,7 @@ class GRecursiveLossmodelWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
     std::vector< std::vector<double> > mFactors;
-    std::vector<double> mRecoveyRates;
+    std::vector<double> mRecoveryRates;
 
     string mReturnValue;
 
@@ -485,12 +485,12 @@ class GRecursiveLossmodelWorker : public Nan::AsyncWorker {
       Nan::Callback *callback
       ,string ObjectID
       ,std::vector< std::vector<double> > Factors
-      ,std::vector<double> RecoveyRates
+      ,std::vector<double> RecoveryRates
     ):
       Nan::AsyncWorker(callback)
       ,mObjectID(ObjectID)
       ,mFactors(Factors)
-      ,mRecoveyRates(RecoveyRates)
+      ,mRecoveryRates(RecoveryRates)
       {
 
       };

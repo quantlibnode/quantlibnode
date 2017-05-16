@@ -60,7 +60,6 @@ void FlatSmileSectionWorker::Execute(){
       ));
 
     // Construct the Object
-	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::FlatSmileSection(
           valueObject,
@@ -69,7 +68,7 @@ void FlatSmileSectionWorker::Execute(){
           DayCounterEnum,
           RefDateLib,
           mAtmValue,
-		  strEnum[mVolatilityType],
+          mVolatilityType,
           mDisplacement,
           false
       ));
@@ -990,7 +989,6 @@ void InterpolatedSmileSectionWorker::Execute(){
       ));
 
     // Construct the Object
-	std::map<std::string, QuantLib::VolatilityType> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::InterpolatedSmileSection(
           valueObject,
@@ -999,7 +997,7 @@ void InterpolatedSmileSectionWorker::Execute(){
           StdDevsLibObj,
           AtmLevelLibObj,
           DayCounterEnum,
-		  strEnum[mVolatilityType],
+          mVolatilityType,
           mDisplacement,
           false
       ));

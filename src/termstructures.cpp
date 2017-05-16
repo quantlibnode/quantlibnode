@@ -868,7 +868,6 @@ void InterpolatedYieldCurveWorker::Execute(){
       ));
 
     // Construct the Object
-	std::map<std::string, QuantLib::MixedInterpolation::Behavior> strEnum;
     boost::shared_ptr<ObjectHandler::Object> object(
       new QuantLibAddin::InterpolatedYieldCurve(
           valueObject,
@@ -880,7 +879,7 @@ void InterpolatedYieldCurveWorker::Execute(){
           JumpDatesLib,
           mTraitsID,
           mInterpolatorID,
-		  strEnum[mMixedInterpolationBehavior],
+          mMixedInterpolationBehavior,
           NRateHelperLib,
           false
       ));

@@ -373,8 +373,8 @@ NAN_MODULE_INIT(init){
   Nan::SetMethod(target, "CreditBasketSize", QuantLibNode::CreditBasketSize);
   Nan::SetMethod(target, "CreditBasketLiveNotional", QuantLibNode::CreditBasketLiveNotional);
   Nan::SetMethod(target, "CreditBasketLoss", QuantLibNode::CreditBasketLoss);
-  Nan::SetMethod(target, "CrediBasketAttachLive", QuantLibNode::CrediBasketAttachLive);
-  Nan::SetMethod(target, "CrediBasketDetachLive", QuantLibNode::CrediBasketDetachLive);
+  Nan::SetMethod(target, "CreditBasketAttachLive", QuantLibNode::CreditBasketAttachLive);
+  Nan::SetMethod(target, "CreditBasketDetachLive", QuantLibNode::CreditBasketDetachLive);
   Nan::SetMethod(target, "ExpectedTrancheLoss", QuantLibNode::ExpectedTrancheLoss);
   Nan::SetMethod(target, "CreditBasketPercentile", QuantLibNode::CreditBasketPercentile);
   Nan::SetMethod(target, "CreditBasketESF", QuantLibNode::CreditBasketESF);

@@ -718,6 +718,7 @@ void CapFloorImpliedVolatilityWorker::Execute(){
 
 
   // invoke the member function
+  std::map<std::string, QuantLib::VolatilityType> strEnum;
   mReturnValue = ObjectIDLibObjPtr->impliedVolatility(
         mPrice
         ,
@@ -733,7 +734,7 @@ void CapFloorImpliedVolatilityWorker::Execute(){
         ,
          mMaxVol
         ,
-         mVolatilityType
+		strEnum[mVolatilityType]
         ,
          mDisplacement
        );

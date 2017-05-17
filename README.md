@@ -1,4 +1,9 @@
-## QuantLib Async Bindings for Node.js [![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib) [![Twitter Follow](https://img.shields.io/twitter/follow/quantlibnode.svg?style=social&maxAge=3600)](https://twitter.com/quantlibnode)
+## QuantLib Async Bindings for Node.js 
+
+[![NPM](https://nodei.co/npm/quantlib.png?downloads=true&downloadRank=true)](https://nodei.co/npm/quantlib/)
+
+[![npm version](https://badge.fury.io/js/quantlib.svg)](http://badge.fury.io/js/quantlib) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/quantlibnode.svg?style=social&maxAge=3600)](https://twitter.com/quantlibnode)
 
 This [open source project](https://github.com/quantlibnode/quantlibnode) brings [QuantLib](http://quantlib.org/) to the Node.js community, it's similar to [QuantLibXL](http://quantlib.org/quantlibxl/) project which is for Microsoft Excel.
 
@@ -13,9 +18,13 @@ All functions in this project are Async, they are exported to [Promise](https://
 npm install quantlib
 ```
 
-* Windows
+* Windows (32-bit & 64-bit)
 
 `npm install quantlib` will do everything, including the node package installation and pre-built native addon (no dependency) download, you can start use it right away.
+
+> v0.2.x windows prebuilt on windows 8.1 with VC14
+
+> v0.1.x windows prebuilt on windows 7 with VC12, only 32-bit available
 
 * Linux & Mac
 
@@ -34,6 +43,7 @@ Please refer to [how to build](#building-the-native-addon) below
 | -------- | ------------- | ------- | ------------- |
 |    1.7.1 |         1.7.0 |   6.9.1 |         0.1.x |
 |    1.8.1 |         1.8.0 |   6.9.5 |         0.2.x |
+|    1.9.2 |         1.9.0 |   6.9.5 |         0.3.x |
 
 ## Building the native addon
 
@@ -45,6 +55,10 @@ Please refer to [how to build](#building-the-native-addon) below
 * [node-gyp](https://github.com/nodejs/node-gyp) ~3.0.3
 * QuantLib, QuantLibAddin, ObjectHandler source code according to [version matrix](#version-matrix), they need to be put in the same directory
 * `boost` - which is required to build QuantLib
+
+> for Mac OS X and Linux, QuantLib projects must be built with `-std=c++11` this flag is required by node
+
+> for linux, need to add `-fPIC` flag
 
 #### Set environment variable
 
@@ -65,6 +79,14 @@ please refer to `cmake/*.cmake` and `CMakeList.txt` files
 
 ## Example
 
+> This is from QuantLibXL - StandaloneExamples - Math - RankReduction.xlsx - FirstCorrMatrix
+
+> C2 - formulat: =qlSymmetricSchurDecomposition(,B3:K12)
+
+> M3:12 - forumula: {=qlSymmetricSchurDecompositionEigenvalues(C2)}
+
+> the input/output are the same
+
 ```js
 var ql = require('quantlib');
 
@@ -82,9 +104,15 @@ var mtx1 =
   [0.81880,	0.83520,	0.85230,	0.87040,	0.88940,	0.90940,	0.93040,	0.95240,	0.97560,	1.00000]
 ];
 
-ql.SymmetricSchurDecomposition('mtx#1',mtx1).then(function(obj){
-
-  ql.SymmetricSchurDecompositionEigenvalues(obj).then(function(r){
+/* 
+ * call Constructor to create object, objectID needs to be provided as input, this is diffierent with QuantLibXL
+ * ObjectID, can be generated with Node.js, it needs to be uniquie
+ * since this is on server side, you may put session# as part of objectID
+*/
+ql.SymmetricSchurDecomposition('mtx#1',mtx1).then(function(obj){ //C2 formula: =qlSymmetricSchurDecomposition(,B3:K12)
+  
+  // call Method with objectID, this is same as QuantLibXL
+  ql.SymmetricSchurDecompositionEigenvalues(obj).then(function(r){ // M3:12 formula: {=qlSymmetricSchurDecompositionEigenvalues(C2)}
     console.log(r);
   });
 

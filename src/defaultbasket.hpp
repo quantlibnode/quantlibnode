@@ -180,7 +180,7 @@ class CreditBasketLossWorker : public Nan::AsyncWorker {
 
 };
 
-class CrediBasketAttachLiveWorker : public Nan::AsyncWorker {
+class CreditBasketAttachLiveWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
 
@@ -188,7 +188,7 @@ class CrediBasketAttachLiveWorker : public Nan::AsyncWorker {
 
     string mError;
 
-    CrediBasketAttachLiveWorker(
+    CreditBasketAttachLiveWorker(
       Nan::Callback *callback
       ,string ObjectID
     ):
@@ -198,7 +198,7 @@ class CrediBasketAttachLiveWorker : public Nan::AsyncWorker {
 
       };
 
-    //~CrediBasketAttachLiveWorker();
+    //~CreditBasketAttachLiveWorker();
 
     //void Destroy();
 
@@ -208,7 +208,7 @@ class CrediBasketAttachLiveWorker : public Nan::AsyncWorker {
 
 };
 
-class CrediBasketDetachLiveWorker : public Nan::AsyncWorker {
+class CreditBasketDetachLiveWorker : public Nan::AsyncWorker {
   public:
     string mObjectID;
 
@@ -216,7 +216,7 @@ class CrediBasketDetachLiveWorker : public Nan::AsyncWorker {
 
     string mError;
 
-    CrediBasketDetachLiveWorker(
+    CreditBasketDetachLiveWorker(
       Nan::Callback *callback
       ,string ObjectID
     ):
@@ -226,7 +226,7 @@ class CrediBasketDetachLiveWorker : public Nan::AsyncWorker {
 
       };
 
-    //~CrediBasketDetachLiveWorker();
+    //~CreditBasketDetachLiveWorker();
 
     //void Destroy();
 

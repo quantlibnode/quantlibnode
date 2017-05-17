@@ -32,7 +32,7 @@ void GaussianLHPLossmodelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlGaussianLHPLossmodel(
           mObjectID,
           mCorrelation,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -41,7 +41,7 @@ void GaussianLHPLossmodelWorker::Execute(){
       new QuantLibAddin::GaussianLHPLossModel(
           valueObject,
           mCorrelation,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -78,7 +78,7 @@ NAN_METHOD(QuantLibNode::GaussianLHPLossmodel) {
       return Nan::ThrowError("Correlation is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
@@ -88,11 +88,11 @@ NAN_METHOD(QuantLibNode::GaussianLHPLossmodel) {
   double CorrelationCpp = Nan::To<double>(info[1]).FromJust();
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
  
@@ -103,7 +103,7 @@ NAN_METHOD(QuantLibNode::GaussianLHPLossmodel) {
     callback
     ,ObjectIDCpp
     ,CorrelationCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
   ));
 
 }
@@ -132,7 +132,7 @@ void IHGaussPoolLossModelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlIHGaussPoolLossModel(
           mObjectID,
           mCorrelation,
-          mRecoveyRates,
+          mRecoveryRates,
           mNumBuckets,
           false
       ));
@@ -142,7 +142,7 @@ void IHGaussPoolLossModelWorker::Execute(){
       new QuantLibAddin::IHGaussPoolLossModel(
           valueObject,
           mCorrelation,
-          mRecoveyRates,
+          mRecoveryRates,
           NumBucketsLib,
           false
       ));
@@ -180,7 +180,7 @@ NAN_METHOD(QuantLibNode::IHGaussPoolLossModel) {
       return Nan::ThrowError("Correlation is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsNumber()) {
       return Nan::ThrowError("NumBuckets is required.");
@@ -193,11 +193,11 @@ NAN_METHOD(QuantLibNode::IHGaussPoolLossModel) {
   double CorrelationCpp = Nan::To<double>(info[1]).FromJust();
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -211,7 +211,7 @@ NAN_METHOD(QuantLibNode::IHGaussPoolLossModel) {
     callback
     ,ObjectIDCpp
     ,CorrelationCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,NumBucketsCpp
   ));
 
@@ -241,7 +241,7 @@ void IHStudentPoolLossModelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlIHStudentPoolLossModel(
           mObjectID,
           mCorrelation,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           mNumBuckets,
           false
@@ -252,7 +252,7 @@ void IHStudentPoolLossModelWorker::Execute(){
       new QuantLibAddin::IHStudentPoolLossModel(
           valueObject,
           mCorrelation,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           NumBucketsLib,
           false
@@ -291,7 +291,7 @@ NAN_METHOD(QuantLibNode::IHStudentPoolLossModel) {
       return Nan::ThrowError("Correlation is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsArray()) {
       return Nan::ThrowError("Ttraits is required.");
@@ -307,11 +307,11 @@ NAN_METHOD(QuantLibNode::IHStudentPoolLossModel) {
   double CorrelationCpp = Nan::To<double>(info[1]).FromJust();
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -333,7 +333,7 @@ NAN_METHOD(QuantLibNode::IHStudentPoolLossModel) {
     callback
     ,ObjectIDCpp
     ,CorrelationCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,TtraitsCpp
     ,NumBucketsCpp
   ));
@@ -357,7 +357,7 @@ void GBinomialLossmodelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlGBinomialLossmodel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -366,7 +366,7 @@ void GBinomialLossmodelWorker::Execute(){
       new QuantLibAddin::GaussianBinomialLossModel(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -403,7 +403,7 @@ NAN_METHOD(QuantLibNode::GBinomialLossmodel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
@@ -423,11 +423,11 @@ NAN_METHOD(QuantLibNode::GBinomialLossmodel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
  
@@ -438,7 +438,7 @@ NAN_METHOD(QuantLibNode::GBinomialLossmodel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
   ));
 
 }
@@ -460,7 +460,7 @@ void TBinomialLossmodelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlTBinomialLossmodel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           false
       ));
@@ -470,7 +470,7 @@ void TBinomialLossmodelWorker::Execute(){
       new QuantLibAddin::TBinomialLossModel(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           false
       ));
@@ -508,7 +508,7 @@ NAN_METHOD(QuantLibNode::TBinomialLossmodel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsArray()) {
       return Nan::ThrowError("Ttraits is required.");
@@ -531,11 +531,11 @@ NAN_METHOD(QuantLibNode::TBinomialLossmodel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -554,7 +554,7 @@ NAN_METHOD(QuantLibNode::TBinomialLossmodel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,TtraitsCpp
   ));
 
@@ -715,7 +715,7 @@ void GMCLossModelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlGMCLossModel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mNumSimulations,
           false
       ));
@@ -725,7 +725,7 @@ void GMCLossModelWorker::Execute(){
       new QuantLibAddin::GaussianRandomDefaultLM(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           NumSimulationsLib,
           false
       ));
@@ -763,7 +763,7 @@ NAN_METHOD(QuantLibNode::GMCLossModel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsNumber()) {
       return Nan::ThrowError("NumSimulations is required.");
@@ -786,11 +786,11 @@ NAN_METHOD(QuantLibNode::GMCLossModel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -804,7 +804,7 @@ NAN_METHOD(QuantLibNode::GMCLossModel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,NumSimulationsCpp
   ));
 
@@ -834,7 +834,7 @@ void GRandomRRMCLossModelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlGRandomRRMCLossModel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mModelA,
           mNumSimulations,
           false
@@ -845,7 +845,7 @@ void GRandomRRMCLossModelWorker::Execute(){
       new QuantLibAddin::GaussianRandomLossLM(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mModelA,
           NumSimulationsLib,
           false
@@ -884,7 +884,7 @@ NAN_METHOD(QuantLibNode::GRandomRRMCLossModel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsNumber()) {
       return Nan::ThrowError("ModelA is required.");
@@ -910,11 +910,11 @@ NAN_METHOD(QuantLibNode::GRandomRRMCLossModel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -931,7 +931,7 @@ NAN_METHOD(QuantLibNode::GRandomRRMCLossModel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,ModelACpp
     ,NumSimulationsCpp
   ));
@@ -960,7 +960,7 @@ void TMCLossModelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlTMCLossModel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           mNumSimulations,
           false
@@ -971,7 +971,7 @@ void TMCLossModelWorker::Execute(){
       new QuantLibAddin::TRandomDefaultLM(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           NumSimulationsLib,
           false
@@ -1010,7 +1010,7 @@ NAN_METHOD(QuantLibNode::TMCLossModel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsArray()) {
       return Nan::ThrowError("Ttraits is required.");
@@ -1036,11 +1036,11 @@ NAN_METHOD(QuantLibNode::TMCLossModel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -1062,7 +1062,7 @@ NAN_METHOD(QuantLibNode::TMCLossModel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,TtraitsCpp
     ,NumSimulationsCpp
   ));
@@ -1093,7 +1093,7 @@ void TRandomRRMCLossModelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlTRandomRRMCLossModel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           mModelA,
           mNumSimulations,
@@ -1105,7 +1105,7 @@ void TRandomRRMCLossModelWorker::Execute(){
       new QuantLibAddin::TRandomLossLM(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           mModelA,
           NumSimulationsLib,
@@ -1145,7 +1145,7 @@ NAN_METHOD(QuantLibNode::TRandomRRMCLossModel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsArray()) {
       return Nan::ThrowError("Ttraits is required.");
@@ -1174,11 +1174,11 @@ NAN_METHOD(QuantLibNode::TRandomRRMCLossModel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -1203,7 +1203,7 @@ NAN_METHOD(QuantLibNode::TRandomRRMCLossModel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,TtraitsCpp
     ,ModelACpp
     ,NumSimulationsCpp
@@ -1228,7 +1228,7 @@ void GSaddlePointLossmodelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlGSaddlePointLossmodel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -1237,7 +1237,7 @@ void GSaddlePointLossmodelWorker::Execute(){
       new QuantLibAddin::SaddlePointLossModel(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -1274,7 +1274,7 @@ NAN_METHOD(QuantLibNode::GSaddlePointLossmodel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
@@ -1294,11 +1294,11 @@ NAN_METHOD(QuantLibNode::GSaddlePointLossmodel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
  
@@ -1309,7 +1309,7 @@ NAN_METHOD(QuantLibNode::GSaddlePointLossmodel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
   ));
 
 }
@@ -1331,7 +1331,7 @@ void TSaddlePointLossmodelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlTSaddlePointLossmodel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           false
       ));
@@ -1341,7 +1341,7 @@ void TSaddlePointLossmodelWorker::Execute(){
       new QuantLibAddin::TSaddlePointLossModel(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           mTtraits,
           false
       ));
@@ -1379,7 +1379,7 @@ NAN_METHOD(QuantLibNode::TSaddlePointLossmodel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   if (info.Length() == 3 || !info[3]->IsArray()) {
       return Nan::ThrowError("Ttraits is required.");
@@ -1402,11 +1402,11 @@ NAN_METHOD(QuantLibNode::TSaddlePointLossmodel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
   // convert js argument to c++ type
@@ -1425,7 +1425,7 @@ NAN_METHOD(QuantLibNode::TSaddlePointLossmodel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
     ,TtraitsCpp
   ));
 
@@ -1448,7 +1448,7 @@ void GRecursiveLossmodelWorker::Execute(){
       new QuantLibAddin::ValueObjects::qlGRecursiveLossmodel(
           mObjectID,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -1457,7 +1457,7 @@ void GRecursiveLossmodelWorker::Execute(){
       new QuantLibAddin::RecursiveGaussLossModel(
           valueObject,
           mFactors,
-          mRecoveyRates,
+          mRecoveryRates,
           false
       ));
 
@@ -1494,7 +1494,7 @@ NAN_METHOD(QuantLibNode::GRecursiveLossmodel) {
       return Nan::ThrowError("Factors is required.");
   }
   if (info.Length() == 2 || !info[2]->IsArray()) {
-      return Nan::ThrowError("RecoveyRates is required.");
+      return Nan::ThrowError("RecoveryRates is required.");
   }
   // convert js argument to c++ type
   String::Utf8Value strObjectID(info[0]->ToString());
@@ -1514,11 +1514,11 @@ NAN_METHOD(QuantLibNode::GRecursiveLossmodel) {
   }
 
   // convert js argument to c++ type
-  std::vector<double>RecoveyRatesCpp;
+  std::vector<double>RecoveryRatesCpp;
 
-  Local<Array> RecoveyRatesArray = info[2].As<Array>();
-  for (unsigned int i = 0; i < RecoveyRatesArray->Length(); i++){
-    RecoveyRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveyRatesArray, i).ToLocalChecked()).FromJust());
+  Local<Array> RecoveryRatesArray = info[2].As<Array>();
+  for (unsigned int i = 0; i < RecoveryRatesArray->Length(); i++){
+    RecoveryRatesCpp.push_back(Nan::To<double>(Nan::Get(RecoveryRatesArray, i).ToLocalChecked()).FromJust());
   }
 
  
@@ -1529,7 +1529,7 @@ NAN_METHOD(QuantLibNode::GRecursiveLossmodel) {
     callback
     ,ObjectIDCpp
     ,FactorsCpp
-    ,RecoveyRatesCpp
+    ,RecoveryRatesCpp
   ));
 
 }

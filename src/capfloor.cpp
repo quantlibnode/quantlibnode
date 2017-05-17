@@ -718,6 +718,7 @@ void CapFloorImpliedVolatilityWorker::Execute(){
 
 
   // invoke the member function
+  std::map<std::string, QuantLib::VolatilityType> strEnum;
   mReturnValue = ObjectIDLibObjPtr->impliedVolatility(
         mPrice
         ,
@@ -732,6 +733,8 @@ void CapFloorImpliedVolatilityWorker::Execute(){
          mMinVol
         ,
          mMaxVol
+        ,
+		strEnum[mVolatilityType]
         ,
          mDisplacement
        );
@@ -777,7 +780,10 @@ NAN_METHOD(QuantLibNode::CapFloorImpliedVolatility) {
   if (info.Length() == 7 || !info[7]->IsNumber()) {
       return Nan::ThrowError("MaxVol is required.");
   }
-  if (info.Length() == 8 || !info[8]->IsNumber()) {
+  if (info.Length() == 8 || !info[8]->IsString()) {
+      return Nan::ThrowError("VolatilityType is required.");
+  }
+  if (info.Length() == 9 || !info[9]->IsNumber()) {
       return Nan::ThrowError("Displacement is required.");
   }
   // convert js argument to c++ type
@@ -808,11 +814,15 @@ NAN_METHOD(QuantLibNode::CapFloorImpliedVolatility) {
   double MaxVolCpp = Nan::To<double>(info[7]).FromJust();
 
   // convert js argument to c++ type
-  double DisplacementCpp = Nan::To<double>(info[8]).FromJust();
+  String::Utf8Value strVolatilityType(info[8]->ToString());
+  string VolatilityTypeCpp(strdup(*strVolatilityType));
+
+  // convert js argument to c++ type
+  double DisplacementCpp = Nan::To<double>(info[9]).FromJust();
 
  
   // declare callback
-  Nan::Callback *callback = new Nan::Callback(info[9].As<Function>());
+  Nan::Callback *callback = new Nan::Callback(info[10].As<Function>());
   // launch Async worker
   Nan::AsyncQueueWorker(new CapFloorImpliedVolatilityWorker(
     callback
@@ -824,6 +834,7 @@ NAN_METHOD(QuantLibNode::CapFloorImpliedVolatility) {
     ,MaxIterCpp
     ,MinVolCpp
     ,MaxVolCpp
+    ,VolatilityTypeCpp
     ,DisplacementCpp
   ));
 

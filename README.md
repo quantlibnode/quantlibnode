@@ -43,6 +43,7 @@ Please refer to [how to build](#building-the-native-addon) below
 | -------- | ------------- | ------- | ------------- |
 |    1.7.1 |         1.7.0 |   6.9.1 |         0.1.x |
 |    1.8.1 |         1.8.0 |   6.9.5 |         0.2.x |
+|    1.9.2 |         1.9.0 |   6.9.5 |         0.3.x |
 
 ## Building the native addon
 

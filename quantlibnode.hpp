@@ -421,8 +421,8 @@ public:
 	static NAN_METHOD(CreditBasketSize);
 	static NAN_METHOD(CreditBasketLiveNotional);
 	static NAN_METHOD(CreditBasketLoss);
-	static NAN_METHOD(CrediBasketAttachLive);
-	static NAN_METHOD(CrediBasketDetachLive);
+	static NAN_METHOD(CreditBasketAttachLive);
+	static NAN_METHOD(CreditBasketDetachLive);
 	static NAN_METHOD(ExpectedTrancheLoss);
 	static NAN_METHOD(CreditBasketPercentile);
 	static NAN_METHOD(CreditBasketESF);
